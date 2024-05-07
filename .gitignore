@@ -84,3 +84,4 @@ crashlytics-build.properties
 *.rsp2
 /ChariteVRv3/Library
 /ChariteVRv3/Temp
+*.log
