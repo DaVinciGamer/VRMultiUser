@@ -72,12 +72,7 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
-/ChariteVRv3/Library/Artifacts
-/ChariteVRv3/Library/Bee/artifacts
-/ChariteVRv3/Library/Bee
 *.gbc
-/ChariteVRv3/Library/BurstCache
-/ChariteVRv3/Library/ShaderCache/shader
 /ChariteVRv3/Library
 *.cache
 *.dll
@@ -85,3 +80,4 @@ crashlytics-build.properties
 /ChariteVRv3/Library
 /ChariteVRv3/Temp
 *.log
+*.dwlt
