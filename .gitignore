@@ -82,3 +82,5 @@ crashlytics-build.properties
 *.cache
 *.dll
 *.rsp2
+/ChariteVRv3/Library
+/ChariteVRv3/Temp
