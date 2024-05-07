@@ -8,89 +8,90 @@
 // conditions signed by you and all SDK and API requirements,
 // specifications, and documentation provided by HTC to You."
 
-namespace Wave.Native.Sample
-{
-	public class WaveVR_Resource
-	{
-		private static string LOG_TAG = "WaveVR_Resource";
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using wvr;
+using WVR_Log;
+using System;
 
-		private static WaveVR_Resource mInstance = null;
+public class WaveVR_Resource {
+	private static string LOG_TAG = "WaveVR_Resource";
 
-		public static WaveVR_Resource instance
+	private static WaveVR_Resource mInstance = null;
+
+	public static WaveVR_Resource instance {
+		get
 		{
-			get
+			if (mInstance == null)
 			{
-				if (mInstance == null)
-				{
-					mInstance = new WaveVR_Resource();
-				}
-
-				return mInstance;
+				mInstance = new WaveVR_Resource();
 			}
+
+			return mInstance;
 		}
-
-		public string getString(string stringName)
-		{
-			Log.d(LOG_TAG, "getString, string " + stringName);
-
-			string retString = "";
-
-			if (useSystemLanguageFlag == true)
-			{
-				retString = Interop.WVR_GetStringBySystemLanguage(stringName);
-			}
-			else
-			{
-				retString = Interop.WVR_GetStringByLanguage(stringName, mPreferredLanguage, mCountry);
-			}
-			Log.d(LOG_TAG, "getString, ret string = " + retString);
-			return retString;
-		}
-
-		public string getStringByLanguage(string stringName, string lang, string country)
-		{
-			Log.d(LOG_TAG, "getPreferredString, string " + stringName + " language is " + lang + " country is " + country);
-
-			string retString = Interop.WVR_GetStringByLanguage(stringName, lang, country);
-
-			Log.d(LOG_TAG, "getStringByLanguage, ret string = " + retString);
-			return retString;
-		}
-		public string getSystemLanguage()
-		{
-			string retString = Interop.WVR_GetSystemLanguage();
-
-			Log.d(LOG_TAG, "getSystemLanguage, ret language = " + retString);
-			return retString;
-		}
-
-		public string getSystemCountry()
-		{
-			string retString = Interop.WVR_GetSystemCountry();
-
-			Log.d(LOG_TAG, "getSystemCountry, ret country = " + retString);
-			return retString;
-		}
-
-		public bool setPreferredLanguage(string lang, string country)
-		{
-			if (lang == "" && country == "")
-				return false;
-
-			useSystemLanguageFlag = false;
-			mPreferredLanguage = lang;
-			mCountry = country;
-			return true;
-		}
-
-		public void useSystemLanguage()
-		{
-			mPreferredLanguage = "system";
-			mCountry = "system";
-			useSystemLanguageFlag = true;
-		}
-		private string mPreferredLanguage = "system";
-		private string mCountry = "system";
-		private bool useSystemLanguageFlag = true;
 	}
+
+	public string getString(string stringName)
+	{
+		Log.d(LOG_TAG, "getString, string " + stringName);
+
+		string retString = "";
+
+		if (useSystemLanguageFlag == true)
+		{
+			retString = Interop.WVR_GetStringBySystemLanguage(stringName);
+		} else
+		{
+			retString = Interop.WVR_GetStringByLanguage(stringName, mPreferredLanguage, mCountry);
+		}
+		Log.d(LOG_TAG, "getString, ret string = " + retString);
+		return retString;
+	}
+
+	public string getStringByLanguage(string stringName, string lang, string country)
+	{
+		Log.d(LOG_TAG, "getPreferredString, string " + stringName + " language is " + lang + " country is " + country);
+
+		string retString = Interop.WVR_GetStringByLanguage(stringName, lang, country);
+
+		Log.d(LOG_TAG, "getStringByLanguage, ret string = " + retString);
+		return retString;
+	}
+	public string getSystemLanguage()
+	{
+		string retString = Interop.WVR_GetSystemLanguage();
+
+		Log.d(LOG_TAG, "getSystemLanguage, ret language = " + retString);
+		return retString;
+	}
+
+	public string getSystemCountry()
+	{
+		string retString = Interop.WVR_GetSystemCountry();
+
+		Log.d(LOG_TAG, "getSystemCountry, ret country = " + retString);
+		return retString;
+	}
+
+	public bool setPreferredLanguage(string lang, string country)
+	{
+		if (lang == "" && country == "")
+			return false;
+
+		useSystemLanguageFlag = false;
+		mPreferredLanguage = lang;
+		mCountry = country;
+		return true;
+	}
+
+	public void useSystemLanguage()
+	{
+		mPreferredLanguage = "system";
+		mCountry = "system";
+		useSystemLanguageFlag = true;
+	}
+	private string mPreferredLanguage = "system";
+	private string mCountry = "system";
+	private bool useSystemLanguageFlag = true;
 }

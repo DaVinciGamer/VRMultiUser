@@ -9,6 +9,7 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
+Library/Artifacts/
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
@@ -52,6 +53,7 @@ ExportedObj/
 *.pdb.meta
 *.mdb.meta
 *.meta
+
 # Unity3D generated file on crash reports
 sysinfo.txt
 
@@ -70,3 +72,13 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+/ChariteVRv3/Library/Artifacts
+/ChariteVRv3/Library/Bee/artifacts
+/ChariteVRv3/Library/Bee
+*.gbc
+/ChariteVRv3/Library/BurstCache
+/ChariteVRv3/Library/ShaderCache/shader
+/ChariteVRv3/Library
+*.cache
+*.dll
+*.rsp2

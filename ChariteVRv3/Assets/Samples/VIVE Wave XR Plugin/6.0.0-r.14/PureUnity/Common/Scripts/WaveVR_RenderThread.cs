@@ -8,14 +8,15 @@
 // conditions signed by you and all SDK and API requirements,
 // specifications, and documentation provided by HTC to You."
 
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using System.Runtime.InteropServices;
 using UnityEngine.Rendering;
 using AOT;
-using System.Runtime.InteropServices;
 
-namespace Wave.XR.Render
+namespace wvr.render.utils
 {
 	public class Message
 	{
@@ -109,6 +110,11 @@ namespace Wave.XR.Render
 			return list[queueBegin];
 		}
 	}
+}
+
+namespace wvr.render.thread
+{
+	using wvr.render.utils;
 
 	// Run a lambda/delegate code in RenderThread
 	public class RenderThreadSyncObject
@@ -264,4 +270,4 @@ namespace Wave.XR.Render
 			} while (false);
 		}
 	}
-}
+}  // namespace wvr.render.thread
