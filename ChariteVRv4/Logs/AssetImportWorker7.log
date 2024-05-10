@@ -1,0 +1,1685 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.24f1 (334eb2a0b267) revision 3362482'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'de' Physical Memory: 32697 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Programme\Unity\2022.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+E:/Uni/Master/Forschungskolloquim/VRMultiUser/VRMultiUser/ChariteVRv4
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+60755
+Successfully changed project path to: E:/Uni/Master/Forschungskolloquim/VRMultiUser/VRMultiUser/ChariteVRv4
+E:/Uni/Master/Forschungskolloquim/VRMultiUser/VRMultiUser/ChariteVRv4
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [27228] Host "[IP] 192.168.178.100 [Port] 0 [Flags] 2 [Guid] 3011208081 [EditorId] 3011208081 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2I8BR9U) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [27228] Host "[IP] 192.168.178.100 [Port] 0 [Flags] 2 [Guid] 3011208081 [EditorId] 3011208081 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2I8BR9U) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 52.61 ms, found 38 plugins.
+Preloading 1 native plugins for Editor in 0.56 ms.
+Initialize engine version: 2022.3.24f1 (334eb2a0b267)
+[Subsystems] Discovering subsystems at path D:/Programme/Unity/2022.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Uni/Master/Forschungskolloquim/VRMultiUser/VRMultiUser/ChariteVRv4/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 SUPER (ID=0x1e84)
+    Vendor:   NVIDIA
+    VRAM:     7989 MB
+    Driver:   31.0.15.5222
+Initialize mono
+Mono path[0] = 'D:/Programme/Unity/2022.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Programme/Unity/2022.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Programme/Unity/2022.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Programme/Unity/2022.3.24f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Programme/Unity/2022.3.24f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: D:/Programme/Unity/2022.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Programme/Unity/2022.3.24f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: D:/Programme/Unity/2022.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Programme/Unity/2022.3.24f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.008057 seconds.
+- Loaded All Assemblies, in  0.329 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 231 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.538 seconds
+Domain Reload Profiling: 867ms
+	BeginReloadAssembly (102ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (137ms)
+		LoadAssemblies (104ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (133ms)
+			TypeCache.Refresh (132ms)
+				TypeCache.ScanAssembly (120ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (538ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (489ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (345ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (98ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.823 seconds
+Refreshing native plugins compatible for Editor in 21.42 ms, found 38 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Wave.XR.ViveWaveEyeGaze ctor()
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveEyeGaze:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveEyeGaze.cs:66)
+Wave.XR.ViveWaveEyeGaze:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveEyeGaze.cs:76)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveEyeGaze.cs Line: 66)
+
+Wave.XR.ViveWaveEyeGaze Initialize() RegisterLayout with interface Eye Gaze
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveEyeGaze:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveEyeGaze.cs:66)
+Wave.XR.ViveWaveEyeGaze:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveEyeGaze.cs:84)
+Wave.XR.ViveWaveEyeGaze:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveEyeGaze.cs:77)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveEyeGaze.cs Line: 66)
+
+Wave.XR.ViveWaveEyeGaze Initialize() Adds a ViveWaveEyeGaze device.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveEyeGaze:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveEyeGaze.cs:66)
+Wave.XR.ViveWaveEyeGaze:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveEyeGaze.cs:99)
+Wave.XR.ViveWaveEyeGaze:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveEyeGaze.cs:77)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveEyeGaze.cs Line: 66)
+
+Wave.XR.ViveWaveController InitializeInPlayer() WVR_CR_Left_001
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveController:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveController.cs:44)
+Wave.XR.ViveWaveController:InitializeInPlayer () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveController.cs:66)
+Wave.XR.ViveWaveController:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveController.cs:59)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveController.cs Line: 44)
+
+Wave.XR.ViveWaveController InitializeInPlayer() WVR_CR_Right_001
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveController:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveController.cs:44)
+Wave.XR.ViveWaveController:InitializeInPlayer () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveController.cs:74)
+Wave.XR.ViveWaveController:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveController.cs:59)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveController.cs Line: 44)
+
+Wave.XR.ViveWaveWristTracker Initialize() RegisterLayout with interface Wrist Tracker
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveWristTracker:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveWristTracker.cs:59)
+Wave.XR.ViveWaveWristTracker:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveWristTracker.cs:83)
+Wave.XR.ViveWaveWristTracker:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveWristTracker.cs:75)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveWristTracker.cs Line: 59)
+
+Wave.XR.ViveWaveWristTracker Initialize() Adds right ViveWaveWristTracker device Wave Tracker0
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveWristTracker:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveWristTracker.cs:59)
+Wave.XR.ViveWaveWristTracker:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveWristTracker.cs:99)
+Wave.XR.ViveWaveWristTracker:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveWristTracker.cs:75)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveWristTracker.cs Line: 59)
+
+Wave.XR.ViveWaveWristTracker FinishSetup() deviceId: 0, IsLeft: False, interfaceName: Wrist Tracker, product: Wave Tracker0, serial: HTC-211012-Tracker0
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveWristTracker:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveWristTracker.cs:59)
+Wave.XR.ViveWaveWristTracker:FinishSetup () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveWristTracker.cs:132)
+UnityEngine.InputSystem.InputControl:CallFinishSetupRecursive () (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Controls/InputControl.cs:1064)
+UnityEngine.InputSystem.Layouts.InputDeviceBuilder:Setup (UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Devices/InputDeviceBuilder.cs:60)
+UnityEngine.InputSystem.InputDevice:Build<UnityEngine.InputSystem.InputDevice> (string,string,UnityEngine.InputSystem.Layouts.InputDeviceDescription,bool) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Devices/InputDevice.cs:955)
+UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Utilities.InternedString,int,string,UnityEngine.InputSystem.Layouts.InputDeviceDescription,UnityEngine.InputSystem.InputDevice/DeviceFlags,UnityEngine.InputSystem.Utilities.InternedString) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/InputManager.cs:1115)
+UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription,bool,string,int,UnityEngine.InputSystem.InputDevice/DeviceFlags) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/InputManager.cs:1275)
+UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/InputManager.cs:1248)
+UnityEngine.InputSystem.InputSystem:AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/InputSystem.cs:1498)
+Wave.XR.ViveWaveWristTracker:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveWristTracker.cs:100)
+Wave.XR.ViveWaveWristTracker:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveWristTracker.cs:75)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveWristTracker.cs Line: 59)
+
+Wave.XR.ViveWaveWristTracker Initialize() Adds left ViveWaveWristTracker device Wave Tracker1
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveWristTracker:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveWristTracker.cs:59)
+Wave.XR.ViveWaveWristTracker:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveWristTracker.cs:104)
+Wave.XR.ViveWaveWristTracker:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveWristTracker.cs:75)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveWristTracker.cs Line: 59)
+
+Wave.XR.ViveWaveWristTracker FinishSetup() deviceId: 0, IsLeft: True, interfaceName: Wrist Tracker, product: Wave Tracker1, serial: HTC-211012-Tracker1
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveWristTracker:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveWristTracker.cs:59)
+Wave.XR.ViveWaveWristTracker:FinishSetup () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveWristTracker.cs:132)
+UnityEngine.InputSystem.InputControl:CallFinishSetupRecursive () (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Controls/InputControl.cs:1064)
+UnityEngine.InputSystem.Layouts.InputDeviceBuilder:Setup (UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Devices/InputDeviceBuilder.cs:60)
+UnityEngine.InputSystem.InputDevice:Build<UnityEngine.InputSystem.InputDevice> (string,string,UnityEngine.InputSystem.Layouts.InputDeviceDescription,bool) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Devices/InputDevice.cs:955)
+UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Utilities.InternedString,int,string,UnityEngine.InputSystem.Layouts.InputDeviceDescription,UnityEngine.InputSystem.InputDevice/DeviceFlags,UnityEngine.InputSystem.Utilities.InternedString) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/InputManager.cs:1115)
+UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription,bool,string,int,UnityEngine.InputSystem.InputDevice/DeviceFlags) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/InputManager.cs:1275)
+UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/InputManager.cs:1248)
+UnityEngine.InputSystem.InputSystem:AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/InputSystem.cs:1498)
+Wave.XR.ViveWaveWristTracker:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveWristTracker.cs:105)
+Wave.XR.ViveWaveWristTracker:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveWristTracker.cs:75)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveWristTracker.cs Line: 59)
+
+Wave.XR.ViveWaveHMD InitializeInPlayer()
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveHMD:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveHMD.cs:44)
+Wave.XR.ViveWaveHMD:InitializeInPlayer () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveHMD.cs:67)
+Wave.XR.ViveWaveHMD:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveHMD.cs:60)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveHMD.cs Line: 44)
+
+Wave.XR.ViveWaveSelfTracker Initialize() RegisterLayout with interface Self Tracker
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveSelfTracker:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs:57)
+Wave.XR.ViveWaveSelfTracker:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs:114)
+Wave.XR.ViveWaveSelfTracker:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs:106)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs Line: 57)
+
+Wave.XR.ViveWaveSelfTracker Initialize() Adds ViveWaveSelfTracker device VIVE Ultimate Tracker 0
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveSelfTracker:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs:57)
+Wave.XR.ViveWaveSelfTracker:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs:130)
+Wave.XR.ViveWaveSelfTracker:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs:106)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs Line: 57)
+
+Wave.XR.ViveWaveSelfTracker FinishSetup() deviceId: 0, Usage: Tracker 0, interfaceName: Self Tracker, product: VIVE Ultimate Tracker 0, serial: VIVE_Ultimate_Tracker_0
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveSelfTracker:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs:57)
+Wave.XR.ViveWaveSelfTracker:FinishSetup () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs:172)
+UnityEngine.InputSystem.InputControl:CallFinishSetupRecursive () (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Controls/InputControl.cs:1064)
+UnityEngine.InputSystem.Layouts.InputDeviceBuilder:Setup (UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Devices/InputDeviceBuilder.cs:60)
+UnityEngine.InputSystem.InputDevice:Build<UnityEngine.InputSystem.InputDevice> (string,string,UnityEngine.InputSystem.Layouts.InputDeviceDescription,bool) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Devices/InputDevice.cs:955)
+UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Utilities.InternedString,int,string,UnityEngine.InputSystem.Layouts.InputDeviceDescription,UnityEngine.InputSystem.InputDevice/DeviceFlags,UnityEngine.InputSystem.Utilities.InternedString) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/InputManager.cs:1115)
+UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription,bool,string,int,UnityEngine.InputSystem.InputDevice/DeviceFlags) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/InputManager.cs:1275)
+UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/InputManager.cs:1248)
+UnityEngine.InputSystem.InputSystem:AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/InputSystem.cs:1498)
+Wave.XR.ViveWaveSelfTracker:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs:131)
+Wave.XR.ViveWaveSelfTracker:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs:106)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs Line: 57)
+
+Wave.XR.ViveWaveSelfTracker Initialize() Adds ViveWaveSelfTracker device VIVE Ultimate Tracker 1
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveSelfTracker:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs:57)
+Wave.XR.ViveWaveSelfTracker:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs:135)
+Wave.XR.ViveWaveSelfTracker:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs:106)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs Line: 57)
+
+Wave.XR.ViveWaveSelfTracker FinishSetup() deviceId: 0, Usage: Tracker 1, interfaceName: Self Tracker, product: VIVE Ultimate Tracker 1, serial: VIVE_Ultimate_Tracker_1
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveSelfTracker:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs:57)
+Wave.XR.ViveWaveSelfTracker:FinishSetup () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs:172)
+UnityEngine.InputSystem.InputControl:CallFinishSetupRecursive () (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Controls/InputControl.cs:1064)
+UnityEngine.InputSystem.Layouts.InputDeviceBuilder:Setup (UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Devices/InputDeviceBuilder.cs:60)
+UnityEngine.InputSystem.InputDevice:Build<UnityEngine.InputSystem.InputDevice> (string,string,UnityEngine.InputSystem.Layouts.InputDeviceDescription,bool) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Devices/InputDevice.cs:955)
+UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Utilities.InternedString,int,string,UnityEngine.InputSystem.Layouts.InputDeviceDescription,UnityEngine.InputSystem.InputDevice/DeviceFlags,UnityEngine.InputSystem.Utilities.InternedString) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/InputManager.cs:1115)
+UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription,bool,string,int,UnityEngine.InputSystem.InputDevice/DeviceFlags) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/InputManager.cs:1275)
+UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/InputManager.cs:1248)
+UnityEngine.InputSystem.InputSystem:AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/InputSystem.cs:1498)
+Wave.XR.ViveWaveSelfTracker:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs:136)
+Wave.XR.ViveWaveSelfTracker:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs:106)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs Line: 57)
+
+Wave.XR.ViveWaveSelfTracker Initialize() Adds ViveWaveSelfTracker device VIVE Ultimate Tracker 2
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveSelfTracker:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs:57)
+Wave.XR.ViveWaveSelfTracker:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs:140)
+Wave.XR.ViveWaveSelfTracker:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs:106)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs Line: 57)
+
+Wave.XR.ViveWaveSelfTracker FinishSetup() deviceId: 0, Usage: Tracker 2, interfaceName: Self Tracker, product: VIVE Ultimate Tracker 2, serial: VIVE_Ultimate_Tracker_2
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveSelfTracker:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs:57)
+Wave.XR.ViveWaveSelfTracker:FinishSetup () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs:172)
+UnityEngine.InputSystem.InputControl:CallFinishSetupRecursive () (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Controls/InputControl.cs:1064)
+UnityEngine.InputSystem.Layouts.InputDeviceBuilder:Setup (UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Devices/InputDeviceBuilder.cs:60)
+UnityEngine.InputSystem.InputDevice:Build<UnityEngine.InputSystem.InputDevice> (string,string,UnityEngine.InputSystem.Layouts.InputDeviceDescription,bool) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Devices/InputDevice.cs:955)
+UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Utilities.InternedString,int,string,UnityEngine.InputSystem.Layouts.InputDeviceDescription,UnityEngine.InputSystem.InputDevice/DeviceFlags,UnityEngine.InputSystem.Utilities.InternedString) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/InputManager.cs:1115)
+UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription,bool,string,int,UnityEngine.InputSystem.InputDevice/DeviceFlags) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/InputManager.cs:1275)
+UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/InputManager.cs:1248)
+UnityEngine.InputSystem.InputSystem:AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/InputSystem.cs:1498)
+Wave.XR.ViveWaveSelfTracker:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs:141)
+Wave.XR.ViveWaveSelfTracker:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs:106)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs Line: 57)
+
+Wave.XR.ViveWaveSelfTracker Initialize() Adds ViveWaveSelfTracker device VIVE Ultimate Tracker 3
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveSelfTracker:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs:57)
+Wave.XR.ViveWaveSelfTracker:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs:145)
+Wave.XR.ViveWaveSelfTracker:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs:106)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs Line: 57)
+
+Wave.XR.ViveWaveSelfTracker FinishSetup() deviceId: 0, Usage: Tracker 3, interfaceName: Self Tracker, product: VIVE Ultimate Tracker 3, serial: VIVE_Ultimate_Tracker_3
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveSelfTracker:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs:57)
+Wave.XR.ViveWaveSelfTracker:FinishSetup () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs:172)
+UnityEngine.InputSystem.InputControl:CallFinishSetupRecursive () (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Controls/InputControl.cs:1064)
+UnityEngine.InputSystem.Layouts.InputDeviceBuilder:Setup (UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Devices/InputDeviceBuilder.cs:60)
+UnityEngine.InputSystem.InputDevice:Build<UnityEngine.InputSystem.InputDevice> (string,string,UnityEngine.InputSystem.Layouts.InputDeviceDescription,bool) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Devices/InputDevice.cs:955)
+UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Utilities.InternedString,int,string,UnityEngine.InputSystem.Layouts.InputDeviceDescription,UnityEngine.InputSystem.InputDevice/DeviceFlags,UnityEngine.InputSystem.Utilities.InternedString) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/InputManager.cs:1115)
+UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription,bool,string,int,UnityEngine.InputSystem.InputDevice/DeviceFlags) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/InputManager.cs:1275)
+UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/InputManager.cs:1248)
+UnityEngine.InputSystem.InputSystem:AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/InputSystem.cs:1498)
+Wave.XR.ViveWaveSelfTracker:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs:146)
+Wave.XR.ViveWaveSelfTracker:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs:106)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs Line: 57)
+
+Wave.XR.ViveWaveSelfTracker Initialize() Adds ViveWaveSelfTracker device VIVE Ultimate Tracker 4
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveSelfTracker:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs:57)
+Wave.XR.ViveWaveSelfTracker:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs:150)
+Wave.XR.ViveWaveSelfTracker:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs:106)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs Line: 57)
+
+Wave.XR.ViveWaveSelfTracker FinishSetup() deviceId: 0, Usage: Tracker 4, interfaceName: Self Tracker, product: VIVE Ultimate Tracker 4, serial: VIVE_Ultimate_Tracker_4
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveSelfTracker:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs:57)
+Wave.XR.ViveWaveSelfTracker:FinishSetup () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs:172)
+UnityEngine.InputSystem.InputControl:CallFinishSetupRecursive () (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Controls/InputControl.cs:1064)
+UnityEngine.InputSystem.Layouts.InputDeviceBuilder:Setup (UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Devices/InputDeviceBuilder.cs:60)
+UnityEngine.InputSystem.InputDevice:Build<UnityEngine.InputSystem.InputDevice> (string,string,UnityEngine.InputSystem.Layouts.InputDeviceDescription,bool) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/Devices/InputDevice.cs:955)
+UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Utilities.InternedString,int,string,UnityEngine.InputSystem.Layouts.InputDeviceDescription,UnityEngine.InputSystem.InputDevice/DeviceFlags,UnityEngine.InputSystem.Utilities.InternedString) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/InputManager.cs:1115)
+UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription,bool,string,int,UnityEngine.InputSystem.InputDevice/DeviceFlags) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/InputManager.cs:1275)
+UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/InputManager.cs:1248)
+UnityEngine.InputSystem.InputSystem:AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.7.0/InputSystem/InputSystem.cs:1498)
+Wave.XR.ViveWaveSelfTracker:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs:151)
+Wave.XR.ViveWaveSelfTracker:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs:106)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@dd738b632a/Runtime/ViveWaveSelfTracker.cs Line: 57)
+
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+PackageInfo()
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.Essence.Editor.PackageInfo:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.essence@dd738b632a/Editor/EssenceSettingsProvider.cs:1315)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.essence@dd738b632a/Editor/EssenceSettingsProvider.cs Line: 1315)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+InteractionModeManagerSettings() registered EditorSceneManager.sceneOpened.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.Essence.Interaction.Mode.Editor.InteractionModeManagerSettings:.cctor () (at Assets/PlugIns/Wave/Essence/Interaction/Mode/6.0.0-r.14/Editor/InteractionModeManagerEditor.cs:57)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/PlugIns/Wave/Essence/Interaction/Mode/6.0.0-r.14/Editor/InteractionModeManagerEditor.cs Line: 57)
+
+Mirror | mirror-networking.com | discord.gg/N9QVxbM
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Mirror.Welcome:OnInitializeOnLoad () (at Assets/PlugIns/Mirror/Editor/Welcome.cs:18)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/PlugIns/Mirror/Editor/Welcome.cs Line: 18)
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <b11ba2a8fbf24f219f7cc98532a11304>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <b11ba2a8fbf24f219f7cc98532a11304>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <b11ba2a8fbf24f219f7cc98532a11304>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <fa3f61a6dce8479c85ca5d90a86ee19e>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.836 seconds
+Domain Reload Profiling: 1659ms
+	BeginReloadAssembly (145ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (598ms)
+		LoadAssemblies (369ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (321ms)
+			TypeCache.Refresh (266ms)
+				TypeCache.ScanAssembly (243ms)
+			ScanForSourceGeneratedMonoScriptInfo (35ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (837ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (650ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (427ms)
+			ProcessInitializeOnLoadMethodAttributes (101ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 20.55 ms, found 38 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 7349 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 150 unused Assets / (488.6 KB). Loaded Objects now: 7797.
+Memory consumption went from 273.9 MB to 273.5 MB.
+Total: 5.227700 ms (FindLiveObjects: 0.744500 ms CreateObjectMapping: 0.203900 ms MarkObjects: 3.877500 ms  DeleteObjects: 0.400400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Common.cs: 0158e194f5774e7a793d9e7d7b697605 -> 0364edb4a6509114165ab4f0e24309ae
+  custom:scripting/monoscript/fileName/XRDirectInteractorEditor.cs: 6394859d5cb4d7b622343fa5ca243a3e -> 8920d36979dfa760b5ce879eed054db7
+  custom:scripting/monoscript/fileName/Welcome.cs: 3275105d20e113dba84a5d6da326de16 -> 4b8b7df294b9206fdadb5a3fc3d6d796
+  custom:scripting/monoscript/fileName/RoomGUI.cs: bea938ca54ac0985dfefa310ef2dbaa5 -> 05671ca1a3114e817efae3a7ca932547
+  custom:scripting/monoscript/fileName/EdgegapKcpClient.cs: 49a4fb5b561df33357ec4e8314592146 -> a040a226d22bd0aa095a836d87c3761c
+  custom:scripting/monoscript/fileName/FollowPresetDatumPropertyDrawer.cs: eb8daeccfd379ead1b924e37bfa7135d -> 3d347b12cab18fd255235e256de611e9
+  custom:scripting/monoscript/fileName/JointPose.cs: d94f83c1cd4b775d180e74e980c016b9 -> f35c62defa2f3b400115231020b08032
+  custom:scripting/monoscript/fileName/InputHelpers.cs: 7d983961933351c9e580e4896fb10b30 -> f8e4f3001fb288daafc75ef168dc221b
+  custom:scripting/monoscript/fileName/IXRRayProvider.cs: f9d95ed2ba2e1d2684033c618cf5727e -> 58f319a8961355adf693bdb82f3aa296
+  custom:scripting/monoscript/fileName/AssetBundleToolWindow.cs: b37c26349a3eae80c5947c021a2d543a -> 68179849190362f4bdd09d6648fd89eb
+  custom:scripting/monoscript/fileName/Callout.cs: 9ab42988560c6a8d8585c372ac1a1251 -> da814e237f46ed3cebadcb77e0be50c5
+  custom:scripting/monoscript/fileName/EdgegapKcpTransport.cs: aa89b6f77d6d93d642cad362aa0956db -> 598c13ce4e78d9d395f8f6c369824fea
+  custom:scripting/monoscript/fileName/UIVirtualTouchZone.cs: 7dc6ac3020fe6a04ec9b50f67c74e843 -> 2cf58d9131af5a78d9083ae59546d69c
+  custom:scripting/monoscript/fileName/SendLoop.cs: aa1df1495701567ae2297c97ebcf200a -> 34a0ccd641c171efe86c4f832dd313a6
+  custom:scripting/monoscript/fileName/InspectorHelper.cs: c0dc0d2175f01867f38aa8ee57b98227 -> a08e2d388c081db5539fcb0270187583
+  custom:scripting/monoscript/fileName/Spawner.cs: 3127f05e5e708246394a1065def40688 -> d801c78555e70af2501aab8e7a0bde7d
+  custom:scripting/monoscript/fileName/CanFocusMultipleAttribute.cs: 2c698cf4b6070abc1ab762d4dc1cd524 -> f3013377334085a1b02a37e3c01ef181
+  custom:scripting/monoscript/fileName/InterestManagement.cs: 1d196aaec2a6dd387b95575be3f93ff4 -> f67b0414c795ab12137baeb7c25234eb
+  custom:scripting/monoscript/fileName/ControllerTipsEditor.cs: cc99558eeb47d8da747834097ac66abb -> 69403d48fa7966101bb03c904d8708f4
+  custom:scripting/monoscript/fileName/Monitor.cs: 91ab0fa8ab949502e1fa3769e3adb5e7 -> a35b9d83739853050b7a49d8fba6b0ae
+  custom:scripting/monoscript/fileName/NetworkPingDisplay.cs: bdee4d6ef3eae73e0d52b9f16674888e -> d88700a7882315054c11dec319e9708d
+  custom:scripting/monoscript/fileName/CustomizeWaveController.cs: b3f4cceb822b6de33db474bb1bd10f85 -> fbb8405454e6844a5a6def713c07bded
+  custom:scripting/monoscript/fileName/BackContactHandler.cs: 14ca46e8d746c0c1159d8e95b6109741 -> 34ea2bfebe5c96e6b5810ddb8aef321d
+  custom:scripting/monoscript/fileName/AssetBundleObjectLoader.cs: 953541c87787ea4e7293e9bd393da55a -> 617393d687b53cbf5a12e64caf1e942a
+  custom:scripting/monoscript/fileName/IMEWrapperExample.cs: 30eed680a896501412f0f3554eeeecc3 -> 3a3ad1a00da51af2867b3b312fd4bd42
+  custom:scripting/monoscript/fileName/PlayerControllerScript.cs: 64f5b9fb0f7595ceaad82283b7e3d9cf -> 0c4f46e638523feafb18f5f07b53e7ca
+  custom:scripting/monoscript/fileName/MagnificentReceivePipe.cs: 07bb56c224f0694f6eab116c94540745 -> d8c4567546bded77b87b853e9dcbceec
+  custom:scripting/monoscript/fileName/Mathd.cs: 820b77cd536abdfea050e4aad2435dbe -> f48c4577d3fef7b065bb0e36e726df2a
+  custom:scripting/monoscript/fileName/SnapshotInterpolationSettings.cs: 84df2861d863850c625e1e3df33482c3 -> 6f6b170180734181b73b6a783a346290
+  custom:scripting/monoscript/fileName/AxisUsage.cs: 3d7a1e36243a2ab70fcd756506aec07f -> e00b4b86928e3640b84a8122c67fbfa4
+  custom:scripting/monoscript/fileName/DevicePose.cs: 21c1d9f13a1e6ccc8788baec85ff38be -> ac2e6005fb869f6516f03d819dbfe1de
+  custom:scripting/monoscript/fileName/InteractionLayerUpdater.cs: 543ba567b5d52f1016721615700a9c82 -> b313cf28b817ea4e7fd46320b71321e7
+  custom:scripting/monoscript/fileName/Segment.cs: 62b8e474be7de4ef2add88c34c52c96f -> 523834bee4918f6127e4c73e45a87bfd
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TrackerDeviceManager.cs: 64369615cd8b2a9ab84d8c545bd0f86e -> e94ed067347cc624b005f40f369c63df
+  custom:scripting/monoscript/fileName/IXRInteractionGroup.cs: ab6b44b02b532758e0b429768ef997c3 -> 65b972d4031cca83c1f073e6dc511165
+  custom:scripting/monoscript/fileName/DynamicFRAdjust.cs: c39db1d441e69417512d5cc2b27cbef6 -> ac214db125c5fcaf6121b63861c5fea7
+  custom:scripting/monoscript/fileName/XRHelpURLConstants.deprecated.cs: d192501a91f4241a1fc505990f192777 -> 7a5beb455c744c93847a166db6e29e55
+  custom:scripting/monoscript/fileName/StepManager.cs: ceb1c8171a8c10ad1c508cce9c7da409 -> 81c8d7259dd8b5466082e88f79b03778
+  custom:scripting/monoscript/fileName/XRInteractableAffordanceStateProvider.cs: 1c03c993d4fa08acfcb67911114d18e4 -> 330b909afdfb2023f8b66179a46958f6
+  custom:scripting/monoscript/fileName/LipExpActivator.cs: 7d5a5cc01502da6cfb8ba38c51e41fa2 -> 8205d68e35a7d867ab15f9ae3d797e7e
+  custom:scripting/monoscript/fileName/BuildVRTestApp.cs: 264c8c2409ca7ae31477045ffd370ab9 -> 16d7f174111cd4427efb18a0406894ab
+  custom:scripting/monoscript/fileName/AppPortsData.cs: 484772d85f52b7f0f75d76832dcf1304 -> 068550a860355d894dda17d79004d844
+  custom:scripting/monoscript/fileName/NetworkStartPosition.cs: b6cf3a635708a3dc7b08bce7078bfe3b -> 451d2155fcf1cb3e487d3a2cd77cfa7b
+  custom:scripting/monoscript/fileName/IXRSelectInteractable.cs: aa5b3b355dc91356c07431147d10b665 -> 37bf2741a24f6240967d50c355d0a6cc
+  custom:scripting/monoscript/fileName/ServerCube.cs: 73756ec9d12da29fd7dc1fbbe401258f -> 24c02b332c3b0c6e8c32506185d4857b
+  custom:scripting/monoscript/fileName/FSETest_Manager.cs: ba6996fd6f8df0185522d71b500cb269 -> 16a980b62751ee40d3047c90069d79f3
+  custom:scripting/monoscript/fileName/AffordanceStateShortcuts.cs: 64e6263ea286c8838638302ec92d1ca1 -> e2071b4c188327ad25586ae27274ad4f
+  custom:scripting/monoscript/fileName/ConcurrentPool.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/ProjectPath.cs: 808cfaf5ef03c22ac0088e169af2a7ca -> 4412bfc8301793f386bd4d06a391102a
+  custom:scripting/monoscript/fileName/PackageManagerEditorHelper.cs: c5ca45bf38bd6d2c8530d6660b0213c4 -> 55c68bab017fb629836b2a33cd11da13
+  custom:scripting/monoscript/fileName/HideUntrackedObjects.cs: 8f6d3ff1c7754ca7a4c5faf199c62955 -> 8c8b5d3d6ce64710d74a2f280daa8bdb
+  custom:scripting/monoscript/fileName/PreprocessorDefine.cs: c6f2b3ded660495636b1c42d05411d8c -> c55fe36cd7ecc9f6726bee231196c695
+  custom:scripting/monoscript/fileName/ControllerRaycastPointer.cs: 8861d1a6fb8d2b05c22b1ae24272a9e7 -> ad2cb227a9e772c85a288e76be906c6b
+  custom:scripting/monoscript/fileName/XRInteractionToolkitSettingsProvider.cs: 6fffa84fa3bc1a10e2ad05b85ff5f902 -> 466af331d9c5ba6c063b3d7ed5c4b10d
+  custom:scripting/monoscript/fileName/MethodProcessor.cs: 41b75bee658b228534e786b22f691f9d -> b3b5286f99ee5c7a52eb7b53e00db476
+  custom:scripting/monoscript/fileName/TrackerText.cs: 88c6d4ec5047d3f8a8434f9d423ba056 -> 2de7e33718cd5fc496e70384e8ebf8b6
+  custom:scripting/monoscript/fileName/SyncObjectInitializer.cs: 37e83b774712c9d4555933d9cac4472a -> 636fa746abcef56a0c17f8ba15cd912c
+  custom:scripting/monoscript/fileName/BasicAuthenticator.cs: ac378f27894475ce487b2443eeafde20 -> 72b6eaaea689f2c99092fce96d497db6
+  custom:scripting/monoscript/fileName/NetworkTransformChild.cs: c432958d794a8c474f6f3bbd44c9d88a -> d3dc42c8d8abb5db27e6c5b5e16d09be
+  custom:scripting/monoscript/fileName/WaveXR_KeyboardMouseControl.cs: 4b5f221f7feee522e6c4217e98ca4c14 -> b5a22fbe63c5c5877a7d1ac965b4a101
+  custom:scripting/monoscript/fileName/ActivateByDisatance.cs: 0ec439460184407fdd06698a5fd52ded -> 69b348e49dd9d4aa58eb362704e9cd7b
+  custom:scripting/monoscript/fileName/DisposableManagerSingleton.cs: 54ce16a070ef6d3c22669ce8eb8f8535 -> a23d0b043813b455c0f1bb71fe00bd6a
+  custom:scripting/monoscript/fileName/XRInteractablesTreeView.cs: 0c5ae70e503bbb7bca566ebe912aa4f1 -> d1bc48303affbf0fed215335ba13ca4e
+  custom:scripting/monoscript/fileName/CharacterData.cs: 2d6f9b495f8bf4122329807e55213e01 -> 29f9c2862b8cd0ec64e45d321d21dd9d
+  custom:scripting/monoscript/fileName/HandPinchArea.cs: 1478f0d6544226e575d60a1b18faa069 -> 632912a36d07aa71eaa61e3cfedf1f25
+  custom:scripting/monoscript/fileName/UIVirtualJoystick.cs: d91cd492c08816cfcd7c002f705e2a97 -> 940ec13d5cec07955291b086529e4dd6
+  custom:scripting/monoscript/fileName/Helpers.cs: 480c3351053541d745149c972ff81071 -> 4d78c7208a346cea297273a446bd8ed6
+  custom:scripting/monoscript/fileName/IXRSelectFilter.cs: 189ee1866f001fed6cae1c5882eb95fb -> 2e38231bb7796f816ab3fe82bc78c572
+  custom:scripting/monoscript/fileName/FloatMaterialPropertyAffordanceReceiver.cs: a656a9ae0859e8772849a0a3b5e65376 -> 8f0f362be917bb54eda2683129f9f4fe
+  custom:scripting/monoscript/fileName/SessionModel.cs: 588ff9189adad8880057eef52cf85ce4 -> 800e4b1f2107179f73f779e518410ece
+  custom:scripting/monoscript/fileName/ThreadFunctions.cs: 3603364b608f0d3886e25d5051e1131d -> 3e2ab54d5204420d4f7c019ac262d4cc
+  custom:scripting/monoscript/fileName/MessageProcessor.cs: c7bbe36bb974fa07f8fc7c8040c5bcc7 -> f59a40b3f0ad799bf912a1f89abcc900
+  custom:scripting/monoscript/fileName/SceneInterestManagement.cs: 148a80ae8e4023736fb4389c38689ec5 -> 46b8a46feba76688f94149178885cf3b
+  custom:scripting/monoscript/fileName/XRInteractionEditorSettings.cs: 2741a3da3053ca84d14c50e1902c8c0e -> b5e3e022d7b3d4d14e9496d9ffc06f24
+  custom:scripting/monoscript/fileName/Kcp.cs: 9c24d4b981757360f9b1a512f0ba0fd0 -> c5c1df66bf9449ca56663d1ef637cdfa
+  custom:scripting/monoscript/fileName/CouchPlayerManager.cs: 6d1fc51e18a3786523f886648e451d4b -> 76f86b67480a2e4421c55e1a2e2803cc
+  custom:scripting/monoscript/fileName/TransformConverter.cs: c590c6582e38ccaea55202395c525891 -> 9a186af74325a49d8d68733e0349d2df
+  custom:scripting/monoscript/fileName/StopActiveDeploymentResult.cs: df12926c5bcebe21623fd81e41d9f19b -> 532ee44f335d459223e6f87aed3229d0
+  custom:scripting/monoscript/fileName/NetworkBehaviourSyncVar.cs: 8a0b72398954f3ccb38dfac9608f97e8 -> 03489519289f1039a64789324777a09b
+  custom:scripting/monoscript/fileName/FoveatedRenderingQCOMCalculator.cs: 394f7b3f662144a3331d51163b9cf506 -> 995ebc18f5d188b981b3efb24d17851d
+  custom:scripting/monoscript/fileName/WanderMoveBehaviour.cs: 27f291392f314797d6e759a8413026eb -> b040e6996fce0e7dc18a3e4e697068fa
+  custom:scripting/monoscript/fileName/XRSocketInteractor.deprecated.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/AffordanceStateData.cs: f7b0e089b6b53bad4004828fdeead7d3 -> d1d62b8d8e696751af0c4edf7ce63e15
+  custom:scripting/monoscript/fileName/TriggerContactMonitor.cs: e02b970b8135f74c26c300b44a49ede7 -> 5308012c85bc61918668d060d694b733
+  custom:scripting/monoscript/fileName/NetworkRoomManagerExt.cs: 984093be20612c82bf7b3ed56e76021e -> 00cb91758b1d00b7b22baf839da15ceb
+  custom:scripting/monoscript/fileName/EventMigrationUtility.deprecated.cs: 6554f8e3085ab367467e90a67728a44b -> b0f8f6f94922a3423f0465a6c535b03a
+  custom:scripting/monoscript/fileName/ChangeOriginalUI.cs: 7bf5fe4283f33461f1aa974319c37836 -> d031dc71ff20b1dc4f81b03ed36dec4a
+  custom:scripting/monoscript/fileName/TrackedDeviceGraphicRaycaster.cs: 4fb710436f22113fdd153a773aaa0be8 -> ffe9bcf3f7fba82499d72bbf2d369f51
+  custom:scripting/monoscript/fileName/XRDualGrabFreeTransformer.cs: db2f363d8d3a70221d9153862e50f4e4 -> 4e901a878945b07d92064dd582f2c902
+  custom:scripting/monoscript/fileName/MasterSceneManager.cs: 2d49873b2e6609e04eaef21d885234a1 -> 59b6302893bbad5f03047a8dc90f4c2a
+  custom:scripting/monoscript/fileName/PlayerScore.cs: 794833559aeed825932e993c6d3385f3 -> 3b4ec368594feb3ac61157fdc122df19
+  custom:scripting/monoscript/fileName/XRLoaderInfo.cs: 818894a2d66a1c67db7c4797664322f2 -> 86fa513bfc04d58509db292069910bf2
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/XRInteractionGroup.cs: 2fc6e3de5e60266112af756948b2181a -> 67a2e9bd369bfceca32c46f4939b26ad
+  custom:scripting/monoscript/fileName/UIContactHandler.cs: b7215aa159dabc4a832989e75525ae03 -> f5df09900bb4e5bc7e65abc242774cc5
+  custom:scripting/monoscript/fileName/SineMoveYBehaviour.cs: cac7892f4c401ad63f8e1aaba478971b -> 2d8408a927c95696cbee66651a623a61
+  custom:scripting/monoscript/fileName/NetworkLerpRigidbody.cs: ddb1470ed546d11ca16bd93cbf1d5b5f -> 92bfafda7bf2fbe39b74989066ddac56
+  custom:scripting/monoscript/fileName/ThreadedTransport.cs: e7d6f1465b3f419b7a13c7efe5ad0d63 -> 690009beaed882a5def167c8ebf14777
+  custom:scripting/monoscript/fileName/EncryptedConnection.cs: faf133cdb3eea8febaf8209f3910a93b -> f3b03d464281f7b21a577f6ba3adbe69
+  custom:scripting/monoscript/fileName/XRRayInteractor.deprecated.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/UpdateAppVersionRequest.cs: 22796c5e7d1db9e5fcdc589c6dbd47d1 -> 3405ac2555426deb85cd87ea4e2d1419
+  custom:scripting/monoscript/fileName/XRUIInputModule.deprecated.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/VideoPlayerRenderTexture.cs: 368f408d42db2fc649e5beada50cc0f0 -> 2d1b48845d49e82dd7fceba9103ef7f5
+  custom:scripting/monoscript/fileName/EncryptionCredentials.cs: 6fda11bdfc44ff57d9f0ee4c3a9b38fa -> 9bb26254937bf60e3d9ce4384bc35c74
+  custom:scripting/monoscript/fileName/NetworkDiscoveryHUD.cs: 53740422a1d7df46546f794228be1bbe -> 4951c6940d22e25be40cfc27e21e75ca
+  custom:scripting/monoscript/fileName/XRSingleGrabFreeTransformer.cs: 0ace3af4a075f67a82c05360b1541a36 -> d4239a25c4293b42a12bb6a81ed3c57e
+  custom:scripting/monoscript/fileName/ExponentialMovingAverage.cs: 33f6afb9921979bb7c251d6f2225754f -> bfa0c22ded5508869540ffe5286eca6b
+  custom:scripting/monoscript/fileName/XRControllerRecorder.cs: 3e5546910150be688b206b90a9dafcbd -> 913dd736db6c30f59c9649eb2eb0c157
+  custom:scripting/monoscript/fileName/MatchmakerReleaseResponse.cs: 6126a7fbbef93c6f6bf5c41efe2e294e -> 08641ec541325432b3eb5557e9209560
+  custom:scripting/monoscript/fileName/CanvasScript.cs: 8bd54feed5aa30e6be310ab777281a91 -> 444e35a984cf9b5342fe82a6818a2741
+  custom:scripting/monoscript/fileName/ChooseDoF.cs: d05da833f96407258bcfaa7d5c350191 -> c91c281aed6fa19dc836ce16e00f5eba
+  custom:scripting/monoscript/fileName/TrackerTextManager.cs: 140d66a627803d1624f529b0d3aade9b -> 07df19aeb9662016b6fe2bc940301955
+  custom:scripting/monoscript/fileName/InteractionLayerMaskDrawer.cs: 66b978b92fffbf7bb46a57c3d6380ff7 -> 2dd41f6cee21469bf08be3a69a31583a
+  custom:scripting/monoscript/fileName/PooledObject.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/XRTargetEvaluatorsScoreTreeView.cs: b7b4b5b84ee8ca548314dec4b5726748 -> 9cd4d1046103234400aab9409d666c8c
+  custom:scripting/monoscript/fileName/ActionBasedControllerEditor.cs: 0a316ee5128fe2c13d5d376340d37ba2 -> bb433160ae5801abbc22b4f1bcfca9b6
+  custom:scripting/monoscript/fileName/XRSettingsManager.cs: 43c3d777d0c8ebd09beeda0c7fff1e95 -> 701988ef3c16e84d3bc781477493ab34
+  custom:scripting/monoscript/fileName/SyncSet.cs: 2b4455e6e3b12ad5b28b297ffca2f154 -> 5e2ab9cfe81e04de31d18dbafae66b8c
+  custom:scripting/monoscript/fileName/DeployPostData.cs: 399c3bdeaa97654d457b45f8365b2193 -> 93ce2ab273d1f15f31de4504306d2979
+  custom:scripting/monoscript/fileName/DemoButtonGazeInput.cs: 548cdd9dbe3b9c79e5579ca6702b1215 -> 2fff0f6a0e9fc271c269c703bc45a455
+  custom:scripting/monoscript/fileName/DistanceUI.cs: 6eb6831d387105ddcc1d26284068127e -> ac74ccccfc6b789c6c3a87df58044732
+  custom:scripting/monoscript/fileName/SpatialHashingInterestManagement.cs: 26980df211e645852dd0280e3db815ee -> fab772ba1112516846d2086569b3453e
+  custom:scripting/monoscript/fileName/SmartFollowQuaternionTweenableVariable.cs: 8e4051e39834cd3e71938845f7fd84c7 -> e01bfdc0d96ae6c230ef9f5c3d840467
+  custom:scripting/monoscript/fileName/UIInputModule.Events.cs: a3af263327acb755290a1347781e4bc4 -> cf91ec523ea5be6df878ee8b6584c221
+  custom:scripting/monoscript/fileName/BlendShapeAffordanceReceiver.cs: 366bd4a66b78ac89a2658cf9521547c9 -> 112246585a0fcfd068b95d87a452d39f
+  custom:scripting/monoscript/fileName/PlayerCamera.cs: 358e2ae1f0cd93eb8bdfa8bdf9009670 -> 883846f9c088c290415f4bcc78a9ba0b
+  custom:scripting/monoscript/fileName/DropdownHandler.cs: da39e5ce03b9d7d6dd94fa0624f071f1 -> 88898ea964cf3c4ae04e7acc329c0f16
+  custom:scripting/monoscript/fileName/CustomGrabbable.cs: 2fdf14a3727cd1aed29ce7129640b0e7 -> a655504ed7f98135473408f4c9b83e58
+  custom:scripting/monoscript/fileName/ApiModelContainerlogs.cs: 193b8e520c0cf7aabf89118c5d83b9a1 -> a5de8ea89983a72c214979de3292cfee
+  custom:scripting/monoscript/fileName/Batcher.cs: e62fe982e7a8f1bd6b88654353f0780e -> ef5a5e029138b0fbe098128d3c4a409e
+  custom:scripting/monoscript/fileName/AppVersions.cs: 9ffec136a3ab89b5aa83fd4552b25137 -> 84f199000caeb53c06cef5f71519f2a4
+  custom:scripting/monoscript/fileName/XRGeneralBuildProcessor.cs: 0efaf30eeb6ecccfafe5b7912a15e1e1 -> d52e14652f14fd6e56a66a859653fea9
+  custom:scripting/monoscript/fileName/XRGeneralSettings.cs: d08d3d9bd0dc40127f8f3154525c3cb3 -> 01e68fef49e5cbf622bb7b4ffc622d89
+  custom:scripting/monoscript/fileName/TableStaticActivator.cs: 35e8ce75170e8c2de2dac0f2e7dc69b2 -> 9174adedc0600d2efade965fedbfc5c2
+  custom:scripting/monoscript/fileName/Status.cs: d23c1981d269b6b99657d7a9bfe4ccef -> f4abec350c04dd630c49ff1531347a07
+  custom:scripting/monoscript/fileName/ARPlacementInteractable.cs: 92b9b58788eece696ac90ab2e88e1b6d -> 0f952c7a0c3c29860ccbca1d427bec1b
+  custom:scripting/monoscript/fileName/SceneReferencer.cs: 775eadd1c357037313ac8bbefa2ea5fb -> 086e3ead9db5b057a7b191f3686c03ce
+  custom:scripting/monoscript/fileName/CustomSessionDeleteModel.cs: e2bf2b0be28990be32d32961a0843ccb -> 209782bda03daa80603be00748e632bc
+  custom:scripting/monoscript/fileName/XRManagerEditor.cs: 7d85fed4b8ad462e9dbb09e8d2f0aac4 -> 6847a9ea85cd2d801d895b625e9590ff
+  custom:scripting/monoscript/fileName/Application.cs: d8719ae0cfc39c5878c3d2b609c02160 -> 4822b136ad9061ea0f7174d86509afb4
+  custom:scripting/monoscript/fileName/PinchText.cs: bc09c45b4f9ce723b015742a8153ecae -> 564d533ca15e9588f3c535f9c886c29a
+  custom:scripting/monoscript/fileName/PlayerController.cs: 3beb4b18831949cc4c7e56dc5ce10e42 -> 8040c7919a74e36485b5c4733690a4c8
+  custom:scripting/monoscript/fileName/DoFDetector.cs: 5c9b8c2f06197f34b86b2b4dcfa96767 -> f8e1b2099c2b4c67b4c265ae108ce4b6
+  custom:scripting/monoscript/fileName/EyeTrackingCube.cs: fdab68f1370fff68c1ab9e6628593af9 -> 1263744f95b6af701280ad61a95e943a
+  custom:scripting/monoscript/fileName/ActionToVector2.cs: b556ed9d5e1bc9ef05237ed678bf95f8 -> a304476d276b7d1e309ac21f2dd6dfc8
+  custom:scripting/monoscript/fileName/NetworkManagerEditor.cs: 44d9af9ad2bb4a8ab70f5b42949a6a10 -> e765a56175b79e419559648e7ec8680e
+  custom:scripting/monoscript/fileName/XRInteractableSnapVolumeEditor.cs: f6557abe8723951efe60d8d4a4aaf063 -> 2612961c50720a3907524141b3cb4230
+  custom:scripting/monoscript/fileName/Ball.cs: d8e8f508fa92de77bf8f7a2d91b39f10 -> f858eb7997b33e523ee73419630c05ad
+  custom:scripting/monoscript/fileName/MatchmakerComponentCreate.cs: b74226b680792ced3525861838feb572 -> 04e5b57719472249e517adf4a69c5c9a
+  custom:scripting/monoscript/fileName/ControllerBeam.cs: 4cb8c45ed2f3f4492589770077a3ed1f -> c6b59701ee1fd344b6c03b06fce634c6
+  custom:scripting/monoscript/fileName/MatchmakerReleaseCreate.cs: be8b125a2a757697c84fb4cdcee0c90a -> 38820416c3d7f2bd29e83c7e71f1ebc9
+  custom:scripting/monoscript/fileName/XRPokeFilter.cs: 721313553813608ef3c0611d1a439313 -> d25513cc5875a49a4fdc38e85e815c88
+  custom:scripting/monoscript/fileName/XRPokeInteractor.cs: 09b19ffb4ee9d6ee7502c43a66ce2ef0 -> a14e361f62a435582e84c03c1efeaeff
+  custom:scripting/monoscript/fileName/BottleLiquid.cs: f64612c1a7c9af4fbb1d655313f5a651 -> fbce5dc5f35a683d1501a4efe2aa8808
+  custom:scripting/monoscript/fileName/XRControllerRecordingEditor.cs: 8840a7e281abd8d136d379fde2d52875 -> 592b2ff2caef963edc7b4a3176355955
+  custom:scripting/monoscript/fileName/GetDeploymentStatusResult.cs: a63c57c4eeecdfb400d5b10abf919fb1 -> 39350890d8ee89f2013b0433f1e600fc
+  custom:scripting/monoscript/fileName/MatchmakerReleaseConfigCreate.cs: 7d4fa05d2593844bd1cdae0ab46ef643 -> c0cdc19dcdf274f951dd92aeb0c906bf
+  custom:scripting/monoscript/fileName/TweenableVariableBase.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/StaticVariables.cs: bda4da3989bb850945d2d123c569ba6f -> abdaa1e8a91061b2e42dbd356cddbe6f
+  custom:scripting/monoscript/fileName/ExposedRegistrationList.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/NetworkTeam.cs: 999f96249d05085174defd2deaffe0f2 -> 4bd0ca42d7f5b54ac80470b49533e0a2
+  custom:scripting/monoscript/fileName/DemoCMGazePointer.cs: 5e82fcc02b8a54634fc8ab83c10c052e -> 2f8fd5f688f9bb47f19c8aa722ac9925
+  custom:scripting/monoscript/fileName/DeltaCompression.cs: 2dd8970aace81493740ee855baca74be -> 8b16983196a2b04258aa8ed14d74a1c6
+  custom:scripting/monoscript/fileName/Readme.cs: 0243834a66c4d02c43eccfe3f1926748 -> 5aedf578fb2663036982fb7b05aaf325
+  custom:scripting/monoscript/fileName/EdgegapIpApi.cs: b48baf962b81a51c2bf9169865ff3859 -> 3dc5c21360513ff3eb6b272813024dbe
+  custom:scripting/monoscript/fileName/NetworkDiscoveryBase.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/ManifestElement.cs: e66d1acaa2995bff2851f10ea3cd7296 -> c30b57498d373b7476c4d7dfdaee189c
+  custom:scripting/monoscript/fileName/RaycastImpl.cs: a534dbf0e19e064773660ee1ee496c32 -> b6e49ded83f3e0ef8f6780e14e0e9a40
+  custom:scripting/monoscript/fileName/HistoryCollider.cs: bcec4e957f06e91f93fe89ebecea8e9d -> 5f6c6f60556067d923524a32437b9858
+  custom:scripting/monoscript/fileName/PassThroughOverlayTest.cs: d4e52d157ba3b29c35563c824b0bdcc9 -> ec19d655376766d0d4e897703fd499d7
+  custom:scripting/monoscript/fileName/BillboardObject.cs: b42c3574608c3829faca5c3ef29452e4 -> 54aeecefd47460957044196ca9084cd8
+  custom:scripting/monoscript/fileName/ServerResponse.cs: 83c61e59ec03f119eb3c572b5f9fa8f6 -> 400adf587ca921842cea87732d728e65
+  custom:scripting/monoscript/fileName/NetworkBehaviourProcessor.cs: 207426c0cb0715895a39a9beaa3fc210 -> 16d792faec763cddf4e9e55cc6c1448b
+  custom:scripting/monoscript/fileName/AdditiveLevelsNetworkManager.cs: 4e756751a729f0ebd920ae2f44b72e43 -> 81c5e48d23caf689c8cf889185de3c7d
+  custom:scripting/monoscript/fileName/ButtonShaker.cs: 6f41675924f69e420a15753d8eccb9ef -> 9299985172f6d26c9fae5385e72d3819
+  custom:scripting/monoscript/fileName/AuthorityNetworkManager.cs: 7c5fe8f2da6aec8fbbbf9110b78a7644 -> 8d2d96f8f33904bee34a64149639942d
+  custom:scripting/monoscript/fileName/ServerRequest.cs: deecd7df46c0640a2884ebc33a931ce7 -> 6e22b42c717b6a45bd24b67b9a093733
+  custom:scripting/monoscript/fileName/XRTargetEvaluator.cs: e647ad44652570bc3df05ce7c21deec7 -> b16d7a5b4e19d2e8b36e19f2d0969fd8
+  custom:scripting/monoscript/fileName/SessionRequest.cs: 3ee4a349c1f679ce2cd69149114ce901 -> c8533b37214ecf8be830ffe37e36c998
+  custom:scripting/monoscript/fileName/GetArenaTest.cs: 223d99825f21ba4dc007694e441236c9 -> 468486fb795604a3b2669c3327ea41a6
+  custom:scripting/monoscript/fileName/VRTestAppScenes.cs: 07658d08d8ba7025e116e67fd15a98ca -> 14e07c4f64adbe0e9fc10a24ab5bc8a9
+  custom:scripting/monoscript/fileName/Projectile.cs: cb5e2a8be9bcd245964125746a07c795 -> 0994035503fed9ec26eab8eefc495042
+  custom:scripting/monoscript/fileName/IXRActivateInteractor.cs: 7e65b45ccbedb2fbf5a0bbec73cc3912 -> 2c3f3c3c5694d861ce742ca59cb542a4
+  custom:scripting/monoscript/fileName/TeleportationArea.cs: 7aac9c664e51fc929e40b19dd33767ef -> a1dc7b31dde2622e260d6cb3bbf6c3f3
+  custom:scripting/monoscript/fileName/XRTargetFilter.cs: c435f38a04ccdbd26ff6e05447ddc261 -> 5715e51d114807c08143f7cb237a97c9
+  custom:scripting/monoscript/fileName/SnapshotInterpolation.cs: 37cc6f078b2420d7b6d8f4703deedb3e -> 99cbf038115a1678406cac06de9f1b7f
+  custom:scripting/monoscript/fileName/IXRHoverInteractor.cs: 0ee4f6a12135e99c27aaa5852711365a -> 37a80d415b4e3c8b74f9d320b52df4fc
+  custom:scripting/monoscript/fileName/RequireInterfaceAttribute.cs: 39f5072c048e119f8816f3240d61f866 -> c5f76685c6110dabcbd3746c51f7eaa0
+  custom:scripting/monoscript/fileName/ControllerInputModule.cs: db672e6baa6b5d9dcb13a353dea69268 -> 79bcdae0859f135eb1b54c79e6640ced
+  custom:scripting/monoscript/fileName/UpdateChecker.cs: 7997deeb00273947260bba7af0f773c4 -> 3067b6346bc6a559396e2f2e7f56a93a
+  custom:scripting/monoscript/fileName/UIVirtualButton.cs: 52482648e6f5e190b30c7811823ff594 -> 4484a5293e7a4abb96c3b06b8d8dca11
+  custom:scripting/monoscript/fileName/IXRGrabTransformer.cs: d647a3dbbbcdd3853c32b7e63b84cbcc -> ddb6cf57c5d89cb73ca2df6c9d2339a7
+  custom:scripting/monoscript/fileName/Paginator.cs: 77c068a1d4239d0bf12388ce1bf4d41b -> 58676abee3241ec4e803cc9cbb789c55
+  custom:scripting/monoscript/fileName/EventCanvasSetter.cs: 757d8e3e27d518d4d41e87345b2278b5 -> 32a09a4ddca5292e0c0bbc530a757258
+  custom:scripting/monoscript/fileName/EyeDropDown.cs: dd60191363075254ce476ed04f0f7f62 -> 31ac73f88978e225ad3d7675da53ff72
+  custom:scripting/monoscript/fileName/BenchmarkIdleNetworkManager.cs: 007fbff2fd815592af320e7ab2a66956 -> 18883cd823ede2cdd724daff300842d3
+  custom:scripting/monoscript/fileName/LocalConnectionToClient.cs: da620a6a223c6e3de198b3ef7b2e5b43 -> f8e089d8371f882600882da0abad3d70
+  custom:scripting/monoscript/fileName/ScriptAnimations.cs: ac0f8d2b7b84381cdc88fc63e60b67ef -> 05ad5ee3c9bfea0d0bc238feb41207dd
+  custom:scripting/monoscript/fileName/DeviceBasedContinuousTurnProvider.cs: 36a635ef4cd4cc4a2becdad21d7d06fa -> b0c172988bc5a28b599bc9895d177fe8
+  custom:scripting/monoscript/fileName/SectorInteraction.cs: 6ffff93a0c6d5be6511552604e33aecd -> 79661e28df7101762696480bf39b6f5b
+  custom:scripting/monoscript/fileName/TankController.cs: 3bff84706911d6aae9a12a938df9b5fd -> dbdb5ba5963f3a29ac13d9a994b150c3
+  custom:scripting/monoscript/fileName/Grid2D.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/Compression.cs: 470b67c9743b1b3c19bff7879a691277 -> 04a6fd9bcaaaac6db5e48318892321fa
+  custom:scripting/monoscript/fileName/RpcProcessor.cs: a841f928fc388105d626dab5b635bf96 -> fc8423a3b2b4294ae39717d6fc1ce415
+  custom:scripting/monoscript/fileName/Location.cs: 99aa4abc94ea21bbc48660627d48d2e1 -> bf2ed70f70b71dbe3641fec62c499ca1
+  custom:scripting/monoscript/fileName/Transport.cs: 78fb2c81963a13fd485c8c6bfffaf81a -> 3fdd471cdc9d5f5c8fd12e707f4e4255
+  custom:scripting/monoscript/fileName/AssetBundleLoader.cs: 4b44323d6c26740a03467c976f74ff75 -> d66f1fa8baa2179706af8a85cc90b97c
+  custom:scripting/monoscript/fileName/StaticSitesList.cs: df8e8a918bc18e37e8e2f2303ac2a5e0 -> 805686d04e9b689c7ab35d3690ff3ef5
+  custom:scripting/monoscript/fileName/Request.cs: 6201760d2d36445ae92047c118083b7d -> b03edb4bd4896cb80d71728599c94d7f
+  custom:scripting/monoscript/fileName/XRInputDevicesTreeView.cs: 7c515d7403aa3c3569fbac59209f10b8 -> b95eb16008a2abcc498c4236c3a10d47
+  custom:scripting/monoscript/fileName/LaunchProjectile.cs: dc9cba0cc20ab9144a781270641c9fe2 -> 9bb7f8f28755f7e2281742dc2c5e6b96
+  custom:scripting/monoscript/fileName/XRInteractionDebuggerWindow.cs: c109be3e195057aa41cf9231ca46107b -> 5c8551716abbe2f5e0bfec3dfc649c67
+  custom:scripting/monoscript/fileName/AssetBundleObjectLoaderEditor.cs: be710e15911957df7920a1b6e2d68526 -> c19a6dbdd4160eff993316fc9840c696
+  custom:scripting/monoscript/fileName/ExternalLinks.cs: 84e7216390ac1e07df10180eefa57f69 -> 58988c6a3482811ac9bab9d6bd25232f
+  custom:scripting/monoscript/fileName/StickUsage.cs: 349fc03f664c56d5ab6d29e260936738 -> 707bb955f6643c386de3d8fb06d9f03a
+  custom:scripting/monoscript/fileName/rotatebytime.cs: 6f42d552d8a78b75e3b358e70009a174 -> 972c01fa086416289fd055ab9ee22ce5
+  custom:scripting/monoscript/fileName/Applications.cs: cd703f890bcf1a4da61984cb36b8ab89 -> 9f0f354ad6abc7a2e7a0bac78a80bee0
+  custom:scripting/monoscript/fileName/TrackingStateText.cs: 63b7732110b9f10cb8fe5a911030cab4 -> 56ab558185ef4576b99ae54dd6934fec
+  custom:scripting/monoscript/fileName/XRConfigurationData.cs: 713f6b36380d0712ad8a9b08f19954ed -> 2cf07b13d54bfee2898ed6dc38612fbb
+  custom:scripting/monoscript/fileName/ThreadLog.cs: 740097a8af38c62256a4180624b43656 -> 084143ca234a5ef8e919fc420708d1f6
+  custom:scripting/monoscript/fileName/IAsyncAffordanceStateReceiver.cs: facee650d22cce5d32fb2e9dcc27015f -> cf7a6b99ede188946237b92d8409c95b
+  custom:scripting/monoscript/fileName/Client.cs: e4987f3c5d4e1ed26fa402c86f4be179 -> ec065e9c1925c8bf5ad84021ad5fc672
+  custom:scripting/monoscript/fileName/DeploymentLocation.cs: 98f0fe85efcc35502c64f98e08a805ca -> 093d61a24f8c44a7c413807ab12b048a
+  custom:scripting/monoscript/fileName/XRRayInteractorEditor.cs: 40e80f8f349bc0c4c18cffd6ae5b9f55 -> fedd4e68317e1415267e8ff725a4ebbc
+  custom:scripting/monoscript/fileName/NetworkRoomPlayerExt.cs: 539a457406035c636b917c0c86429309 -> a1a128b1238559670469ff7f67a966d5
+  custom:scripting/monoscript/fileName/WorkerThread.cs: 2f1610b513295963c6d7a9de04c763af -> eb1db3592437ee3e35e25c002e0af24c
+  custom:scripting/monoscript/fileName/ColorAffordanceThemeDatumPropertyDrawer.cs: 3059cef2a70ac91c8f4a50034c9bbb58 -> 1d14f445ba1003d3fb8b377f4589be86
+  custom:scripting/monoscript/fileName/DynamicFR.cs: f90854222fbdc6460f2428b04e587f61 -> 7a59960d5c95d7d02c0944e79dbb68ac
+  custom:scripting/monoscript/fileName/SetGameViewRenderMode.cs: 2e078dd2913caf67d4ac923e84cd7afa -> 5c2b477c35d05adfd075e5a49a9fd1a6
+  custom:scripting/monoscript/fileName/RegisteredUIInteractorCache.cs: 8b815cb822567f451b76691dd1133007 -> 2a82fb802431ec83ae4d05db3471d0c6
+  custom:scripting/monoscript/fileName/AssetBundleResourceLoader.cs: fdaff0345ba01b12bf414d14fbb7ec08 -> 1c77eb80e7e97e53c1aa259baa389fcc
+  custom:scripting/monoscript/fileName/Deployment.cs: 5cd72fa7949b23f5d824123f3a0294cc -> 8014b63af9a4140b4d0073a53ae96191
+  custom:scripting/monoscript/fileName/PoseValidText.cs: f57178ff34fee5f96ddb4135972327bf -> b8eb9050764f7eb152fa5bb1006e68e8
+  custom:scripting/monoscript/fileName/ClimbSettingsPropertyDrawer.cs: 9bd18e6bde82899aa388433178b80f0d -> c3b6932a63ffe783ecb306e11579f607
+  custom:scripting/monoscript/fileName/XRDistanceEvaluator.cs: 997653b3972afefd9cb86666621f520a -> c86db23a931fbdba1c600eb337e40d37
+  custom:scripting/monoscript/fileName/WeaverTypes.cs: 71e36721faab5a27e13feb6202d34d7d -> b755d2f1ac8fd923fbe3c893e0893dd2
+  custom:scripting/monoscript/fileName/ILPostProcessorHook.cs: a747a9906e2169592f97c0e530758ac9 -> a9ca15b96b19d8f55ab4a1e762792ee0
+  custom:scripting/monoscript/fileName/MatchInterestManagement.cs: bd0201139ecd108d6cc8f80987a874a7 -> 931853a4db5a96009203b13c1aef09f7
+  custom:scripting/monoscript/fileName/WaveXR_KMCInput.cs: 34c6ff9cf0aa0d720e612550af5c5d26 -> 849ed7f5b11c9db237ef61b01c5a5104
+  custom:scripting/monoscript/fileName/SessionGet.cs: a321b91cd40821f9b18fdb2c08adda0a -> b0b60035a06b35b07d0de78bb355b38a
+  custom:scripting/monoscript/fileName/DeployEnvModel.cs: 17dc05f382a71e9977ca9942e8ef5fda -> 6731cceb36686ba2a9de04dbc953a518
+  custom:scripting/monoscript/fileName/Connection.cs: 266f0973be396bfad374a669d4c48ed5 -> 855fb220d4d2d17a947ca2c04f938b8c
+  custom:scripting/monoscript/fileName/ControllerInputModuleEditor.cs: 3989fb7e9ffd82ea749560d23eab706e -> b8b76f3eefed508f05decaedc96d265d
+  custom:scripting/monoscript/fileName/MatchmakerComponentListResponse.cs: 204da5c92ee92886b8bcb6fe55ea3256 -> 6b24d1691ce2f961af10edba1df959aa
+  custom:scripting/monoscript/fileName/EdgegapScriptEditor.cs: 6256f45d7e379a4137fbe3b007a8a6a9 -> 39a88732ec39d41758a7676607f592ce
+  custom:scripting/monoscript/fileName/BaseAffordanceTheme.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:scripting/monoscript/fileName/MatchmakerListResponse.cs: b72f280f1ab3c5178feb81082e77874f -> e0d768b7e2fa73f2fd9a1518839469f1
+  custom:scripting/monoscript/fileName/ParrelSyncAssetModificationProcessor.cs: 4e262207dcc0526eb7470a857b0ab6f0 -> dad6f82469c5a75e7a30398aeb6943b0
+  custom:scripting/monoscript/fileName/PokeStateData.cs: da74f58272b01289d589c2a5fa8ac26c -> 47b64c5a79f7fc70cb3a731d5c0c436f
+  custom:scripting/monoscript/fileName/XRSimpleInteractable.cs: c135bbf7ea7174274fc60fc39e1c9a85 -> 22266363f826248f737f4dd3989d14d6
+  custom:scripting/monoscript/fileName/XRLegacyUninstaller.cs: 5eab1913f4344c5c616ea18e03ba346f -> b85851af39f83959c5c298effbf32139
+  custom:scripting/monoscript/fileName/ARScaleInteractable.cs: 4ad86885f9505cb72f88a96404c8101a -> a1103418657863c1002097ddf3208e5a
+  custom:scripting/monoscript/fileName/ActionAssetEnabler.cs: 963098f24311f2d3d00a5c34ce3304c7 -> 623d9cfa6b23b9abec971a3ce81d4ff2
+  custom:scripting/monoscript/fileName/Npc.cs: 896e5a608e5045820c82d2dc04195aa5 -> 1022a79f258ebb8d6f767f66493abe76
+  custom:scripting/monoscript/fileName/MobileDisableAutoSwitchControls.cs: d7ed10b4aca925877e80f08d0210b16a -> 6080624f52a6a8173325efe0ce361f18
+  custom:scripting/monoscript/fileName/ApplicationPatch.cs: 3c741c11ee3836932f5a0a2275a32b1c -> a2fcafacaee77d003e82e9acf3dd3b5e
+  custom:scripting/monoscript/fileName/Vector3Long.cs: 8c622254a6266325888f7883072cccad -> 04080956ac90f0c29bbcf1128dcb92a3
+  custom:scripting/monoscript/fileName/AudioAffordanceThemeDatum.cs: 9fd5f37e2bd5b62ec096f1e31bfb7637 -> d875c0527be46192f03366954f6ddda3
+  custom:scripting/monoscript/fileName/XRCustomLoaderUIManager.cs: 177a81916dab61baa07e1ecf7d381d35 -> 4be5a8f671a1d808dd1496961b79b86b
+  custom:scripting/monoscript/fileName/CustomSessionModel.cs: a9fff544e5e5b40701cad5d88d67209e -> 2ee64a074f9437aea6b7581d5a64d647
+  custom:scripting/monoscript/fileName/XRAngleGazeEvaluator.cs: 193109d1852f245751c512aac6f74bbe -> 0202d7b311bfc86c3790acbe21cd90d2
+  custom:scripting/monoscript/fileName/Tank.cs: 6c8c843ca19bf863d3f3fc6c53b69cc8 -> 4065398839c367553f40909d4d3de7b9
+  custom:scripting/monoscript/fileName/LoadLevel.cs: e077c5dc63f575473ac75afc74c4ccdc -> 205b2745cbcdb58b97aec39f6e21dead
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ServerHandshake.cs: 2e439079df96747bdf4335b3f7234d73 -> dd3ed7dec339133f9bc717972645e0e0
+  custom:scripting/monoscript/fileName/CanSelectMultipleAttribute.cs: ed112fa4a221a05dbfaadcc780fd06cb -> 67e3e05536aed858f8535f90720a6096
+  custom:scripting/monoscript/fileName/SimpleWebServer.cs: b188b34a375c0a4a2b1fd3da1ff05f93 -> 85119f03a67d3812d3578a9e89b0d5a2
+  custom:scripting/monoscript/fileName/XRBaseInteractableEditor.deprecated.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/ConnectionState.cs: b29d8b192fee9a48823ef532c38c04ca -> 155d46183ec6bfe3c53493eef1a3f271
+  custom:scripting/monoscript/fileName/XRInteractionEditorSettingsEditor.cs: 9dabbd0f7b696632df7a05bb7a0d9ca2 -> d3da9869f4c69482bb7579aec88d7d21
+  custom:scripting/monoscript/fileName/CalloutGazeController.cs: 1c821ec01198407cdc907798e05490be -> c5a8266b32699a5d0284170657fdadc8
+  custom:scripting/monoscript/fileName/PinchStrengthText.cs: c7a35f7fbd10aaaac2fcc81c47ceb7bc -> e8eace8e936ac483aa10a72da7430973
+  custom:scripting/monoscript/fileName/TweenableVariableAsyncBase.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/SimpleWebClient.cs: 346d6363ecb0f6e2eb47c2b1cc4f858d -> 77e98cd56ecd887c8e74e314f255fc19
+  custom:scripting/monoscript/fileName/CameraRig.cs: 1c09a4eda4eccb1adcf90d41e5b2d59e -> d6df945637855db84ceb79f8040bf1f8
+  custom:scripting/monoscript/fileName/NetworkRigidbodyReliable.cs: 8a642f04fc0880d3233a0e7dae1fb73a -> 4f764eeea3131d3565e05249bdc3738d
+  custom:scripting/monoscript/fileName/NetworkManager.cs: d91a0e7933f5b7b7072801136d1a8af7 -> 587469bd2f7e5105c195d4f65513fba6
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/EdgegapHttpResult.cs: 5aa261b581c8b2dff9505e9fad9ec6e0 -> bfe6991326034edc018e08b157a4eeb8
+  custom:scripting/monoscript/fileName/Portal.cs: 03e6000feda87a83eca006082317e0b2 -> d1a0af7becd308cd65b68f0c1a9906de
+  custom:scripting/monoscript/fileName/CanvasController.cs: e3639e666d7c143be10c64b43db32fba -> dbbcfc410e8dd7a2c88640db192e7bdd
+  custom:scripting/monoscript/fileName/MonsterMovement.cs: e46c17bbae663f22b875eb04148db8c4 -> d2a6632cefaf51ed109ca8e1f263780f
+  custom:scripting/monoscript/fileName/Capture.cs: 8507009d9b348d19fabeeb4dde18f716 -> 9ba72701823e26e05c1be33147fc921a
+  custom:scripting/monoscript/fileName/ILPostProcessorReflectionImporterProvider.cs: cde97c9ffa6e6ef39fd9e32a35a9c836 -> 56b3c3e790b97c8ca8ef2028b4d9b369
+  custom:scripting/monoscript/fileName/NetworkRigidbodyUnreliable.cs: c47f5befc8e53680005ff3183ee794f0 -> 7d68d4d39f285157e980fb4deb07db1e
+  custom:scripting/monoscript/fileName/XRSimulatedController.cs: 2c611b71eec45ed6fa37c36d284e92a5 -> 220b0899d606c487f90fe17be8309d8c
+  custom:scripting/monoscript/fileName/Weaver.cs: ac4f413dcf15c94e9d52b48abb6274e6 -> c17857e97bcb7c841b278ae2f64b9e7a
+  custom:scripting/monoscript/fileName/NetworkBehaviour.cs: 8440a724ff6ea0842b5ce8a27299d75d -> b70ee6c87d29edda48bb6fa5c883e16c
+  custom:scripting/monoscript/fileName/TelepathyTransport.cs: bb4e06cf53dca40dea93d97bbf6becdb -> ff73371c5baea0edfb0a459119b6cfea
+  custom:scripting/monoscript/fileName/XRBaseController.deprecated.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/QualityContactHandler.cs: ff1c111d6672847d70134c61413997ab -> 5c6196166589f8319752a0a03bcabdd0
+  custom:scripting/monoscript/fileName/XRInteractionEvents.deprecated.cs: e06e2db327391d429c9bcdeb0ac85dcd -> fcbe309a50f7b71f80088484b27d0c2a
+  custom:scripting/monoscript/fileName/MatchController.cs: e28c1719ab8f5a084ff10e442a52f430 -> 00b67fb19132e64c4a7a5173f051fd74
+  custom:scripting/monoscript/fileName/Vector2AffordanceThemeDatumPropertyDrawer.cs: 5710242de5146e2f8d548b423ad34a98 -> d077c33db6b646114098a3e0fca4f6ee
+  custom:scripting/monoscript/fileName/IXRInteractionStrengthInteractor.cs: 91a64fd12edc596edabe1e9f7b389b8d -> 3b07c5b259081c0e16293ec927e23818
+  custom:scripting/monoscript/fileName/AndroidManifestHelper.cs: 57b91b0caa19669d716c1108930623fd -> df48874744672a4b31751af502b9d332
+  custom:scripting/monoscript/fileName/XRControllerState.cs: e049139c54b3afeecde34ed213bdbf92 -> 400272f33c9d8ebbdc39a92f2e4c2899
+  custom:scripting/monoscript/fileName/BurstGazeUtility.cs: c9f6b60b25010e097e63e5374a174a74 -> 77f225b25b67f7dc0beda4d53be50b39
+  custom:scripting/monoscript/fileName/StarterAssetsSampleProjectValidation.cs: f5be5cbed9404299362a43a813697030 -> 41923d4e3ad340b10762e754770f8031
+  custom:scripting/monoscript/fileName/RayAttachModifier.cs: 768dc9a6c6183919e786c56179ef9fd0 -> 0fedfa1ac7060b138a4b07c9c7634425
+  custom:scripting/monoscript/fileName/MatchmakerReleaseConfigResponse.cs: d0404b81edf331425b7d8135a6e69deb -> 4d4b2666d86758b4621de77820cdd109
+  custom:scripting/monoscript/fileName/AutoSupportText.cs: 826f39e909fd79a125f52df031650793 -> 47676ca537b499408ccb4cf8df2df4e9
+  custom:scripting/monoscript/fileName/Vector3AffordanceThemeDatum.cs: 54d41acd5332ecf6d558e2ba92f30fa9 -> ed26cb399c4489f28264e63c01c35cfa
+  custom:scripting/monoscript/fileName/PatchSessionModel.cs: 56540196c2c60160d6339093100e33e5 -> 31de80a16d8c11f57ca8e96f4b923e1d
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/NetworkAuthenticator.cs: cc1697e0bdc7bb30881c4f151428b5ef -> fe8d0f1940cf525af0b6785b50c55890
+  custom:scripting/monoscript/fileName/RelayCredentialsFromArgs.cs: 2678a128a9678fe7a96c8633b9bd84df -> 3a4052514fe17afe160039a500214f25
+  custom:scripting/monoscript/fileName/NetworkBehaviourInspector.cs: 82e3c41c9eb23993e58b518e3af3ca3b -> de8831a765475a5fa2118e3f318ea9fa
+  custom:scripting/monoscript/fileName/ColorTweenableVariable.cs: 5e995bdac5746b1f4946c7b6b9860bd5 -> c3dbf8ddc57eed6b9a799635a76f2e3c
+  custom:scripting/monoscript/fileName/ActionBasedController.deprecated.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/ColliderDetect.cs: eb1b5a8f06e3b4e941ec2ae1c85db277 -> e0965aad210f67ad86cd702bce1d2e40
+  custom:scripting/monoscript/fileName/Logger.cs: e8949ebab84d0552316736ee6f1040a4 -> 42bdef7d93e2a7f3cdefe3ad615a0bf8
+  custom:scripting/monoscript/fileName/Prediction.cs: edd6a3a9f90a3b544062a9fb6e29fe64 -> 337669abade5564b94f1ddd3238a6272
+  custom:scripting/monoscript/fileName/TcpConfig.cs: 4f72035e2cc19e12dfafcc9943df3671 -> b3fe968dd195ac83dab70c84a8b6acb5
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/PokeThresholdDatumProperty.cs: 2df6cf0e7130614794aa8f1a2d86d867 -> 5bd134dc122f590a0f786513b7bb1d0a
+  custom:scripting/monoscript/fileName/IXRAimAssist.cs: f82e01a87b7438cc7e5aeed2b2b3a9ee -> 9a3a178d18b922c8c0c4d82c5810444e
+  custom:scripting/monoscript/fileName/AudioAffordanceReceiver.cs: 661fdf6f85e5fb45d67539d72b8b11e5 -> 5d0abdfd7ee601eead404198f988feba
+  custom:scripting/monoscript/fileName/ClimbSettingsDatumPropertyDrawer.cs: 6985c77249daf660b66e192ca89feeec -> 30f9786920077b7aa320c56040ddf27c
+  custom:scripting/monoscript/fileName/XRInteractionEditorGUI.cs: 31a71b28fdb4a0d94e702a59e0fad6e4 -> 55af97c9a6ccfdcb3df6e1486a21ed56
+  custom:scripting/monoscript/fileName/NetworkLobbyPlayer.cs: bed3a0808f0ac753faa8c5088ee113a1 -> 18aca6fa2be85c31234e5f78e6439b88
+  custom:scripting/monoscript/fileName/Unbatcher.cs: 28e692bf35a5dda10b6bc29fea883d42 -> 5aa136de7871cd8f1899a494f2d2bfb9
+  custom:scripting/monoscript/fileName/AdditiveNetworkManager.cs: db5417cbe7ce2650abde9f742fadc3b7 -> 6333d7e02d54590ee42d10d71e8e9c6a
+  custom:scripting/monoscript/fileName/BasicRigidBodyPush.cs: 81692452d1a6b6b5ab4a950852e5937c -> 834b632457fae9d11b7ee6ae6006cbf8
+  custom:scripting/monoscript/fileName/ShowHMDMotionChart.cs: 8b878032f94be270cfdd2ff11f53fc9d -> 10abe64f9baf8307b2aee875049fdf30
+  custom:scripting/monoscript/fileName/FPS.cs: d3a92d1d4d68ee8dc0ee481f17d9991f -> bff3c635136d039c8ead84debcf37279
+  custom:scripting/monoscript/fileName/NetworkAnimator.cs: 41d87751c5c234889f0893b27a3a4933 -> e3aa6fdca1c345bafe939fe4b2543810
+  custom:scripting/monoscript/fileName/RestartHand.cs: 2a6d9559c9cc8811b50f94b9c0342378 -> fbc1cb6f200596cc5f295495c6d2b609
+  custom:scripting/monoscript/fileName/ServerStatus.cs: bfe247fc3e58335e65a3ec4244de773d -> 30061f7ad3bf473ef2fe69a18fe30ec0
+  custom:scripting/monoscript/fileName/IMoveWrapper.cs: b1f02f80344593689a6f4f9fcc2901d9 -> 705b04e06875106fb636db85212c462b
+  custom:scripting/monoscript/fileName/FollowPresetDatum.cs: aa11bab9c4c7e3d19f8e1a7a7026bb69 -> dd28b1821b9d20403bba5e57297475f1
+  custom:scripting/monoscript/fileName/XRBaseTargetFilter.cs: 09e56323cc9c2b5e752e51dcf1841855 -> 5f1f092e342b8103bc264d5861a4642e
+  custom:scripting/monoscript/fileName/HandMeshRendererEditor.cs: 64986ed95e4118eee7e24909e46808a7 -> df52d69cc801a57e9ed8c1368ad67b66
+  custom:scripting/monoscript/fileName/ToggleAction.cs: 836bc9cb923c19c8b55b1ecab4911451 -> 99a8601eccae4ce443adb0cf966add85
+  custom:scripting/monoscript/fileName/DeviceBasedContinuousMoveProvider.cs: d8a79bf362f191674df5138b4fe486b7 -> 691ce08451213137e025232be75f0dcc
+  custom:scripting/monoscript/fileName/TrackingModeOrigin.cs: 92fa6f50fb2aa16838656a89ea64bfd6 -> a0aafa1b9f9077e20cd88c820fc80581
+  custom:scripting/monoscript/fileName/ClimbInteractable.cs: 50d56ab7043b49b49a8bb617cc836272 -> 697fcffdca8404a1b7fb3d7eb6885fa5
+  custom:scripting/monoscript/fileName/Vector2AffordanceReceiver.cs: 164805d4b60e0b88e6aa31f2ea94097f -> 59632cd144e13a158775d96450cf554a
+  custom:scripting/monoscript/fileName/XRDeviceSimulatorHandsUI.cs: c36edfa7bbd18aa23561da8a5da494af -> 846d2d142802c0c4ea5dcf0f55a9f179
+  custom:scripting/monoscript/fileName/XRMainCameraFactory.cs: 5ad8130b4a0fb2267e4d21757afcbd6f -> 34b6c1d6c1dc49c89dc2d09ef6dc5eff
+  custom:scripting/monoscript/fileName/NetworkManagerHUD.cs: 1e093facfc85e4c1ea9afc2672bcdc88 -> 296b96cefd28feecd6d2c28a8021feb8
+  custom:scripting/monoscript/fileName/DeployModel.cs: c69943339b663e7636d4cdb2ab8e0a71 -> 64fb363ef46ab76d2c7c39ceb8a8c61d
+  custom:scripting/monoscript/fileName/Server.cs: 0e04c19a309d886c88a4074c47c4671d -> bb7429a6c380213f075ffa6fe44dea4c
+  custom:scripting/monoscript/fileName/AimTheHead.cs: 44b70d610522f3cdcffee4eb45a83fcc -> 6b6467e94f86d1494be205d24550d44f
+  custom:scripting/monoscript/fileName/TeleportationMonitor.cs: 3d8092af65f0e2c2abe3a454ff8b130d -> 73b1877846603eb247a39762b57363fd
+  custom:scripting/monoscript/fileName/MatchmakerUpdate.cs: 0149b4e6201aeee54a741473a0bf839d -> e715deb592803157adaf532323a31f68
+  custom:scripting/monoscript/fileName/ClimbSettingsDatum.cs: 3a97377c0bb8e1696216e66a8a437b1d -> 777f60a3ae3c1a945df25fa7d8db74b2
+  custom:scripting/monoscript/fileName/ContinuousTurnProviderBase.cs: 99ba3cd9b19bedd2f5c6ea386892860b -> 9192fea1bd87c523c7a81cc0bd177ad9
+  custom:scripting/monoscript/fileName/Writers.cs: 4626540f656e408baa64ea8967dcc5b6 -> 0e0f82cd02f1add51cf2113f6ca29d0e
+  custom:scripting/monoscript/fileName/SmallRegistrationList.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/SimpleWebTransport.cs: 31a687e1db13fac9a395e4617d5280a5 -> 201aa442f87b97e5a4f336cff0c3475b
+  custom:scripting/monoscript/fileName/ARTranslationInteractable.cs: 4583ea5b9ef3558d536549dcd166798d -> a703499d6b2e2d2647d170413b6e66f4
+  custom:scripting/monoscript/fileName/NetworkLoop.cs: e5245a4507af62b421679a7f9f1b00e4 -> 7e931323493a9bceaf64a171ef8f14c8
+  custom:scripting/monoscript/fileName/SmoothVertices.cs: d77645b802bafda6c24cd10fa1f863e1 -> a27c0b0b33eb11180144acf988a2c388
+  custom:scripting/monoscript/fileName/BaseGUIGame.cs: 78a4a7727f994507769e27482510dd28 -> 509c88c42fa9315b090c67f7f7ec04a1
+  custom:scripting/monoscript/fileName/InputDeviceTools.cs: 072e5d58e3c3cc39bc3d253494919928 -> d9159075366e4e9a9f8336dd98f89b21
+  custom:scripting/monoscript/fileName/AskFeedbackDialog.cs: ef7d4fda83065bef65fbc1cd749f1294 -> 4399868e73f1bb8ade499a9b23a73f3d
+  custom:scripting/monoscript/fileName/ActionToDeviceInfo.cs: 30a0bb946beff7f35fe2f0e71cb43ba5 -> 381b4dc4ebd42c652e61f5313164f5b3
+  custom:scripting/monoscript/fileName/WaveXRMirror.cs: e276f797e54c131adbfc95c069ea77d7 -> 8e442814c8bd33e6fbf3e7f9ecaf7046
+  custom:scripting/monoscript/fileName/XRGazeAssistance.cs: a8b18b47d3737f71ee14c0d5c042b3d8 -> 2b48996e27dc91b150392d9b347b7ac6
+  custom:scripting/monoscript/fileName/PointCloudGenerator.cs: 17fbea1dfb7a8607028ef4c286b3dadb -> 2ab74b4ba4eac260366d33e49714efe1
+  custom:scripting/monoscript/fileName/CCUNetworkManager.cs: 6c47158487d6f80a126871dd1b22cd9b -> 6c5ed635401f9f58bf43b0b90f288547
+  custom:scripting/monoscript/fileName/FloatAffordanceThemeDatum.cs: 3d453aa368329e5d7a5c9f1395b54525 -> 4f85946f92eddc0b1e66d1e89a2f19bd
+  custom:scripting/monoscript/fileName/FaceCamera.cs: 39405901992def24a06521b93e09e66f -> 597f1c1fd33a374718b7a228115d0b09
+  custom:scripting/monoscript/fileName/PauseableSimulationTimer.cs: 920ecfb5cb830d81cc585816e719c263 -> 36b935dd02d788ef73cc18bed82e0123
+  custom:scripting/monoscript/fileName/QuaternionEulerAffordanceReceiver.cs: 8e1531854420cfb32cd934c8756ee89f -> b59721a50e4d57b39fec6d1f3d61e33a
+  custom:scripting/monoscript/fileName/ControllerPointerTracker.cs: 86b026e707cdae362b77f62f934f44c7 -> ad0de8a49e9f0e2c01633e6ba8b0bbca
+  custom:scripting/monoscript/fileName/XRTargetEvaluatorList.cs: 8540f5e4a30a5a7092a3e71454424016 -> 6eac206cdf0dec66a9b2dd3760cf63d8
+  custom:scripting/monoscript/fileName/BaseModel.cs: 8948e20c7840c8a9f7e107ea953a6539 -> 54421b381e0bb51301275698c113fb69
+  custom:scripting/monoscript/fileName/PubKeyInfo.cs: 9ada572037f7452dc2380dbbcdadddcd -> f8625ba464498ce3f579e7fb6e74ec54
+  custom:scripting/monoscript/fileName/MirrorTestGameHandle.cs: b5c89b4dfdb32f276298747137a2d6f3 -> 96e5c014f2e23875525dacf58d7bd6d7
+  custom:scripting/monoscript/fileName/AndroidManifestProcessor.cs: 7d2fa412ede7b0804737b410f6dcc6b5 -> d8dd4961c18e43fcd707eb950405363a
+  custom:scripting/monoscript/fileName/RuntimeCube.cs: 670fa6004ec7c08aed0137d967980208 -> 4bbd01522e24254c9fa04c2a75656dda
+  custom:scripting/monoscript/fileName/PoseMode.cs: 7391327ba3ee85d110a702f197121beb -> d607be18291c039699fe9e6175ad9205
+  custom:scripting/monoscript/fileName/XRSimulatedHMD.cs: c43bc1c99e92f5fe61d7152daad8a80e -> 7c9ef5d74f30c596b81cdb93105bad0c
+  custom:scripting/monoscript/fileName/InputActionPropertyExtensions.cs: af4992fac66f190c650ead2db37a0f74 -> ea8bb1bd97ad26e2ffc07c6f1f4155fe
+  custom:scripting/monoscript/fileName/ILPostProcessorReflectionImporter.cs: 3b11744f779a4be57c81b8d5cb01bd7c -> 71ad9944df53de4c5e884f9c3232b7c4
+  custom:scripting/monoscript/fileName/XRInteractableSnapVolume.cs: 0ec70cdfde60cb5fc28692585cfab8e1 -> 2a61bc4393fea3dfc216fd951db43df2
+  custom:scripting/monoscript/fileName/IXRGroupMember.cs: 508e79ae78677fa5e17d61fce370b596 -> 2adfb2762aeb548049e6ead13be22c16
+  custom:scripting/monoscript/fileName/InputSystemWarning.cs: 036faeacf0a1a6481b27283b2edd1fd6 -> 11afb4a92cdc9e6817d4a43e8552710d
+  custom:scripting/monoscript/fileName/ReloadSceneHandle.cs: f3129f50ff33419d6866ed3f9090cf68 -> 4a83cefdf59aef1715d47b24a2beba51
+  custom:scripting/monoscript/fileName/Readers.cs: 98c834c0961a8df89bd3eae1a1950665 -> f566e2876d372f2878a76791fc9e0982
+  custom:scripting/monoscript/fileName/Vector3AffordanceThemeDatumPropertyDrawer.cs: bb949f40d832fd224f963be8607d22ef -> 533ca4be9b5324c83cf2aa3980cbbe64
+  custom:scripting/monoscript/fileName/CtrlrSwipeLR.cs: 876ed636e8e740256c477924e6b8f800 -> ceb6be0c3101d406752bd5dd24e3740a
+  custom:scripting/monoscript/fileName/GazeInputModuleEditor.cs: 09d3df123ca19be04143dc4e994de028 -> 2f6b768f3e4859281bd58f211ced9a5f
+  custom:scripting/monoscript/fileName/LatencySimulation.cs: b5839e62bba10ef46880cf80ebdbbdf4 -> c07adc984a8c8dfd4635b2d5c586660e
+  custom:scripting/monoscript/fileName/XRMissingEvaluatorTypeList.cs: 3556f59f33c5218a033bdb1614593779 -> f0631c74741b00968c644482940e97ee
+  custom:scripting/monoscript/fileName/GUIConsole.cs: 4b8ce8ff8ba83f76e9a9cc34df366a15 -> 73763feb68692544e67165553bacf28a
+  custom:scripting/monoscript/fileName/XRInteractionManager.deprecated.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/ActionToSliderISX.cs: de436473b238e3e0066fd233f1b8ac08 -> 34ed30ddbe9b2dc83a1add5fa9834a7f
+  custom:scripting/monoscript/fileName/ReadHelper.cs: ad197d9a543340f2646e9b8ad831f458 -> dc6f61a190cf50616faf53c1d8fe9138
+  custom:scripting/monoscript/fileName/FloatTweenJob.cs: af2bf86357e5300818b17d9ff2dec89f -> fe3df545fc2e7f49db682f5ae1e70968
+  custom:scripting/monoscript/fileName/LocationModel.cs: 89e5e8630402d3b9b4f5cc5c6c50b8f4 -> 38d9661f4053851a4814de7245fb8f33
+  custom:scripting/monoscript/fileName/NetworkDiagnosticsDebugger.cs: 1cb9d5e5c08d9bb2638da0f3d771adf3 -> 3681e1a6e424a661478042120e6e97b2
+  custom:scripting/monoscript/fileName/OtherMenuItem.cs: 39786d37bbd807bef25dfcd7b163e02d -> 03c864f7cece37a1593f53d1dd1b579c
+  custom:scripting/monoscript/fileName/AppVersionUpdate.cs: fb0ea8c583eb8d906706bec1a6321d47 -> 7dc6b1ecb238d78c54078b1c8dfe3b3b
+  custom:scripting/monoscript/fileName/CtrlrSwipeUD.cs: 85b81fad682e67eab9babd758e61b581 -> 90d4c225bf1598055369457d5c8b37b6
+  custom:scripting/monoscript/fileName/HandRingPointer.cs: 77185fa6fd4bb727fa050ab3eca7e438 -> 4712b5947c7aa4d286b72f8b237ede86
+  custom:scripting/monoscript/fileName/TypeReferenceComparer.cs: 6517d8f37999882a9d53835170a53a24 -> 57898ebe5f727afaad55eae2ef9eb421
+  custom:scripting/monoscript/fileName/BurstMathUtility.cs: 601c6c93a6d42f9317cd588ba67b0a20 -> d4b4ef7c9d36fce3201cb47755d48cfa
+  custom:scripting/monoscript/fileName/ParrelSyncProjectSettings.cs: ab12b8f3831c8fe1789d51af06066953 -> e681836a74327adc62a2e973d6a6c4ff
+  custom:scripting/monoscript/fileName/XRLastSelectedEvaluator.cs: 19019a20f641f4b8d5044f521a792782 -> d933592c57a79ec1fcab412144e850a0
+  custom:scripting/monoscript/fileName/XRInteractorReticleVisual.cs: efe5a2c0e7cd05f931ab8605c23ac8af -> 1b0447df1a35ff180dfa52cea213f332
+  custom:scripting/monoscript/fileName/ARBaseGestureInteractable.cs: 77cde86ca7d6f490d0dc8d0991bdc4d9 -> c3f713313e9e1e04434fafd6b5a4d3e5
+  custom:scripting/monoscript/fileName/HttpUtility.cs: a9d2489f8790ce1b2d83d73ee33bf191 -> 1b43d5393041cf9707de3728a63f8045
+  custom:scripting/monoscript/fileName/AndroidManifestBuildEventReceiver.cs: ff26efb13f2d08f48a2b114836506036 -> 641c0bff5eb90d0569a809ea302132ee
+  custom:scripting/monoscript/fileName/PortMapping.cs: 9531fbd9bf88436cad087bc73591ca54 -> 5742a286667ab248062ba0714446fefc
+  custom:scripting/monoscript/fileName/XRBaseGrabTransformer.cs: 6314da4db4877f7cd8efd4bcd20f33d5 -> b250b844e0c831f01d6a3a323cf63458
+  custom:scripting/monoscript/fileName/InteractionLayerSettings.cs: ef15f31c5eb254c6f1e14eacefe7789a -> 75c2865b9d94ae8235148408f65f56fa
+  custom:scripting/monoscript/fileName/PermissionMgr.cs: ba45aea61a6299fdeca1e0cf87729eab -> a83c7260780dff1446ffcdf05ad19b3a
+  custom:scripting/monoscript/fileName/ActionBasedControllerManager.cs: ac2fcc8ce7594032ca0a7d830492a248 -> 04af9b76e0982b7f3b3da9f4639042cf
+  custom:scripting/monoscript/fileName/EdgegapErrorResult.cs: 33a39a835ea31d3f2b960892195de833 -> 3fd9be434e4455fc771cf9b20442fe41
+  custom:scripting/monoscript/fileName/BaseSynchronousAffordanceStateReceiver.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/NativeCurve.cs: 8a73c41ae1614474d8c8b18a74998bfd -> 39244467e1c5f969b9f4cd9ce148b8f1
+  custom:scripting/monoscript/fileName/ReadOnlyDrawer.cs: 1b01ba0fdac51367136f0c02def7d074 -> d65aea53441f9c4a71f4dfe0811e68d2
+  custom:scripting/monoscript/fileName/StaticDualHandGestureText.cs: 2db36f9fdc39de433a5caefcefe63dc9 -> 33116b5a0a24eaf9c103c6fd1d22bbe2
+  custom:scripting/monoscript/fileName/NetworkRoomManager.cs: 494508b564b1ff6776f6c13333a1bb05 -> 9ffbfd151ebb0691dffa518355bf39c5
+  custom:scripting/monoscript/fileName/TunnelingVignetteControllerEditor.cs: e9b323d57894e9eda14fd5737cf45778 -> 445c827857bfb48a8f2792356cc370e2
+  custom:scripting/monoscript/fileName/AppVersionWhitelistEntry.cs: eb42b23bd845ce079b29cccef8630b84 -> 1e0213d154bb6ed71184a89b591df09b
+  custom:scripting/monoscript/fileName/TransformSyncData.cs: 653ab621b05958d26afb49c48d18b1c1 -> c594ec19d2f375f9b96b9f16c0382013
+  custom:scripting/monoscript/fileName/ClientWebsocketSettings.cs: 1ac53d2de74bb1d0b667e7d575d1a6fb -> e9e26fdc9accf1935e75d24301c39bb5
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HandController.cs: 213254bbf358c6a1da3fd88d3991f245 -> f2663d9d16e6023b9d0ee09b536df964
+  custom:scripting/monoscript/fileName/StarterAssetsInputs.cs: a7e8a1b91929a93d3b5a09196688da9f -> 109cc5d80cf92b9046134880b5edcf1b
+  custom:scripting/monoscript/fileName/TwoHandedGrabMoveProvider.cs: 7869e7289204c078c7897623df1077d3 -> 0164e95bb5bdf264f500e6e363a53f6f
+  custom:scripting/monoscript/fileName/SimpleWebJSLib.cs: e193ec1d020d474578c4075456b80159 -> 8d05a33480c825a60778e3897b036667
+  custom:scripting/monoscript/fileName/LinkedPool.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:scripting/monoscript/fileName/InterestManagementBase.cs: 325206f73b39abd96883852fd835f4e6 -> 46a9f4e3c40c9bd76b81a96caccc038b
+  custom:scripting/monoscript/fileName/NetworkMessages.cs: e94c91437106b318de2d9c0eada72e32 -> b3cbd2d6b32618fc6b6e4f091087b2b5
+  custom:scripting/monoscript/fileName/LocomotionSystem.deprecated.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/IAndroidManifestRequirementProvider.cs: 4326cc96ab66e5fef3e5446bce878400 -> 42bf6f4b06629c812bd73f8ff461fec4
+  custom:scripting/monoscript/fileName/PredictionUtils.cs: 2cce28d1b12486ebe62b736a7ce51a2e -> a151306f40929796f931e4c8825d289c
+  custom:scripting/monoscript/fileName/MatchmakerComponentEnvsResponse.cs: a31eeb7a49d582a1a3d002187517bb43 -> 27a27a00c29855898e68b1768fdfb9e8
+  custom:scripting/monoscript/fileName/Bullet.cs: 48ff13ede6c310cc0acf4a30e818a1de -> a4f5918e799041ba1f6608f13912eb8b
+  custom:scripting/monoscript/fileName/LoginUI.cs: 1285b4e25a006347eead602171538fec -> 18bc259d9a890e0bff8823f660eb04f2
+  custom:scripting/monoscript/fileName/IMETest_Manager.cs: 5a216ae500ac87fd2c04dd5c2cb99a10 -> 7c26b3a140e9b6b063085ddcc4fe3299
+  custom:scripting/monoscript/fileName/GazeRingData.cs: 9f3901ad60e78e86bea0b6a7a80d8fd7 -> bbe5bc9730735a2f7faee80e236c95d9
+  custom:scripting/monoscript/fileName/WaveXR_CommitInfo.cs: 60d722337270bd820ec0fb3484a6bd93 -> ba4ca0a57d6f357b33046eb58ade5745
+  custom:scripting/monoscript/fileName/AccurateInterval.cs: fab3391ee28be19bd87c4f3910e41076 -> 7c8c151b32fb21eac3bee454e6d05acd
+  custom:scripting/monoscript/fileName/WeaverFuse.cs: 50be349553fb7b8865340004eb6bef66 -> 75dab88ec6053f5d2cfa7094787071a4
+  custom:scripting/monoscript/fileName/EditorUtilities.cs: 01864f070e14f3584960ef5627cf9e55 -> 219d482e32bf0c01357e773617418955
+  custom:scripting/monoscript/fileName/XRPackageInitialization.cs: 4687a00f1392b5bb00ca59be52d7c900 -> 1f095dd277a284b59543541a608de1da
+  custom:scripting/monoscript/fileName/XRHelpURLConstants.cs: d192501a91f4241a1fc505990f192777 -> 7a5beb455c744c93847a166db6e29e55
+  custom:scripting/monoscript/fileName/QuaternionAffordanceReceiver.cs: 6a839eb46bc0531194f3bb5ba111e7a3 -> f43c59723a73dd058ea74da3f970f0ee
+  custom:scripting/monoscript/fileName/XRBaseControllerInteractor.deprecated.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/ResourceHolder.cs: 96c78294424f0e3be55bdf8d63b7e3b4 -> c6c44ac2cbffc22af8baa683c5c1f48f
+  custom:scripting/monoscript/fileName/MatchmakerManagedReleaseResponse.cs: a16bb85b71852f51dafeb166c57b5c58 -> 5347da865a52b2e1a0b2ede686c5f4b4
+  custom:scripting/monoscript/fileName/EdgegapWindowV2.cs: 3dc975bb5d132551304f6ce7474bb197 -> 55cb408debe9cd0b2607a998cc892933
+  custom:scripting/monoscript/fileName/ARGestureInteractor.cs: cf584647d03651f68bfb605d98d07ba1 -> b2c51c8fe20c50464370397079fc90f0
+  custom:scripting/monoscript/fileName/XRBaseInteractorEditor.deprecated.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/GazePointer.cs: 0e74feed0499975eeb6c6a44236d7444 -> 4348bc88ae5d446c2f7d9b9093d50f9b
+  custom:scripting/monoscript/fileName/CreateUtils.cs: 511fa2fd44656cd69eafc454a7de225b -> 46d4e693aea412a55fa81beae823cb64
+  custom:scripting/monoscript/fileName/TeleportationProvider.cs: 510e82ad32e2d3fcbca5741844ef35a8 -> 83deebcfc95699a5a96894e5094e196e
+  custom:scripting/monoscript/fileName/SessionContext.cs: 701096ecc8468cabf29769c78bfe1469 -> aa983322c9147d504c24b63ec863c7f9
+  custom:scripting/monoscript/fileName/XRDirectInteractor.deprecated.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/XRConstants.cs: 1730138bf046fc0a6b2954c86c6d0041 -> 1558884a4b0ea94b4910dd640a0e6741
+  custom:scripting/monoscript/fileName/SyncObjectProcessor.cs: 70d81b94f36b1d92376b2a7e46874701 -> f85aeec708c2484e3a9d4dcb2d61373f
+  custom:scripting/monoscript/fileName/BezierCurve.cs: 51cf04a0b7e260cf28d35212cfabea99 -> 3aa1597be8d204365d1476b9711b3e18
+  custom:scripting/monoscript/fileName/MonoBehaviourProcessor.cs: 454d77bcb44c3a393871f7ca0fdfa9b1 -> cfb4c90153ccd6a20cbce093f5f47d05
+  custom:scripting/monoscript/fileName/WebSocketClientStandAlone.cs: 03077646051725752077bec774d8a716 -> cc187376230ea5d8953ef323f3317e01
+  custom:scripting/monoscript/fileName/XRInteractionGroupEditor.cs: 576c9a1a83c30618b1ca402f35eac412 -> 5f35b404ca88519fc4dfc135c2b4cd54
+  custom:scripting/monoscript/fileName/EdgegapWizardApi.cs: cee493beb0417d4688ca05f49317e4b4 -> e322f3f9860195a080b12cf38c1da994
+  custom:scripting/monoscript/fileName/GazeInputModule.cs: 1911b3592112e18e0214424efa97e00c -> 6f5fe5c91136a1143cf91c1338af9aae
+  custom:scripting/monoscript/fileName/BufferPool.cs: b16d8f44d55d9351af4823e2f2bd7e47 -> 65ca63b64a0ae9a74a18b5a1306952ef
+  custom:scripting/monoscript/fileName/XRBaseControllerInteractorEditor.cs: d17df6bae29459e3c89a6511d44f694a -> 6bec69b3ee1c7b958fa38a8f9a02e7a1
+  custom:scripting/monoscript/fileName/FloatAffordanceThemeDatumPropertyDrawer.cs: 43ca547b88cc4e67d67f1da14396eb02 -> ae7db95eecc24a14bcd493b70e203e93
+  custom:scripting/monoscript/fileName/TeleportBall.cs: c6b2c4666adc4e2805deab73d24046b1 -> cd72bf1b4baba1a882a342bcdf0b3fe5
+  custom:scripting/monoscript/fileName/MouseModel.cs: 2017b3616ab4a09bb1a970e2059a6870 -> 2ec01fc1524708be161d87ced09f8fd9
+  custom:scripting/monoscript/fileName/NetworkClient.cs: ef1ad270d4a7517fd29d5478b7f63666 -> 1837a8f7445498a9e0a83dd68509c1b1
+  custom:scripting/monoscript/fileName/PlayerEmpty.cs: 6e1608cfe75bf2e2da289502676db27a -> 3a845989097892f968624b79cff03d8e
+  custom:scripting/monoscript/fileName/EventCanvasProvider.cs: c948da68cec29055ead8c2c66c5fe724 -> dc283ea6926c2509917547ea8c658c3a
+  custom:scripting/monoscript/fileName/ColorMaterialPropertyAffordanceReceiver.cs: 8d74b63b1ce1aa8ccde37baf5937bba0 -> f73f319339a5d136a9142eb8b57189f9
+  custom:scripting/monoscript/fileName/Timer.cs: c6b75ce125482713a7aa5faf5c55f665 -> 2b720c218f52696262658410cde143dd
+  custom:scripting/monoscript/fileName/NetworkRoomPlayer.cs: 7d60c09e69e4f5d7442c8c19de954959 -> 18bf672afb8b23f5b8800639b4a44742
+  custom:scripting/monoscript/fileName/ReaderWriterProcessor.cs: 0930e498f6841b8b7dc8c30a29b7fd3d -> 5d6ef9c5b130f0c03046aa0af32540dd
+  custom:scripting/monoscript/fileName/MatchGUI.cs: d6f590e2a619bab1c8d973037d5772a5 -> 2fc744c5140ed3ee24d914f7f43e7d46
+  custom:scripting/monoscript/fileName/EventControllerSetter.cs: c151a8f5a4ab2d0a0fd03e7720fa8742 -> 1e4e6a1a5820de9b16d35818e681e1e2
+  custom:scripting/monoscript/fileName/IXRInteractionOverrideGroup.cs: bf35a0eac7935d92f523f54cd2cad360 -> 45129facc114a8e91c7fb83710a5e6bc
+  custom:scripting/monoscript/fileName/ConnectionQuality.cs: 4658e89afeb46effd7cb9aa12810acf2 -> 3dda178fdf41fbf9121d8bfc8aea50b0
+  custom:scripting/monoscript/fileName/BulletGeneratorAutoAim.cs: 2bf4208369bb480d1644893377d432c4 -> ee392dc88efe358edadb14ec54c16c6c
+  custom:scripting/monoscript/fileName/GeoIpListModel.cs: 0339fa1ac21e67fd6c132101b3ef4c96 -> 571d7094f89952f23cbc7204001957ba
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MiddlewareTransport.cs: 3bd6eb64ef77a0ed7d61fa8f8fbf81e4 -> 23b1cf52686ef42b4ce47506432faff7
+  custom:scripting/monoscript/fileName/NetworkDiscovery.cs: a192d858c58edcf9b7ec0c4965607e10 -> 7c7c43150a49a3766d807b3e51f85c64
+  custom:scripting/monoscript/fileName/XRInteractionEditorUtility.cs: f66be54fe6a695038737c99e98695623 -> 2ab54db5b629fe0151ff95e955386fc8
+  custom:scripting/monoscript/fileName/SortingHelpers.cs: 82244f470eefa2a1d0df19aab48e6f72 -> 428c967c3a2f2c6392b18a0d35d823aa
+  custom:scripting/monoscript/fileName/ModelRenderer.cs: c3a8f9c1f8bb6370a93de6dbc8d76014 -> b2cf840183304aa7c8dbe1b80fac9127
+  custom:scripting/monoscript/fileName/Constants.cs: 373f1858875f685f6668b9ceaa9bf60d -> 2c8efedb432246771f412e303493a646
+  custom:scripting/monoscript/fileName/CreateAppVersionRequest.cs: d532fd884bcb1f7be10d16ab2adfc070 -> e2a5bbff5477a81d007b327eb23e3b7b
+  custom:scripting/monoscript/fileName/Rotator.cs: 45bc22fd25a32e98e2923eb6b49f7e71 -> 1d2321ff2f7fb14b3359a89ff68efa12
+  custom:scripting/monoscript/fileName/LagCompensationSettings.cs: c2fcfe5dd40f3acff0952ddaeb05c1d3 -> 7ced80fa9d3018bc069759429f431316
+  custom:scripting/monoscript/fileName/WhiteBallPredicted.cs: 7c0c6b37ce06ee43f262719d3d26a360 -> 745a0b027fcb4c49a9c7bd146b747951
+  custom:scripting/monoscript/fileName/UpdateCanvas.cs: b6a5a6dacb512e2a66da87b581822c0c -> ee598050d76781f0dfc708eceec65626
+  custom:scripting/monoscript/fileName/BaseAffordanceStateReceiver.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/RenderMaskTest.cs: 0ffc9a598846fd4d203ae1da3b927931 -> 24abbc106b83ff6e0b03bcdb74c3f429
+  custom:scripting/monoscript/fileName/SeaOfCube.cs: 5703e79edc5dbf382580273e69c7077c -> 1bdf49303cc0f0e31ee9000f5eb359e3
+  custom:scripting/monoscript/fileName/NetworkConnection.cs: b96866a7134fd27a6ca479020bc4e325 -> 38578b07ee98e3ffb9582e17d1c7d7bc
+  custom:scripting/monoscript/fileName/ARSelectionInteractableEditor.cs: bf9b48689b85c5e0b0f72e4dda879935 -> 9653fbc682261a998e7ae0c42ca1fa53
+  custom:scripting/monoscript/fileName/AssetBundleLoader_LoadAll.cs: ed53019052d1da9ef6929adf90ae9f8d -> f605018161afc7b9c5869ff7cce4f201
+  custom:scripting/monoscript/fileName/HMDTracking.cs: ff168b921b7fb89a5b71d9bb2a327479 -> 58ade235b815923417a517e6d1b9e917
+  custom:scripting/monoscript/fileName/ChangeEyeSpace.cs: 414b77455828d309536568998fefb5cc -> f01bc42d84b9ce66a51f6b3815c75ce2
+  custom:scripting/monoscript/fileName/ColorGradientLineRendererAffordanceReceiver.cs: d2151c5bf04f6ac4f89a52c2d33a9b33 -> f6c60cd428b896c30eb5f3ca4230f364
+  custom:scripting/monoscript/fileName/ITweenJob.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/XRTargetEvaluatorEnabledAttribute.cs: bc1a1d9ce8f65b6d1ea5d24f250b2e96 -> 7f53d7530fead7c3cdab4a7ef834ec0f
+  custom:scripting/monoscript/fileName/Attributes.cs: 034db5c7df98192ae4250dd8682a92f4 -> 31a65ad10b72c286609a4047d0f74f02
+  custom:scripting/monoscript/fileName/XRPackageInitializationSettings.cs: 8fd1fa271763012401d1991ada19c70e -> 2f743437d3b09c9a4a5a33e9be971b1a
+  custom:scripting/monoscript/fileName/SpectatorTestHandle.cs: ea39d98ea95b06a36e2b95432d774952 -> 569532e063388d08a47d7569d1e1c0e0
+  custom:scripting/monoscript/fileName/UpsertAppVersionResult.cs: 6a96a5f8c15df93dced90a45c44ac3ed -> fcca82bcfe9a4dc1ccff0c71f941c0ad
+  custom:scripting/monoscript/fileName/BaseInteractionEditor.cs: 75cb7fffd09556c448d4f39408deb08c -> 7e2ab6eabe33a085ced4c9c5a77fc067
+  custom:scripting/monoscript/fileName/IXRCustomReticleProvider.cs: d3b816c76adb8aa22adee0fe8b11d2e2 -> 43d121b58d7afb6983b968ae1c20e8d2
+  custom:scripting/monoscript/fileName/Snapshot.cs: fc6468891406c4fd15824746c427903d -> a5a37d0e3cc55d14f0181ecef3be596a
+  custom:scripting/monoscript/fileName/TotalMetricsModel.cs: c57d83e5698cb9baef66d83799cde3a8 -> ac4b23d8a3774112960a7885974c8b41
+  custom:scripting/monoscript/fileName/LipExpText.cs: 94aa00bb621558b084bfe84c5cc9a4dc -> 2e9737ed7ce3c909d9bef6b4621a7c11
+  custom:scripting/monoscript/fileName/ServerSslHelper.cs: 9066a5050d723992b5f8ada8fa6bc74c -> b8bd1d91852f54fbfc42968da841ea96
+  custom:scripting/monoscript/fileName/RaycastPointer.cs: c894c90d2f6f7b0dd29e924a4f92a991 -> 3dadd606ed2754a4d92992f562e95809
+  custom:scripting/monoscript/fileName/ColorAffordanceThemeDatum.cs: 21bca24f5044d562558da7ed46ef102d -> b4b3b8220ba7b68a3d27a356838145d7
+  custom:scripting/monoscript/fileName/IXRTargetFilter.cs: 6fad2b02ffeae7daa251477df48f1fd6 -> 357cdd1f33abf539badf767cd16a240d
+  custom:scripting/monoscript/fileName/XRInteractorsTreeView.cs: 155752aeb5d16f80384139a1b3c3d642 -> 166e43a17a5e14f5b5d8df91f1a8f2bb
+  custom:scripting/monoscript/fileName/ILPostProcessorAssemblyResolver.cs: f0ec9684511913b00987cc4c6b6c5444 -> 5c126ecda4652331addd2349eb974f22
+  custom:scripting/monoscript/fileName/QuitApplication.cs: 7fedaddb7cba3255b4993a1fd90a4989 -> 043c8fa09fee665f8bb33b91f82257c2
+  custom:scripting/monoscript/fileName/WebSocketClientWebGl.cs: 893f1930c64d29c51dd0d49d07dd81cf -> 06f24bd48bbeafab0ad2c92fb0c81e19
+  custom:scripting/monoscript/fileName/TimeSample.cs: 636c9ea3f90163897fefe22bba2f7400 -> c39ea5981c5f984168a2d51cbbec5ae3
+  custom:scripting/monoscript/fileName/ActionToHaptics.cs: 5986af900c97b730c79c73b63eed6b58 -> ce91d3bdb59a15b8111d3cdfec0b5e3c
+  custom:scripting/monoscript/fileName/XRDeviceSimulatorSettings.cs: a4ee747c50062b305b014c89d85ec272 -> ed11d79f0e7d190a3f3a6746b2261cd7
+  custom:scripting/monoscript/fileName/NetworkWriterPooled.cs: daa0b870fbcdd09701160e643dfd9ac7 -> 20bc4ab41a499fb80367f019e74312ad
+  custom:scripting/monoscript/fileName/LookAtMainCamera.cs: 23c6329fbb990e1d9b5b9e9608761548 -> 72b1822b07677cea892bfb62c409f7f8
+  custom:scripting/monoscript/fileName/BulletTarget.cs: 47c1090a7ff949c241c40989ca7a58d4 -> 8a42b17f44e363892eac3fceae261b5a
+  custom:scripting/monoscript/fileName/EdgegapAppApi.cs: f2cf777921181ce680812cb1062224f2 -> db3d642e8ea58946a208c015652ddff7
+  custom:scripting/monoscript/fileName/XRTintInteractableVisual.cs: d8facbd01344feb08539f3f9d54b083e -> c4a8e8b8a5508c010b22b189b1154dca
+  custom:scripting/monoscript/fileName/XRControllerRecording.deprecated.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/NetworkRigidbody.cs: 0048107da53c5dba21539e11b6ddf2dc -> 55055dd670ecd0879634e409074a8144
+  custom:scripting/monoscript/fileName/ModelRendererEditor.cs: f58a4744fda12ef9a741c2616956a583 -> a478e09012a06d60703f9c7a3caea976
+  custom:scripting/monoscript/fileName/RandomColor.cs: c661a2ba17c6dd73f5e7d7ce15bc434a -> 0b89e3e723283a5f6705fca7038b2803
+  custom:scripting/monoscript/fileName/XRControllerState.deprecated.cs: 1cffe32f8951990264232c4f1f0c7e9d -> 30feb69e0e7d49f86ea25a72c54bdb39
+  custom:scripting/monoscript/fileName/MatchmakerManagedReleaseCreate.cs: e15f2c55d448cdfdb6ceade3c1218f77 -> e65362463e851bcc970df739eb2d2e09
+  custom:scripting/monoscript/fileName/PokeThresholdDatumPropertyDrawer.cs: a127eb0cda13b2a7649729ff82466bbf -> b6f4e12f1f0d2ca8a702d8355142966b
+  custom:scripting/monoscript/fileName/TeamInterestManagement.cs: 47f76cc7796b7eb81625388c5fffee0d -> 3e564906330499cc4bc75158d62f46b8
+  custom:scripting/monoscript/fileName/ContainerLogStorageModel.cs: 38979b337668bd0b151b37e4f556c01d -> b939d54e0ec71215e0ad87705ff0ccfc
+  custom:scripting/monoscript/fileName/TouchUsage.cs: cebfc1b826476e4ffc26249b99584adf -> 28d0ee16fe1c0e9d7a77fc63abe78533
+  custom:scripting/monoscript/fileName/SelectorEnvModel.cs: 232f6a81ccc4275e5fb5ca95a21d119e -> 27c8399c7c78a9076bd4200be7caa832
+  custom:scripting/monoscript/fileName/InteractionModeManager.cs: c78a3dde3b38e5cba3f893dc685dffdf -> b5c88156277fde9c96cbd2d693961ebb
+  custom:scripting/monoscript/fileName/CreateAppRequest.cs: 4588c51c0de3a0c7f39f0cc158087297 -> c6eaaee56d38e875ab64d98500de1111
+  custom:scripting/monoscript/fileName/MainMenu.cs: bcc0f9052176b2186a7114234ef44a73 -> c093076ba5753d7bec74a8a751ffb653
+  custom:scripting/monoscript/fileName/QuaternionTweenableVariable.cs: e2d4beec81cb7fa5c66ece076c23e50e -> 3eeca9e5910af48a4287cfdfac8d60d8
+  custom:scripting/monoscript/fileName/XRPokeFollowAffordanceFill.cs: 0c49f4fd2b74bb7bd7ccd7e7370fd972 -> d9ad23222cd696cd8de65c9c4fb013fc
+  custom:scripting/monoscript/fileName/ControllerPoseModeTest.cs: 07d4bce9539f245f0ba78ca266263588 -> e74842cc7aa185b536abf880d73078a3
+  custom:scripting/monoscript/fileName/HandPanelCanvas.cs: c751db48c21d7af4b9179bacc977086b -> 6f5dcbfbe818c030fd138ae12b72f7a1
+  custom:scripting/monoscript/fileName/KcpConfig.cs: a5a65206a8bd436c45ec08fe621dfcf4 -> 637176e4e6dbcf4b36b6e2e5ae6cde06
+  custom:scripting/monoscript/fileName/GrabMoveProvider.cs: a5d20c4e2c8d39a029dbcfc51897c463 -> 567d5f2f738142b331ccba959d9b85a9
+  custom:scripting/monoscript/fileName/PokeThresholdData.cs: 6a158b980808b8f6644429bb2f440c8a -> 7f8bf488f8d1eae1fce1476741fae16d
+  custom:scripting/monoscript/fileName/AppVersionEnv.cs: f6ab1d154b092c587cddc5ef2eae3ee3 -> aa5b34127ae4b9f25fa281cdcdacbd2e
+  custom:scripting/monoscript/fileName/EditorHelper.cs: 7e6c27e0930e378915a848b275668cfd -> ce75823ca3a92d9cd242cadb5d137131
+  custom:scripting/monoscript/fileName/PortTransport.cs: 9dc8350da03cedb9423032181fb85082 -> d36f3e8cb68feffa711dd6f74bceb7d6
+  custom:scripting/monoscript/fileName/XRInputTrackingAggregator.cs: 884985f7275d88ced94cd36345b2dec2 -> c9219d437da7b7315260ba670aaa9c85
+  custom:scripting/monoscript/fileName/BaseAsyncAffordanceStateReceiver.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/BarTextDisplayer.cs: 90afab4486ac33fad1937bbdc44b9e0e -> 95aaf4f6fbece2c9f62394c32a7eaa21
+  custom:scripting/monoscript/fileName/BaseTeleportationInteractableEditor.cs: 509494fa7c49f61a5e6537b7277c73d3 -> 588e766034b22e973fdc992738c56148
+  custom:scripting/monoscript/fileName/ActionBasedSnapTurnProvider.cs: 0f0f9ca5c78be2eb684a9add00a9215d -> 3a8d7cf55b0e7d3439682058fe86ad6e
+  custom:scripting/monoscript/fileName/XRController.cs: e7f3c7b0f5150c6a64ffb6ca42de7d41 -> f915c2c66b01fbe9ef4978b961512634
+  custom:scripting/monoscript/fileName/CommandProcessor.cs: dce2f3e2552e23b088f22084ba7aece1 -> cf8d88d0eec6c654fe6ce65f8d34c531
+  custom:scripting/monoscript/fileName/ControllerTipsLine.cs: 56e54fa440a912da8fdc724be8433b64 -> 57772966e676888889cddcb651921adb
+  custom:scripting/monoscript/fileName/XRGrabInteractableEditor.cs: 4e1cc9ffcb2376ffdb7d0c3e5054a004 -> dd764c9579643bce9886a5d3de0c1ff8
+  custom:scripting/monoscript/fileName/XRGazeInteractorEditor.cs: de7d52819a4280027aa065e02164da8e -> 3f6cbe71061dd79447fb814220619f96
+  custom:scripting/monoscript/fileName/IXRFocusInteractable.cs: 69cde4e5be56b723df88765dd269d041 -> 45a8469fc775f267435db6ed3840fdf4
+  custom:scripting/monoscript/fileName/MatchmakerReleaseCreateBase.cs: 388b48b46118119356dc912bacbcd8cb -> e5779078003a6c398d4e1dac20dd59bc
+  custom:scripting/monoscript/fileName/XRDeviceSimulator.cs: 17827df01b71a4bc1ed70b41713bc02c -> d6669cca22e9c3ebd9c9a7693cb4d344
+  custom:scripting/monoscript/fileName/XRDualGrabFreeTransformerEditor.cs: e9926bd3e7b87c1f91cbdda99e4dd0a6 -> d8c3b2bd7ffc1c8d4b0da3679a3e46d0
+  custom:scripting/monoscript/fileName/ControllerTracking.cs: 88f8c86634e2b6a37fc7864a0cfe0a4b -> 3bdaf3f902e9d8fd9055eef9bd17387c
+  custom:scripting/monoscript/fileName/NetworkRigidbodyUnreliable2D.cs: 44cc1ce962868ab2451e4fd78bff13b6 -> 78ffddda67796580501a8f356f2ed975
+  custom:scripting/monoscript/fileName/DebugTools.cs: 082b637e0210eaac68ecc8b31be95974 -> 9303fa88b480d85a2002497a3400aafa
+  custom:scripting/monoscript/fileName/ARPlacementInteractableEditor.cs: 75832562afbc391fe68acf13b8c2a03b -> 8fc9b2109f918704700113fee17b0cd7
+  custom:scripting/monoscript/fileName/GazeInputManager.cs: 67f937649a15c9a733fb7836673b73e7 -> 155625cd07bc4e1e834f6e8f7d58bb43
+  custom:scripting/monoscript/fileName/NetworkManagerCharacterSelection.cs: d36cae6cb70dec99c93a4d6f8fe4eb3d -> c1621722f786865de87a13af4a824868
+  custom:scripting/monoscript/fileName/IXRInteractionStrengthFilter.cs: ec1f1bc1146badc5436891d5b5ddcd3e -> 0934e56af4d0394df5ff032f070184d1
+  custom:scripting/monoscript/fileName/Reward.cs: beb9c6f3b6ce7194c3362d6ac438b8f3 -> fbea0cb54b0cfc20797c169c4c274a81
+  custom:scripting/monoscript/fileName/XRSimulatedHandState.cs: c60ba142fd30f912d53944d884cc5c4d -> 6301e2b69347b657eb67ea0fc2a541d1
+  custom:scripting/monoscript/fileName/NetworkTime.cs: d999bdd39cc88bf4e51aef65c1b18781 -> 9d83c798a36caa194d6994f8c0a379bf
+  custom:scripting/monoscript/fileName/TargetRpcProcessor.cs: 875eef90a961305a90ee5deb5e62fe20 -> b228fcd6bd4942852019c5788ff54b8f
+  custom:scripting/monoscript/fileName/HandSpotPointer.cs: 64aeb6ad2d50ee77f41b317e7ee8bd54 -> fe3757e0d783ae8015d2e485ae2cb1c1
+  custom:scripting/monoscript/fileName/RedBallPredicted.cs: 65409afe7c29b5a9197c2031fdfa2b9b -> 365c7e6aa3799020753ca4bb83808e20
+  custom:scripting/monoscript/fileName/BatteryLife.cs: 05767689aafaef95970bacf32102610a -> b86420ae02e5bd492150c7fab50164b3
+  custom:scripting/monoscript/fileName/ARSelectionInteractable.cs: 71928f5ae9a267e0f914e513a5b9df47 -> e2305d6a29bf9aea60c3fdbae74c936c
+  custom:scripting/monoscript/fileName/NetworkStreamExtensions.cs: 0ad3d62f12934454fa51f504ed74c954 -> 18bfc7ab40b8c8f3566aab83c17bf631
+  custom:scripting/monoscript/fileName/DrawFinger.cs: 9f3abb9758406e8d7fe121ccf512122c -> 8629ce4837a4b0a789d0f3876fad0f1c
+  custom:scripting/monoscript/fileName/CustomBulkSessionsModel.cs: 2a9ff1c93ce32beb066efdadd24cccfc -> 3622d1034195af0a2ca747efef7d33a6
+  custom:scripting/monoscript/fileName/RigidbodyState.cs: e4d7ef6296ebd4ba666c8fe5c8344132 -> 2e9ce6732098bbc0daf4ff0b3167fd9e
+  custom:scripting/monoscript/fileName/ARGestureInteractorEditor.cs: 128ea87b78bd27feb1126cb5064f64da -> 928fec843644c545b7c33c5c882a6d90
+  custom:scripting/monoscript/fileName/Resolvers.cs: 8f6d1de6d7c4f7cc282811a9b8cf2e15 -> 52d283b295f28d3fd9d9cd593ba39bd9
+  custom:scripting/monoscript/fileName/EdgegapBuildUtils.cs: cef8910ce804427f0745a280f7967b66 -> b60593e7f8b265b54ba849a6b4648a58
+  custom:scripting/monoscript/fileName/Monster.cs: 7b8e2efeba28da5222c6caf7232bb132 -> 4e67c494010067ec0f329c353a8d6e6d
+  custom:scripting/monoscript/fileName/XRGrabInteractable.deprecated.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/NaturalHandPinchStrengthText.cs: 06221f6316aa763ad1a58e697c752d5c -> 69ddabbc5afd9642d8eb17c49f0adec8
+  custom:scripting/monoscript/fileName/FallbackComposite.cs: aac87090c2825381f4e7522c8f02e4a5 -> f31f49c40db5e68e461aeb74573ac33b
+  custom:scripting/monoscript/fileName/IXRHoverInteractable.cs: 2c8371bab2cb9dc7388066ac2ab8e1c6 -> fb465df486024344a71a88280cfcb961
+  custom:scripting/monoscript/fileName/XRDeviceSimulatorControllerUI.cs: d1180c99bca84945e25a638fd0f61105 -> b73f3ee7b1e20a6f9fb3b8f5f0307096
+  custom:scripting/monoscript/fileName/XRDeviceSimulatorUI.cs: ba22c6a8e7e218881c2347c511524e47 -> 011f365d209184d0e9bd740ead5fdbe9
+  custom:scripting/monoscript/fileName/TrackedDeviceEventData.cs: 5c417c04d4e247882794d55761c311b4 -> 38a4161369ac08076197ffcfc1aa9721
+  custom:scripting/monoscript/fileName/WaveVR_Resource.cs: 8c501329018f799b39d1e85ec5e0d176 -> 6487637141d39ad4bf59af3a283c43d0
+  custom:scripting/monoscript/fileName/ClimbInteractableEditor.cs: 9948bc22672ba11533a9a50cbb877dd3 -> efbd8d229dc456334683597de92eba8c
+  custom:scripting/monoscript/fileName/IAffordanceStateReceiver.cs: 97cfd255f23a45e12e225b865be737e4 -> 315f857466a4c1b4f032b74f2b8a5bbb
+  custom:scripting/monoscript/fileName/TeleportationAnchorEditor.cs: 1105df455b78c70f4f5a607224cfb048 -> 2ab65dda924dee90b99aa95eba2773bb
+  custom:scripting/monoscript/fileName/NetworkWriterPool.cs: c4f7e0f26e987a9c34f6bc9de15d31b9 -> d8c741f05c2413a02eca375fae9455cc
+  custom:scripting/monoscript/fileName/XRDeviceSimulatorEditor.cs: ed96781de115507cd35cee29e6cf4e32 -> bbde6d4cde983f79176c9e2a131f742c
+  custom:scripting/monoscript/fileName/IXRInteractable.cs: 8df05fd2753ac288971d32dedcb45624 -> b8d00e269f910b8775fa756040f09dfb
+  custom:scripting/monoscript/fileName/PositionHandleUtility.cs: 9442dcdb2a3f5851f362c4d44518baa8 -> bc3b28f4105d0bac78ec44b0701a40aa
+  custom:scripting/monoscript/fileName/HandBeam.cs: d1b9be0e00eec46fab8700cf958844b4 -> 502cd7f0bd0ccccf206bfb729bffbeac
+  custom:scripting/monoscript/fileName/WaveXR_Input.cs: f189129be91f66c46c36afbaef4be3ba -> b821eb5256bcc3e8d6ee5e72d54bdd2b
+  custom:scripting/monoscript/fileName/WaveXR_XRUtilities.cs: 7bd692d66d17eefdef10f6a93e3a08da -> 929efe20306aa55bd5bcc476a445af94
+  custom:scripting/monoscript/fileName/Vector4AffordanceReceiver.cs: 5c149aee3b55b114e4755c5308f0c050 -> 4bad121e84ee6ac750103ad2c7fb319c
+  custom:scripting/monoscript/fileName/XRInteractionEvents.cs: 29f5eb42faf5016af01235145f05ef46 -> f60e86a86638c89a143bffc723344fff
+  custom:scripting/monoscript/fileName/Deployments.cs: 095e9774c0716e4231109bda873046ad -> 37b83d376b8ac610230440625a664ee7
+  custom:scripting/monoscript/fileName/SyncVarAttributeAccessReplacer.cs: b5f8c97b5fcda5ad0ad983b5202b2bc9 -> 84ffb53d82690414c4c5df6c6ba3d0eb
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/RequireInterfaceDrawer.cs: 139610792ff5055df9700c5e7e9c0a88 -> fe1b27d9bb0fc15b545bc4f9b3d0fcc3
+  custom:scripting/monoscript/fileName/XRGeneralSettingsPerBuildTarget.cs: 16ff37e57a568e497be4f0712a9a33c4 -> 6970e5bff368910038049eb1434facbf
+  custom:scripting/monoscript/fileName/AppVersionWhitelistEntrySuccess.cs: aaeabe785c9e790eb182ba360c82841a -> 399ac41c24db136e313038922c6f0b55
+  custom:scripting/monoscript/fileName/RaycastRing.cs: 41bc73e413d7c04501907e570aa8448a -> 62e94523e9d41fc230832203767639bf
+  custom:scripting/monoscript/fileName/HandInputModuleEditor.cs: bb410f891793b3d009863d916b7dc146 -> a72fa630e8bd8aa93b9d67e1b42c2585
+  custom:scripting/monoscript/fileName/XRBaseInteractor.deprecated.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/KcpClient.cs: fdcee07213d977d79fc424677a876a9f -> edc522201a5fbce6365370d65ae46d36
+  custom:scripting/monoscript/fileName/ActivateHandTracking.cs: 8a88471d57fd85f8f28a8385ddabe503 -> a91ad711abdf09762d148ec7ee53d9da
+  custom:scripting/monoscript/fileName/SyncVarAttributeProcessor.cs: 141c7608ad81c809e94a4b606c6196e4 -> 8c9b909d5c0c5f08bea91b98d33fb522
+  custom:scripting/monoscript/fileName/IXRFilterList.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/LagCompensator.cs: fb027885b65bafad235bfac1458717ac -> 9bc4563369c5cddb0592834729f9e355
+  custom:scripting/monoscript/fileName/Sessions.cs: fbfc38deb383d0933aa7fba6f7884053 -> 891c0b17da4b523d49146b21d6b348b5
+  custom:scripting/monoscript/fileName/MatchmakerResponse.cs: 27933f06f55e176f6aa3c3f943d33206 -> f3bd77092247669bfb4e1f3885a2a01f
+  custom:scripting/monoscript/fileName/NetworkInformationPreview.cs: e24a49b32f45caa621cb9592a54fde7e -> c29a186e7c2891adb1f08bedde63d1f2
+  custom:scripting/monoscript/fileName/StaticSites.cs: a02ac10c3f4b90d5b64fcd8147aacf87 -> ab2d31f2efac8ded22ac969fb0b46b6b
+  custom:scripting/monoscript/fileName/PlayerUI.cs: e1daf3f7d9ece0617c7ebea3332d091b -> 7850432c39377211f2463971e00497dd
+  custom:scripting/monoscript/fileName/IXRSelectInteractor.cs: ff3187cec5ddf7e924f58a30e001f838 -> 98d9a2bc0457360b8b3695053ef96e5a
+  custom:scripting/monoscript/fileName/NetworkReaderPooled.cs: 1b79c7beede9b2602eab413bdd54cacb -> facf384330246ef45e95d0adf230fd7e
+  custom:scripting/monoscript/fileName/EncryptionTransportInspector.cs: d705d333479f0dc18258fdc87749a6b1 -> e0c9dc427b27d2da71808503004a3218
+  custom:scripting/monoscript/fileName/NetworkTransformReliable.cs: 7c2d223f98be8c72c1fd281526750035 -> 8cd5df951a92da08e18ef2d32edad931
+  custom:scripting/monoscript/fileName/ColorTweenJob.cs: ba1e928f35016cc7fc43a020310736c9 -> 49cdb9b9003c5d87010e3b1602f600e1
+  custom:scripting/monoscript/fileName/Vector4AffordanceThemeDatumPropertyDrawer.cs: 51b4f448de49b25ce66d40ec3134d28f -> 7c8893beae89d3c429ef3d8aa828bbca
+  custom:scripting/monoscript/fileName/XRKnob.cs: a21683c2f3304909d08c7fb897c8ff17 -> 56b2efcaf1bbf4c8af4c0dda75b46bef
+  custom:scripting/monoscript/fileName/AudioAffordanceThemeDatumPropertyDrawer.cs: 976ea2ef728132c31b2b8f2537d0161d -> f6a4026765b9182c71238c3b1eb5c19c
+  custom:scripting/monoscript/fileName/HammerMove.cs: 387d13dca06ce11e810ea7de9b860fbb -> d0f64e27a512cf210d1e84db8b29f5cb
+  custom:scripting/monoscript/fileName/CharacterSelection.cs: af716194bfd7cefc5db3662a79eb1f46 -> 934b6621723cd66f12257ad9e5e75fef
+  custom:scripting/monoscript/fileName/BurstPhysicsUtils.cs: ed4cf911f253363f5077e37fe8dd2e25 -> 03d4ba05a958fa0d4b37404cdb923462
+  custom:scripting/monoscript/fileName/HandRenderer.cs: 38d713796a2a00098b25f47791c52de5 -> 899ed191aaecebe2d24f2ba948dfce21
+  custom:scripting/monoscript/fileName/NetworkRigidbody2D.cs: 37b6bb9236ffe3c6eead12edf0e7bd2f -> 2d700b18eab43f820fe3cdea0d0c0163
+  custom:scripting/monoscript/fileName/XRBaseControllerEditor.deprecated.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/GraspText.cs: 7ed09d563cb15d832b78cffc27159f94 -> 1d50c60726919df56cad50e657abee61
+  custom:scripting/monoscript/fileName/XRHandSkeletonPokeDisplacer.cs: 02177753151b9c4f432c91f45d18ddbc -> fc912ce4ecfc015a2468824bfa22a444
+  custom:scripting/monoscript/fileName/DRContactHandler.cs: f4cc7f39b85e986de31d05ddfd977fdb -> add7c27805cc4930da2ba723bc8b3d14
+  custom:scripting/monoscript/fileName/XRTransformStabilizer.cs: 6750d289775354ee0ef32cfe0b32ed62 -> 43fe88a528b18a68dbb16ee10a4ff224
+  custom:scripting/monoscript/fileName/ApiModelContainercrashdata.cs: 84a4d997023e11d75f605e52a122f936 -> 2efcb5756bafb34150ecebd20b6612c9
+  custom:scripting/monoscript/fileName/XRTargetEvaluatorEditorUtility.cs: 003566e3b06ce96efb5ebcb86f43bf1a -> 3d022b831f5659cda3686543ba355657
+  custom:scripting/monoscript/fileName/InteractionModeManagerAsset.cs: f8e50b9221d38e8cd24918e999b220eb -> ed8bec63f894a1f3b699fa8f38894d38
+  custom:scripting/monoscript/fileName/PredictedRigidbodyVisual.cs: afe2cae60ed0b15f86d30285c7a4c9f6 -> e7d8accae6c98cd7eb5ac63251aec77f
+  custom:scripting/monoscript/fileName/XRPokeLogic.cs: 44a11fc14b979d4f0b4798e115f80e4e -> e2b1def565c1e1d5cfe10a23758c8b57
+  custom:scripting/monoscript/fileName/DistanceInterestManagement.cs: 102749f6e7f8c7ffa3e52a7d9fb4a870 -> 9c86db444681142c0cedf5a036cc4de0
+  custom:scripting/monoscript/fileName/MatchmakerManagedReleaseUpdate.cs: d33b917b2d3deee7dab3906b129d0e72 -> b0214e5a55c856cb709f716fc253d962
+  custom:scripting/monoscript/fileName/TouchModel.cs: 902186eb06d4049c3376e5d3367e6c8e -> 4a9987cc8b20a24f5411889b0969dac6
+  custom:scripting/monoscript/fileName/Snapshot3D.cs: ef4bd0b24396a49a7d7e635fed36b7ed -> 6c5ca6f59adf2bb4f73521dfd40f5fe6
+  custom:scripting/monoscript/fileName/GazeRaycastRing.cs: b736b34395bb4a150f07c3ec538f900f -> 2020adff940ec1e632b23a4bd8f2a61e
+  custom:scripting/monoscript/fileName/NetworkTransformUnreliable.cs: f54f8337405056939bf2dc6aaa29c5df -> 79622d369dbb2cf4f6c573028c1d8207
+  custom:scripting/monoscript/fileName/PrimitiveMeshHelper.cs: eb5c26852662bb2c90e87bffc6ac6684 -> ee87d9b0f2acb8637de3de37db222ddc
+  custom:scripting/monoscript/fileName/MatchmakerComponentEnvsUpdate.cs: 68b615417ed7b1f18d0e4a7128301f3f -> 19a88846dcb3bd732eb61d2fb2d2353e
+  custom:scripting/monoscript/fileName/MagnificentSendPipe.cs: 42db1600b598db4ff943533494ead556 -> 541efe540205b1d21f495c9ab013d432
+  custom:scripting/monoscript/fileName/MatchmakerComponentEnvsCreate.cs: 82b2ad90d38c49cc401b56f4b9085eec -> 815fda3f63c8eac52e1f1864a22b80f3
+  custom:scripting/monoscript/fileName/ILPostProcessorFromFile.cs: 1a553c2a2abf080d2d09a4c6b518e173 -> 2434e5e9b42f59e18fdbab17457ce4bb
+  custom:scripting/monoscript/fileName/SslConfigLoader.cs: 90c5a4800f2ee01a2b9fb42b32482b0a -> c9c940bc48b8a525a62086b696aa6757
+  custom:scripting/monoscript/fileName/IXRLoaderPreInit.cs: 60a65812967a6a994d323fb4a3bc40d7 -> 4dbca4fbe4a89e2a18943694f414e3a9
+  custom:scripting/monoscript/fileName/SinRandomMoveWrapper.cs: 16c013cb8c82b83c21c8448d6e87cae8 -> f96d4a9fdfb24a6eb4033f935454ed5b
+  custom:scripting/monoscript/fileName/ChatNetworkManager.cs: f1f8f13f1a78de29f55f9e1466a15ad5 -> 196d4d7eaffaac8ad760eea73a99ba59
+  custom:scripting/monoscript/fileName/CreateDeploymentRequest.cs: e7a07e09babc686c4b0cc3fa22e83414 -> 30f0d63d6f2ca64a3e036855167a3633
+  custom:scripting/monoscript/fileName/HandInformation.cs: 012638cfbb87114a0bd57517a5532bc9 -> aaffd5d4a8abd2daa570f04c90237045
+  custom:scripting/monoscript/fileName/NaturalHandBarText.cs: 4b3044fe5b68251cfe130e81340cb251 -> 5ebdb4aef9b2f61494f6bd83f8d8b31a
+  custom:scripting/monoscript/fileName/XRSimulatedControllerState.cs: c87e53bbe84c5ec1dd4f1752ed880c29 -> b58309ecc339e9f6984a8c78c325c158
+  custom:scripting/monoscript/fileName/Vector3MaterialPropertyAffordanceReceiver.cs: 178f70daa49aa7f6d98e2e73de8a0679 -> a39ede5d38b4884d82676fd336f8845e
+  custom:scripting/monoscript/fileName/DeviceAuthenticator.cs: 0c21d9c739d61478294cb296bec74625 -> d8a6d37d065981403181bba713ea8d8a
+  custom:scripting/monoscript/fileName/RenderModel.cs: 372fd29448bcedaa2bc012292d01ee3f -> 56fe454781f678f5ca6866e112a6ffc8
+  custom:scripting/monoscript/fileName/NaturalHandGrasp.cs: d3080640249521a0de4048b22a21e25a -> 0f02e31a0c1ebfec47d27dd0ed8387b7
+  custom:scripting/monoscript/fileName/NetworkTransformBase.cs: de9365ba4a9d93b5754d6ba4f07a687e -> 453f199a4a92b0f5ad4a977d910a8d71
+  custom:scripting/monoscript/fileName/BooleanToggleVisualsController.cs: 401ee621b7860651ea7c8bd41f7fde5a -> 5a084401468494437cd3ba6dac885b83
+  custom:scripting/monoscript/fileName/DropdownHand.cs: 4e7d9f39fc8d6ee13b92c630196c708a -> cf7c1d3fc1a86fc23305f15d9de438ca
+  custom:scripting/monoscript/fileName/CanvasOptimizer.cs: 751ee18659e3cd2959ca38fa37692956 -> 2d9fbec9885e0fa49ba59cbbb2b066ce
+  custom:scripting/monoscript/fileName/ActionToVisibility.cs: 06ef609586fb9ef75ef1f05cd2033ecb -> 761d3ff6b2ef6b84f4d4d5fcc8cbd940
+  custom:scripting/monoscript/fileName/InteractionModeButton.cs: 2de6eebd8b0144893d470da5ff174d04 -> cc6472a7e5325ae0d2229a581bab82be
+  custom:scripting/monoscript/fileName/MaterialInstanceHelper.cs: b8db625bf7043c0db0a21e47bcbcb6f5 -> 2140738dc434b4984a0674cb5440a884
+  custom:scripting/monoscript/fileName/StereoRenderModeHandle.cs: 7fd8912ab0e899780f5e23779087010c -> 30d6b3563fddc3324579e4424a8cb6c4
+  custom:scripting/monoscript/fileName/SetOrigin.cs: ba0881f6ab973fc3b71c140b70ef22fc -> 602857e474f24d477bb801a6ce8decb8
+  custom:scripting/monoscript/fileName/ComponentLocatorUtility.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/HideUntrackedObject.cs: 8260ac02cccbd5da1a9aaaa99d78911c -> 5fdb42122f95f07be390472a6a2f6d5c
+  custom:scripting/monoscript/fileName/Utils.cs: 1aaf7b14e25c2ef5f83eb9e447db74dc -> a8ea469428525056f561136ff650354a
+  custom:scripting/monoscript/fileName/WaveXR_FPS.cs: d8e8de36a40e7528c5811d60faa602e8 -> 674092217f622c9adfb434cd8b896b66
+  custom:scripting/monoscript/fileName/PhysicsSimulator.cs: 0d13bcdc555a294041ade19fbd8d9a94 -> ff31d4d79078ab2ba67c554f17df00b4
+  custom:scripting/monoscript/fileName/ActionBasedContinuousMoveProvider.cs: 344b90cb584ea5ffd7337a453a818001 -> 7d278550d708297b0a37af5b2375ff60
+  custom:scripting/monoscript/fileName/XRBuildProcessorHelper.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/WanderMoveWrapper.cs: 51964d711d03c23d732a1e7916bb643a -> 5b9e3788dd87a7b0aea7ceac827d9949
+  custom:scripting/monoscript/fileName/XRControllerRecorderEditor.cs: bd0c0a7b1bc1e0a32c842cdeab728ba1 -> 2becc3aec59f41c99aa8c09695349616
+  custom:scripting/monoscript/fileName/Vector4TweenableVariable.cs: e46f110c663f736dd0a9e3b3094006ea -> a862c927e11ac403167ebffbe50aa9a7
+  custom:scripting/monoscript/fileName/TypeLoaderExtensions.cs: 3d9383ab701f2e57f1a038529027b2d7 -> ee5d3b5e5d81c98c5d3594e8b9153df0
+  custom:scripting/monoscript/fileName/ControllerTips.cs: 413178c47eed96999e01b19e57eeec1c -> f733ce6c09a322e7bd3d5f622e356a49
+  custom:scripting/monoscript/fileName/AutoForce.cs: 6cbcfe82ae0f21cba1e0b109bcc08ab8 -> b7fb6134288e85b83964c6fde671ff91
+  custom:scripting/monoscript/fileName/NetworkMatch.cs: 977c23f43fe09b24faa1c92a249703e5 -> 1b23f9235576af87335045c0ec507ed8
+  custom:scripting/monoscript/fileName/TransformSnapshot.cs: 9c190ebbaedd1742b33ce14fbdd65d14 -> 3110347c1e59ddd5df874c5f8e470528
+  custom:scripting/monoscript/fileName/IPokeStateDataProvider.cs: d8ffbf32aafc32299096aa1a0fad6d75 -> 583f4cc37fc0e84731775d736b4a8b1f
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:scripting/monoscript/fileName/MatchmakerReleaseConfigUpdate.cs: 3f7293fa6a5de45cf3e3fa741924d72d -> 8d0e14a19b7e73b6e88239b32c031ca3
+  custom:scripting/monoscript/fileName/XRConfigurationProvider.cs: b6037a01878f8a392f51d1eb57a74c21 -> fa91ddd62be7b4c45bfd03890af30249
+  custom:scripting/monoscript/fileName/ThreadedKcpTransport.cs: bd4e0262a03fb88964e98c4eb92dc561 -> 1e3bf33663ffd71d0ab8f55205a38352
+  custom:scripting/monoscript/fileName/SyncObjectCollectionsDrawer.cs: b7266bbe2070812b3863fe2404c35b5f -> 8efc81fb005e5b662b234dd8a93188e6
+  custom:scripting/monoscript/fileName/CanvasNetworkManagerHUD.cs: 7e1dfdbd8eb284f0a762512145adcdd6 -> ce0718656c0608880745b622ffbfe293
+  custom:scripting/monoscript/fileName/NetworkScenePostProcess.cs: b41658019c3fb8ba28125c02b2405785 -> 85931c99410b2f7893210b493b8c367d
+  custom:scripting/monoscript/fileName/GUIGame.cs: 08c756c3d27bf966c95291eeb50da20a -> 85817403f269e520326ec3c53ebd796d
+  custom:scripting/monoscript/fileName/XREditorWorkQueue.cs: dab5497c8483e158d471edc9c890b6df -> 8e928039a032f154dc8a86537aaac69a
+  custom:scripting/monoscript/fileName/LocomotionProvider.deprecated.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/ActionToButton.cs: 866035c721b8c04914b3c113bb3cf77a -> 50a8fe65864466e6352d2ac4ec9b789a
+  custom:scripting/monoscript/fileName/ARTranslationInteractableEditor.cs: 59af234ccae5c44f42746708f5953b4d -> 928d24cdfcc1575ed4a8e19c1f8f478c
+  custom:scripting/monoscript/fileName/XRPokeFollowAffordance.cs: cd2f8b7601fef2e629a2382f9c5b79a5 -> 621a47fc1058589b07b340fb03547357
+  custom:scripting/monoscript/fileName/ActionToButtonISX.cs: 2026b4ffda7bd9b50a8f624cfc1fa707 -> 7cca40ff819d638976d30957353ec4b7
+  custom:scripting/monoscript/fileName/ManifestRequirement.cs: 55446fc1aea792d5bd58cd53891bbf28 -> d0237042ed94ccc3267a409cde8490a6
+  custom:scripting/monoscript/fileName/AppCreation.cs: 8fc6ac79b985b9fe3acf97cee4b22860 -> 7583d58d258749ed497670592d648948
+  custom:scripting/monoscript/fileName/RemoteStatistics.cs: e13f6a17ca85c9db4cdb241b2a2adc85 -> 9f3c769371743f41513cd07394e28f57
+  custom:scripting/monoscript/fileName/AppVersionPort.cs: 372295e5f80783180dc3b859792d7895 -> 95446d084eeba9fbed2c932c5832aec6
+  custom:scripting/monoscript/fileName/TrackedDeviceModel.deprecated.cs: 2c9dfbfbff2b4273c3444badb2cddd1a -> 6a9a21e2d68f07dc1d721deb32ed0efe
+  custom:scripting/monoscript/fileName/SmartFollowVector3TweenableVariable.cs: 9a81c7d591e820a1ca8faf10de30da4d -> 275b0abe86c097ca8b877bc19bf92f90
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/AppVersion.cs: e3e998c02cfcac40df3fef764bc8cb2b -> 90e6bec131c0960850e46c665cdd93ef
+  custom:scripting/monoscript/fileName/ScrollViewButtonHandler.cs: 08afd2b24e6f50575f02bf4b6b62fc96 -> f042af9b1d49d6f5f9d6b003b51582a2
+  custom:scripting/monoscript/fileName/GetCreateAppResult.cs: 628c5b361c3a624c9dfcdbbc066504e4 -> 34117f296fd196076fa2ced641d2d4e0
+  custom:scripting/monoscript/fileName/SyncVarAccessLists.cs: ca33674e05a3a88e2f9fabfca35a8d85 -> 6d87ac2ea35db000d42a3b7a14533651
+  custom:scripting/monoscript/fileName/MatchmakerComponentUpdate.cs: dafad23f58fe67b7964de6b265c630a0 -> 762b6df0e537d9e2571aef38f5f70677
+  custom:scripting/monoscript/fileName/WaveXR_PoseProviderForKMC.cs: 0022ebd4915f99fbe2bc286a00b428ae -> 040b8f9b1ac90bdb25f7a479e6e3db9a
+  custom:scripting/monoscript/fileName/XRGazeInteractor.cs: 9dad5957271124bc209ffd684b0b2814 -> 0ad1b7f567e509e3c6acabd914001540
+  custom:scripting/monoscript/fileName/PoseModeSetting.cs: b959f3b7b16fa5b29ffd5ed216003bd3 -> 00ce83e16334e02c825c7c7d2906d7d4
+  custom:scripting/monoscript/fileName/CubeEventHandler.cs: 478c0ba9214d884a877db8013288b18f -> dcdcba60b592e69a9246153f2568727e
+  custom:scripting/monoscript/fileName/XRInteractorLineVisual.cs: 6e834001bc11813e453c822afe7ab01c -> a7322de680a5f4b548100b720ff003d0
+  custom:scripting/monoscript/fileName/AppVersionProbe.cs: ff9a411af7da919c70c15410c0952483 -> 881a54d4d254e8e81f59f127b46e24d3
+  custom:scripting/monoscript/fileName/Locations.cs: c040b707496654c64f7e5670dc36f40f -> 96efe8698b9833f4f1a1af1e9bbc91d2
+  custom:scripting/monoscript/fileName/InteractionModeText.cs: 8290a4e2457f6f70c403b32ac20aef48 -> d45e078cf8e020fc78661aadf3cc4c02
+  custom:scripting/monoscript/fileName/IXRInteractionStrengthInteractable.cs: 061f133fb56eb9f50a67b8b9709ff578 -> fc8c8ac6bd5b7a479ab5ef94dd5ca87e
+  custom:scripting/monoscript/fileName/PackageNotificationUtils.cs: b122d810307522aba068b1ac06f7cf0f -> e493f521fc1755dec19875ae28a4f621
+  custom:scripting/monoscript/fileName/ClonesManagerWindow.cs: 668159fc3d8ccd33cfb832e084990d7b -> 3dcb53c9b674a04340f42e214d51d280
+  custom:scripting/monoscript/fileName/BarEventHandler.cs: 94c760cd65d99ca2777a27dcbe4072e7 -> d14101bc35d6a5f5a29c93f47558524c
+  custom:scripting/monoscript/fileName/DistanceInfo.cs: 431cb468af849fb217ed28ce915bc377 -> 6fa6243501415911d87e78c25a1d5880
+  custom:scripting/monoscript/fileName/SessionUserContext.cs: 78db2a0c0f7abdab1b5bf7edf17810be -> 086ecbea3b80f3ce3502b1bb367ea10e
+  custom:scripting/monoscript/fileName/RandomVector3.cs: 1518a001f47dabf21f8e94495f29155b -> cb937ea9e5771caf7e525fe15a48c176
+  custom:scripting/monoscript/fileName/XRLegacyGrabTransformer.cs: 7cda5b8b067a1da3556f4fa6f3c0d4d8 -> 6b2a337ce68919f21bf23649e65f263b
+  custom:scripting/monoscript/fileName/BehaviourConfig.cs: 83d06bc8a5e9ef370f12178a137212b0 -> 67f5f8a53e2a1676e246006f1fd526ca
+  custom:scripting/monoscript/fileName/EdgegapServerDataManager.cs: 082b427212e35da3818d32cde3b9fdf2 -> 3a8a5fcb2bfca5bc3c90b03fb5381a53
+  custom:scripting/monoscript/fileName/TrackerPose.cs: 39026d88c9f8ebc612321589f801fe8f -> 43c01a3389d2f7eeee5e1f4933113fa7
+  custom:scripting/monoscript/fileName/ApplicationPost.cs: 62eff261307658d66eb2f9d5ef23248e -> 2762488d499903a8819b834ae6d9a912
+  custom:scripting/monoscript/fileName/DistanceInterestManagementCustomRange.cs: 810eebf046cc4822f5b827ff2cc9c708 -> 866d064fdba13ce7fc82fc274a0e11fc
+  custom:scripting/monoscript/fileName/XRScreenSpaceController.deprecated.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/XRPackageMetadataStore.cs: d9d78f910195bd2f088340a24a66c769 -> e06e5e9ffca9529e9db63900dd9caf32
+  custom:scripting/monoscript/fileName/ActionToAxis.cs: 0094594462e31625e5946f720d31948a -> 5baffb0d9881f9a0f5b7aecd777630bd
+  custom:scripting/monoscript/fileName/AddForce.cs: dfc59e30ea86bdbf5b9eaf9b9e9fab3a -> 11e50d319aba0b95455e4432d2f7dccf
+  custom:scripting/monoscript/fileName/NetworkTransform.cs: 2969e61120dbe6259751981c4e345124 -> 6359e1d926126d2c593f7a42a16324e7
+  custom:scripting/monoscript/fileName/ContinuousMoveProviderBase.cs: 1c66c0fa91356abc16034a1304829bed -> c479f92350f8991116aefb7a618a826f
+  custom:scripting/monoscript/fileName/CanvasTracker.cs: 798fe2d7748cd6b118ef0588a386a104 -> f2a5bb1e5bd462604ab7b1f7bd53585e
+  custom:scripting/monoscript/fileName/XRLoaderInfoManager.cs: 372bb785917be4037ad09602c4baf05a -> 28efaa63edac30b89ccc35ca2bf149fa
+  custom:scripting/monoscript/fileName/MatchMessages.cs: 062a5e12e973bbb6d98014f939602279 -> 6a1f7a435eb69897241128d3c8c16404
+  custom:scripting/monoscript/fileName/ARScaleInteractableEditor.cs: ff671df6a196ae550228ce9f23317497 -> 8869eed257acd65b5ba1d42af8459ff9
+  custom:scripting/monoscript/fileName/XRGeneralGrabTransformer.cs: f0f3abd8c6f8e06df7e6de88bfff9ee3 -> 550062c6a0e85d58a6116c0319a5e2ac
+  custom:scripting/monoscript/fileName/DestroyObject.cs: cddb200a6efa72e86669b47a4773670b -> ade29349972a42112f53f04b8aada8ec
+  custom:scripting/monoscript/fileName/DeploymentPortsData.cs: c8701c80908f23f694ca0d0f4c39eecc -> db2e77b49dcc1a9f7d8c363400c1670c
+  custom:scripting/monoscript/fileName/HandText.cs: 4fd74e24ed1bae2d8662492777fdecfa -> 6a566714e52bc3eb3a633660e7011434
+  custom:scripting/monoscript/fileName/AnchorVisuals.cs: 7186a2765d88c749004b6dd969d75c71 -> c4d663c5eff83bd1b3bf3d1ecd00ef02
+  custom:scripting/monoscript/fileName/TweenableVariableSynchronousBase.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/KcpServer.cs: 0b238f8ba12fc3441c4e13d3e7b28711 -> 41175495b882a63e1b29233456a08ab3
+  custom:scripting/monoscript/fileName/XRSimulatedHMDState.cs: ddc6e7c2afba05a20a0669c8ddfbf775 -> 67b8ef23063199b1108679be9daa890b
+  custom:scripting/monoscript/fileName/RigidbodyBenchmarkNetworkManager.cs: 9a9633e8b1c31c252142a41f078a1347 -> 86229c5c830bd84ca01fc619b43864bb
+  custom:scripting/monoscript/fileName/MenuGenerator.cs: d6726233fd592785a72efec4d2677921 -> 465999b03b73085bdc551672488e4a72
+  custom:scripting/monoscript/fileName/ValidateCopiedFoldersIntegrity.cs: 834c89ceeef7db7238088470fdcc4d61 -> 22107955cd23ed6e793e2df864a037fd
+  custom:scripting/monoscript/fileName/EdgegapToolScript.cs: d57bee7a3a45fa7f358d06dd07d5f4e5 -> ec96097145fde31d99522134d3ddf4d1
+  custom:scripting/monoscript/fileName/CubeCollisionHandler.cs: c1bd213249fcfad46579b1236b8e42c9 -> 94c509b521fadc2b3b1dd995f99038f7
+  custom:scripting/monoscript/fileName/Vector2MaterialPropertyAffordanceReceiver.cs: 3c30f57ef17ecf76e95400a38b0f973e -> 94c9e880b21073ef2d8eaa2503fb3bad
+  custom:scripting/monoscript/fileName/EdgegapDeploymentsApi.cs: 03f205bb31803fb37ad595f3f17c4bc1 -> 9b0ec4cb8b89d10fa32b181c424178df
+  custom:scripting/monoscript/fileName/NetworkMessage.cs: 80ce08c2330f0aa36ae9e3b2b14fcbc6 -> 727405398065ce5b8c2a2968b08c8b08
+  custom:scripting/monoscript/fileName/NetworkWriter.cs: baf68719e973fa00a627e152b0d3f1f1 -> eb4bbd0cce33483ccaf8f9f3080b5ec0
+  custom:scripting/monoscript/fileName/ColorAffordanceReceiver.cs: d651ff3af8e9ad81651071c9479b60b9 -> adcd00ecaa7c1a37b75997962e169377
+  custom:scripting/monoscript/fileName/WaveXR_LogPanel.cs: 7fcbc92368c8e0be8edda6d92d8cf79b -> 4b05d5d1100022a056324ec5cb703791
+  custom:scripting/monoscript/fileName/BulletGenerator.cs: 21ad01eb17013b7e92c7e15952db6373 -> 12f00f7641a817c928acd0ea833898d7
+  custom:scripting/monoscript/fileName/WeaverExceptions.cs: 21ff61f3d24fc2c13594250dbe9166db -> 90f25b13694d8a0fe3f14ad1bf8415c1
+  custom:scripting/monoscript/fileName/Vector2TweenableVariable.cs: 6b0fc27d5c9c499b079e04a827993b54 -> 0322bc8d809ad2b0c334f484c41ddd7d
+  custom:scripting/monoscript/fileName/HandPointerTracker.cs: 7f305a191cd16e24bf0529dfb488b34a -> 33a13a06c590c7688982a1dd129e3439
+  custom:scripting/monoscript/fileName/NetworkIdentity.cs: 038b12431ef6044466be1e3f59dd4060 -> 34f8cff89a1641927fcb1673b6ff0dce
+  custom:scripting/monoscript/fileName/AppVersionUpdatePatchData.cs: bb7b91d0c616e6f654f9262cdca8db33 -> 2161be63b5289e1388b1cbaa14b42f31
+  custom:scripting/monoscript/fileName/GestureSelection.cs: e5249460a324c8560fa805211c27ab06 -> 79830f7d9b2d237e244f278d1dfbcb3c
+  custom:scripting/monoscript/fileName/AQDRStatus.cs: ccddb117e8b5455e454541f06d7c2a52 -> b2fa37459938d2a279adca4a24c28887
+  custom:scripting/monoscript/fileName/TimeoutAuthenticator.cs: b3248a48c807b3f42b2a7b4b7dbcaaba -> 3705a9158aadf832987384c389fed1fa
+  custom:scripting/monoscript/fileName/XRManagerSettings.cs: 2ba91bbcf8d586faaa2b8e5422b0984f -> 39a1227fa3c478af29a735ec246b6baf
+  custom:scripting/monoscript/fileName/ActionToControl.cs: ca8bf0cdbddb521d9c042beb93308ad7 -> 0c2325963c00c25c295bc31bc5ad99ea
+  custom:scripting/monoscript/fileName/IMultiPokeStateDataProvider.cs: 957199ff290259395b9f370d9c9884d1 -> 3235ded9b44c7a5c31f9495006719974
+  custom:scripting/monoscript/fileName/GestureText.cs: 8960cb9d976ea02a05fd93f313b536bb -> 41905ae13bf5bfa3fb1f8b2fd3ff7c0f
+  custom:scripting/monoscript/fileName/PhysicsCollision.cs: 4bb09b423799f537a59a8e5cb5618e10 -> b29da1f804d05e41e2e27cd9945ac558
+  custom:scripting/monoscript/fileName/InteractionModeManagerEditor.cs: 12a56434afb6a3bdf2a579351799e3b9 -> c954a37f1e5e218548afccfedf183067
+  custom:scripting/monoscript/fileName/MatchmakerComponentEnvListResponse.cs: 46989c589ac6af1588b64dd4123db37d -> 64ae38072c3e94ef350e2809eac17fe1
+  custom:scripting/monoscript/fileName/IXROverridesGazeAutoSelect.cs: 3bfc03b019d58d909a2d2168a924d597 -> 9e7a16e834b5aff2bae7d3e31df3d8ed
+  custom:scripting/monoscript/fileName/ApplyQuality.cs: a409c77f38e2223274be1b8aa77a2673 -> c545ee2f2d88235fac773ef76d245a6c
+  custom:scripting/monoscript/fileName/Extensions.cs: 701e6752ce5fba2aa0da34c497ba0d0e -> 3e842ecd1fd4f6dcc71289eaca645e1c
+  custom:scripting/monoscript/fileName/SyncDictionary.cs: 34c6ff9cf0aa0d720e612550af5c5d26 -> 849ed7f5b11c9db237ef61b01c5a5104
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: f90a78a692f36537585f0ffe30196b53 -> ff7ced1e41c1b99ddf5dfefc88f6bd50
+  custom:scripting/monoscript/fileName/MatchmakerComponentResponse.cs: 52605bb31364363e476f35014d8a7fd2 -> ca78f8c4835dda79b8e265a10aa14177
+  custom:scripting/monoscript/fileName/StaticGestureText.cs: 771060537d950a99620278d142607236 -> b11d261c47713d134e5cda1ee6e1a54e
+  custom:scripting/monoscript/fileName/SwipeTest.cs: fa5ad8bdf358c78c1598d93182e20120 -> 2cbd1db0cf4bafb02e84469810b8e0c8
+  custom:scripting/monoscript/fileName/WristTrackerData.cs: ce508f795da9f5946e08a94781667320 -> 2053c839e65461584ea85bf075a7f16b
+  custom:scripting/monoscript/fileName/ActionToVisibilityISX.cs: c484745d77add3e50280100adf99d0a9 -> cb4eef35924a96576680ee156b07b218
+  custom:scripting/monoscript/fileName/DisplayDeviceInfoFromActionISX.cs: 396db96351a93a016f22f41100fc80e8 -> d7958ec42f0bd6ad9d0a4befd3068c08
+  custom:scripting/monoscript/fileName/CellGUI.cs: 8fd5082caf5d7cb7b596e24fa7aa4823 -> c9c179f3a4fe28314dc6b013532a1aac
+  custom:scripting/monoscript/fileName/PlayerPredicted.cs: d088f1dd2d8993fa6d53b51335f1bd35 -> 2ac68f66b97337edcfd36195524add2b
+  custom:scripting/monoscript/fileName/NetworkManagerPong.cs: 6f55767d442eacf0783c2a7eb6f32df8 -> 4831be090a902280d7eb5fd2ad00bf33
+  custom:scripting/monoscript/fileName/AppVersionUpdateSessionConfig.cs: e4535e84649902b2b36dccc99f8c483a -> 24fec4dee5a020776e7211effa7ec202
+  custom:scripting/monoscript/fileName/FoveatedIndicator.cs: 8c84d3e2b38d4a8ed51cb3ed3f0d47ce -> fe49057ab5a28e4b4347fc17679e9a5b
+  custom:scripting/monoscript/fileName/GetYourPublicIpResult.cs: 873c283c15b799ef160892d3fb8c0de9 -> 80414ac6362cf19e72ade4e31a668e9a
+  custom:scripting/monoscript/fileName/XRDeviceSimulatorSettingsEditor.cs: fba5c2f2d32cc2615dd21943f49b8ea5 -> 517a67ef2caf0a9e7551aba194b19b44
+  custom:scripting/monoscript/fileName/ChatAuthenticator.cs: cab695d0ffd3c121e8d1c2785c638a18 -> ee45696f774b54f4d7823b15a3343b81
+  custom:scripting/monoscript/fileName/SelectorModel.cs: 87e32372a31436fd7df13e3d21633a44 -> eed584a40480941c1d81a887fa62f91a
+  custom:scripting/monoscript/fileName/TimeSnapshot.cs: e2a6b05b01a4152cab187eb3a6e3e032 -> 308585c8ea7403f4cb755fb11f4647b3
+  custom:scripting/monoscript/fileName/EdgegapKcpServer.cs: fc10e2ed5f3910aab8da32ebc8246d11 -> cc28757f93aaf99536b5069dce4d790f
+  custom:scripting/monoscript/fileName/MetricsModel.cs: eea0cd2d84527e68eeb5f9a2efce3617 -> 301a7a1d673c7fcc1e65d20a20233bbd
+  custom:scripting/monoscript/fileName/XRInteractorAffordanceStateProvider.cs: 3240aae8a0809a4d1697b57dcdf7d250 -> 919670466ffd9cea221a8213903cf3fb
+  custom:scripting/monoscript/fileName/ButtonEffect.cs: 2535cb2c038f26db7d091ee4aad6ea7b -> fb0be7a55d6ce67e79c188da8666a118
+  custom:scripting/monoscript/fileName/ControllerPointer.cs: 68417798f06a18f00df18cbe03ab0244 -> 4db8530cfcf6005c0f0867e5e005413c
+  custom:scripting/monoscript/fileName/MultiplexTransport.cs: 471660b07a1e843c92724a4d50bf98ff -> 6367abac5b697aea7d42375d5567c446
+  custom:scripting/monoscript/fileName/MatchmakerReleaseUpdate.cs: cbad8f640f2157aa7756e6e5346dad2b -> 56e04a5994a6413f06195ccd9fd47592
+  custom:scripting/monoscript/fileName/SessionDelete.cs: 0249d011a32397986921a98bc8685b8f -> 86d2353190bc060da5fbeeb1fed8b7f0
+  custom:scripting/monoscript/fileName/EyeTrackingButton.cs: efe8c30feec54f8bf0ff693f92552533 -> ea87ecbfc9f217ffdae917dbe5bbf9c6
+  custom:scripting/monoscript/fileName/IXRHoverFilter.cs: 3292851f9f87f9134991e6a553ebd9b9 -> 23544edc3d19a1917e5736111e2556f0
+  custom:scripting/monoscript/fileName/ServerClientAttributeProcessor.cs: 1892bb217f4afdfcfbcae7a83e5cf10d -> e6bbd94466e353992280af1748f9c3fa
+  custom:scripting/monoscript/fileName/IXRTargetEvaluatorLinkable.cs: 9681540b380037b5bea927cd10995af7 -> 1eb61396c3bae810b948dd868452d66e
+  custom:scripting/monoscript/fileName/NaturalDropdownHandler.cs: cbe7601cac062f758f35d54c3feda1c9 -> c18c332634f8cadae51f8601a6bbc25c
+  custom:scripting/monoscript/fileName/CanvasReferencer.cs: 6d4c735eafc8bb4ad71c12b47464ed5c -> 2aa66d72b645141025651c423b0b8ffd
+  custom:scripting/monoscript/fileName/XRGeneralSettingsUpgrade.cs: 98c0aaec402c0674f97631d2b5f2a00f -> cc8d2e81204b3fd0e662cd38ef4a2d49
+  custom:scripting/monoscript/fileName/EyeExpActivator.cs: 6c336f435aad5e166169992e1bc38f45 -> 40f469dd41fc6f4f3f99c4992ca0ac46
+  custom:scripting/monoscript/fileName/CharacterControllerDriver.deprecated.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/ActionBasedContinuousTurnProvider.cs: 6a5130e7beba2eb2c19a157f4e0f3147 -> af1ca96d18cfd71782a9276612262e0d
+  custom:scripting/monoscript/fileName/TeleportationAreaEditor.cs: 91e02c7322153151ac3317adc60d62bf -> 92ccce66a80aa3faeb1ac5964ec6c478
+  custom:scripting/monoscript/fileName/Vector3AffordanceReceiver.cs: 2fdf53fe45aedd9b136120d8a7d4c3f7 -> f303c01869901c15f8fdcef5f7227924
+  custom:scripting/monoscript/fileName/UICanvasControllerInput.cs: 2cdef807cafca6682627d2fff45745d7 -> efbd76725fe032d832a1837ce36804c3
+  custom:scripting/monoscript/fileName/EyeExpButtons.cs: ee8a61011909d625f618c5e6a91a5a88 -> 75a9d3890ccce1061bd4101658fe4e09
+  custom:scripting/monoscript/fileName/RaycastResultProvider.cs: 9d2dcfd65cd7faa992fa63fb5eee4384 -> d08d6508a06f21147783dfefffae0e2f
+  custom:scripting/monoscript/fileName/WaveInstaller.cs: 645980ac3d6a546901ddf55156126115 -> 118081228af627ea37968bf217b1617f
+  custom:scripting/monoscript/fileName/SyncObject.cs: b07c166938577edbbe78eff10ab55e19 -> f382e591e08c638ad7a03899b5c1260c
+  custom:scripting/monoscript/fileName/EdgegapWindowMetadata.cs: 282a7dfbb195a1ba48b17942d0342454 -> 6d0987b924027346c470bd3f09ebf581
+  custom:scripting/monoscript/fileName/NetworkWriterExtensions.cs: d048f831a5dcefd496237f00b98d9c53 -> edde4aa4541705b5307f41c47b784e15
+  custom:scripting/monoscript/fileName/VideoTimeScrubControl.cs: 95323b4198cb02b68b5e1b8d8a60508d -> 307e13518ec9b7e61345cbe4ae469169
+  custom:scripting/monoscript/fileName/Vector4AffordanceThemeDatum.cs: b9e942d9e655e15af8605dfca914c377 -> 2924804b02cb62328e6008d577c055d7
+  custom:scripting/monoscript/fileName/Capture2D.cs: 25a3d41a8def9c24c4165128c8b8a1a9 -> bf4fdeee891abff0407922455bfb5125
+  custom:scripting/monoscript/fileName/XRCustomLoaderUI.cs: 68887eacb86f7c8c452f082dde8bf048 -> a1b6225426bb5004db8b9d7388fe5771
+  custom:scripting/monoscript/fileName/NetworkReaderExtensions.cs: 87391179a286fd4cca02e977d5a7d177 -> a9217d4a2c7ac33507ad3c0a9cc00348
+  custom:scripting/monoscript/fileName/Project.cs: 29b46d410f3324ebb186ffa1d86d90a3 -> 00faa2efed6ff63d9173ebc57e25a839
+  custom:scripting/monoscript/fileName/NetworkDiagnostics.cs: 107c87df5e3e205f2344fa0c2d102e35 -> 2c53a0a9fa33751b101fa4c2bd8116a2
+  custom:scripting/monoscript/fileName/RedBall.cs: 06be676e9af01a08b913a9faa47719b0 -> 23f173564ee484198342e7a7ff9aa732
+  custom:scripting/monoscript/fileName/ClimbSettings.cs: a51466de41ad2a0611c61cab4ec39d24 -> 898dc164cfe064d19971aee6b875420a
+  custom:scripting/monoscript/fileName/BaseAffordanceStateProvider.cs: cf459a1f458a0eb10cd7af37f7164d88 -> 6b87bc4e96a7e06e1848112b90d4fbe5
+  custom:scripting/monoscript/fileName/ClientSslHelper.cs: d5ccdaff5489b5e16f3b9a6d450fe393 -> ff503a0020672642999b1d67b142996b
+  custom:scripting/monoscript/fileName/CustomGrab.cs: 1a1fb4ea54bc407c76000eeadd21513b -> 47cd82a71bb1af9332ea959615d73531
+  custom:scripting/monoscript/fileName/NavigationModel.cs: 6ed06253f759151501b6bc29f746391f -> 67717a4a0263d411f10eb22e3d21c8b0
+  custom:scripting/monoscript/fileName/PredictedRigidbody.cs: 9827fddcacc213521ea5c7e1349f6c76 -> 49885d1a01342acf1778733d45b080a1
+  custom:scripting/monoscript/fileName/ControllerInputSwitch.cs: bb8e62e4bbe29f6ce57d91d7c18bbb8e -> f203c1920de18ba27017d41ae858c9fb
+  custom:scripting/monoscript/fileName/ConcurrentNetworkWriterPool.cs: abb399a25dbb489d419a6ce42a382ea7 -> 05e5b92194814f243271f5aa891389b9
+  custom:scripting/monoscript/fileName/HandMeshRenderer.cs: 1bedb847a9a9c5d30f57f949ca6feeb3 -> af09cb5ea36785180239d781383f4efc
+  custom:scripting/monoscript/fileName/CreateDeploymentResult.cs: 1a6071b31e7a2a9c41baa9c08e87e7d9 -> a5605b006fc8924c38b960a54c533469
+  custom:scripting/monoscript/fileName/XRTargetEvaluatorEnabledDrawer.cs: 9747a9d1b697276140d391f079499244 -> 541b6aec5ac5006f13b8c9baf582b37e
+  custom:scripting/monoscript/fileName/NetworkConnectionToClient.cs: d65f1f9f3708c53dae336dec75e13a95 -> a7117db20fabf222ada309a58ae78cdf
+  custom:scripting/monoscript/fileName/LineRendererChart.cs: a045fdae18b2d3992c57408ce741ac70 -> f85d6022258c119d687480b116fba9f8
+  custom:scripting/monoscript/fileName/Preferences.cs: 12c9b9cad29a4f9b5c223990cd53ff3c -> debd694ac4e836eb5fdfcf0e127b05e0
+  custom:scripting/monoscript/fileName/SimulationTimer.cs: f38e1d01c0d8a18e879f6c490778c9be -> e66fac111f063ab6587e351b92305ed6
+  custom:scripting/monoscript/fileName/NetworkReaderPool.cs: bd6e83a809032479981f337ca5fc662f -> 8e9fa92a68b78527d4070e61030cd1ec
+  custom:scripting/monoscript/fileName/NaturalHandCube.cs: e5b738b818ac647a5b6b821aedf4d6b2 -> ffa7fcd2c76f80818a5aba3d7d13b8ff
+  custom:scripting/monoscript/fileName/XRLoaderHelper.cs: e785a36687843ea6d40b3bb49d46a2ce -> ae85c4c4a11fcc1ed3393963333e400c
+  custom:scripting/monoscript/fileName/ARRotationInteractable.cs: 84e0beca3021fd7487f463afae5c25c7 -> ef05ad0cdf7b6f2eb154a3701cfbbfab
+  custom:scripting/monoscript/fileName/RaycastEvents.cs: dc403688559a8a0d3aa7eb5ad766330e -> dd044055b319d9b0d544ea7bcf0312f3
+  custom:scripting/monoscript/fileName/FoveatedRenderingForwardQCOMCalculator.cs: 6bffef1f17670321d9202291e06c2bea -> 6096a6eb41ee6f7b11fbe727e9d39519
+  custom:scripting/monoscript/fileName/XRLoader.cs: 8f1bb337f7721c83af550d3df06246de -> d82cec0b87bab7dffe74fb3651887ce3
+  custom:scripting/monoscript/fileName/FloatAffordanceReceiver.cs: bab1b8dd081d8857f73ab615536e3443 -> f36f1241636952fe012b144a04dc358a
+  custom:scripting/monoscript/fileName/IXRInteractor.cs: a8441bce30ff8ebe8fdeb7fa48e7cc98 -> bacaa8b418337e7d2012dbb458467d4f
+  custom:scripting/monoscript/fileName/HandPointerProvider.cs: 0888cf9463f1918b499dc5dff54d2bfb -> 7a47281f4a155e5594e1bcf18f9a3cb9
+  custom:scripting/monoscript/fileName/ClientCube.cs: 84cc491c0553cc84240446fc5457ce6c -> fa8ec268ffc136fe16887bf1d71518af
+  custom:scripting/monoscript/fileName/TweenJobData.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/HttpEncoder.cs: 9c0fb1b9ab636a6f5273862ac766ecb8 -> bca79a428ee9a3d8e0cba69fdda9bec0
+  custom:scripting/monoscript/fileName/XRControllerEditor.cs: 680de1ef5038f6d56bc0d47f97d65878 -> 133b3580a38a6d5d59df465a1c23affe
+  custom:scripting/monoscript/fileName/DemoButtonGazePointer.cs: c284abe1530f48b8a7b8f41844128373 -> b6e756ef88b1abb663260d23310c2815
+  custom:scripting/monoscript/fileName/RangeFinder.cs: c819b44aeb4d94472767ad613fef94f9 -> fb59f4464a61be6057096e48604210a8
+  custom:scripting/monoscript/fileName/XRSupportedBuildTargetAttribute.cs: d075f5cdbd7f3fba5045a0f25f0a7974 -> f87a91ba911f6030453bea8d921b45d2
+  custom:scripting/monoscript/fileName/NetworkRigidbodyReliable2D.cs: 229465a1834d079377c94fddd3773c2f -> 11ff1c268785cc44a49781faf9d675fd
+  custom:scripting/monoscript/fileName/PointerEvents.cs: 3bed483087bb8f2db08d71ff36571897 -> edf1bccdb009a4e26d9424ab76051c4e
+  custom:scripting/monoscript/fileName/ARBaseGestureInteractableEditor.cs: 8cf1068f75215d9539bca910c4f6e422 -> 188a3623d86ce2f7e75cac0b17ce4b50
+  custom:scripting/monoscript/fileName/ConcurrentNetworkWriterPooled.cs: 8abfa3a92a6af1628b91124d1b393bb2 -> e71d182e79f25849ae550e9c29e82b50
+  custom:scripting/monoscript/fileName/WhiteBall.cs: 73f54b2811a05f244a1ef7a99f34a6a2 -> fb44ddd761c905dacbcd4880514a268b
+  custom:scripting/monoscript/fileName/DeviceBasedSnapTurnProviderEditor.cs: 45e5f1138581f0d0ba3ae218722d2ac1 -> 18ec78615f99824d22fe22f5a7e9b9e4
+  custom:scripting/monoscript/fileName/SyncVarAttributeDrawer.cs: da5bc5ac6227a918ba459ee103086fe7 -> 8c7f965195714930eb12f8eb30ae9698
+  custom:scripting/monoscript/fileName/RulerMesh.cs: 36697f9a5f562465098200ce2c0d5b0a -> b0b3fa425837af8e42361e5533fb78ad
+  custom:scripting/monoscript/fileName/ClimbSettingsDatumProperty.cs: 6f0082c908d6e3f8e587215f80e5bdd1 -> 99c86e293be4b19e8df24786d487d2c2
+  custom:scripting/monoscript/fileName/CouchPlayer.cs: 363f16227d0e75ba9a07124663a63762 -> 9ea4a5d24e0214d8cc3af58a4a059e5e
+  custom:scripting/monoscript/fileName/ARAnnotationInteractableEditor.cs: f88f13f5036a70ec01e3b0a7df7c9f55 -> feacd83fb34fbdbaaba2866ed6df0e1a
+  custom:scripting/monoscript/fileName/XRRigEditor.deprecated.cs: 666abecb8cbae031a2004e24a4e80cb5 -> cb59f3002a49341845ae0ef971378b51
+  custom:scripting/monoscript/fileName/GizmoHelpers.cs: 8ff00b0a0cd78d86047e3ada7b178c8b -> 0533db0ace409f69a9d271988f0b3a14
+  custom:scripting/monoscript/fileName/DeviceBasedSnapTurnProvider.cs: 87a426979a522fad37a22012c68e41d8 -> 37ea0e60c14f64ac846838a47b808c93
+  custom:scripting/monoscript/fileName/XRTargetFilterEditor.cs: 4f7e394066573ff15f11c6336cdfacff -> 496b40b8d9551fd983b03674199e7240
+  custom:scripting/monoscript/fileName/XRSocketInteractorEditor.cs: 8f480d161bac72d865dd63090714c96e -> fbe6e5a7c259c288daa875b45a01b374
+  custom:scripting/monoscript/fileName/WaveXR_KeyboardMouseControlEditor.cs: 319c0c49ab18759de41fcca73cdf0183 -> f9e63d6b2a10f59174a0c5a35528e238
+  custom:scripting/monoscript/fileName/Pagination.cs: e97924997d06fcb2619b1fcf64af5551 -> 219b535d93916bafb7c97ccea79deabe
+  custom:scripting/monoscript/fileName/InteractionLayerMask.cs: 1ab81fe4032ca9c32b35d129051da098 -> a42b9f7c8a2aeb526d1f2d5fe27c2a70
+  custom:scripting/monoscript/fileName/FileUtilities.cs: 4d222b3933c4439ee7e8f8233dad8b35 -> c1e60537798f65454c6cc1f22adc86b2
+  custom:scripting/monoscript/fileName/FadeInOut.cs: 4451c8c9d9098021eb3585619f74c9b8 -> ad05b676f5cdfcf2792aa5e9fa61ff07
+  custom:scripting/monoscript/fileName/PokeThresholdDatum.cs: a1a4fddc80289ee532de08d5607db21e -> 143d99db9f4c45d535f173ced473564c
+  custom:scripting/monoscript/fileName/CompiledAssemblyFromFile.cs: 21781b78bc9a110ad575ff044ac85b77 -> 172db0c210286d908c2c9e772107692c
+  custom:scripting/monoscript/fileName/NetworkServer.cs: 919b11044b951633be0cecb88d457796 -> 4bf2b7005473452a1a23e73ec29e826a
+  custom:scripting/monoscript/fileName/EncryptionTransport.cs: 8e87a6437fed13697d09b6862b603e1e -> b080ac2531a793e4a04be0a671a8ddae
+  custom:scripting/monoscript/fileName/GetRegistryCredentialsResult.cs: 96f811a978baf11f9aa92486ab392b89 -> 375173c4a2886823a7820b7821d34fa8
+  custom:scripting/monoscript/fileName/BuildHelpers.cs: 60689066956cb69bbd1112f8f936b371 -> 52ee9552b5cbbfe4eb60d480e36ffff5
+  custom:scripting/monoscript/fileName/NetworkLobbyManager.cs: ddd52cc92dc60bdb5ca8010fd6e5c59d -> e92289627396a76134344c625c1bd5ff
+  custom:scripting/monoscript/fileName/EyeGazeData.cs: b0dc315fea2705420a5f0c75033bfba8 -> 1cfe3da5b954d59b0d1d539e6fc7b924
+  custom:scripting/monoscript/fileName/PoseUsedOnSubmitTest.cs: 72da56295d43e24a018ecd748da0119d -> cbe89de6474585dba8ad66575776bb2a
+  custom:scripting/monoscript/fileName/WavePath.cs: f84457c0e75245d92474fab45f7d18dc -> 8e3019f3b6fefd3e7398371e0b958f79
+  custom:scripting/monoscript/fileName/TunnelingVignetteController.cs: f4be4ae31376d47ca185a1067f1143ec -> 7e92bdaa5e982395a368e20cf1eb9ff8
+  custom:scripting/monoscript/fileName/ControllerPoseModeHandler.cs: c8b9a878f77c580a813371b29e99f98f -> b4e2d749a16c86e653079a85a27e6d14
+  custom:scripting/monoscript/fileName/IncrementUIText.cs: c0a952d102317224ae615d46a68bb518 -> f7d8385b142d66834e0ec965e04f971f
+  custom:scripting/monoscript/fileName/ILPostProcessorLogger.cs: ccd122ea4a46a2a2da52b8b69555345e -> a9a79cba4fed98c69528536ac8b3f71c
+  custom:scripting/monoscript/fileName/Vector4MaterialPropertyAffordanceReceiver.cs: f917e77d76ab3e3f1a419369e10eb867 -> f5309be8be6e15acf768c2079f2aad6c
+  custom:scripting/monoscript/fileName/MatchNetworkManager.cs: ce5c67da13013adeb83778c99f345446 -> 0e5f406e72ee06df99e93b9762b0b5e5
+  custom:scripting/monoscript/fileName/ControllerBeamProvider.cs: c6329db180aac8e1e31ee932cea81d99 -> 043270fe79a22f0c6b6067f6da732540
+  custom:scripting/monoscript/fileName/ControllerPointerProvider.cs: fc5a52421a82113ad50949a27549887f -> f908c374e8eec998f6fcb18f7657e89a
+  custom:scripting/monoscript/fileName/XRInputModalityManager.cs: 7f7aeabd8a3626fa54a2b057a1e05686 -> aecc63f6a8911caebec1dea1326040fc
+  custom:scripting/monoscript/fileName/ClientWebsocketSettingsDrawer.cs: df6d4be4e6b340be3b7c95e3f50a8505 -> 1a9576100bab38a4c4ed964bd5a996d8
+  custom:scripting/monoscript/fileName/LagCompensation.cs: 42fb07afcd977255722b6f929fc23099 -> af5643706224b00b5496021d95b4d26c
+  custom:scripting/monoscript/fileName/TrackedDevicePhysicsRaycaster.cs: dc7932d95a513059c1f9eb6f71c55fb5 -> badbe4b4d308846ebd7b0f2668b54786
+  custom:scripting/monoscript/fileName/MaterialPropertyBlockHelper.cs: 18843b9d467e260c74a0c2bcddf36e67 -> bc18d83f50ae0d2e4cd27478bad972f2
+  custom:scripting/monoscript/fileName/IXRReticleDirectionProvider.cs: 6314dc95d5cf7d2423367f0c0721b89a -> fd5077538084f75e3bda024f4dc828ac
+  custom:scripting/monoscript/fileName/LazyFollow.cs: fe16a2232430700c6574d46bc6e1d06a -> 3c5ec47ad1ed59d174bbce5afecd9d8a
+  custom:scripting/monoscript/fileName/ARAnnotationInteractable.cs: 324889a0c02cad31fe6c4355ff395347 -> 1c1b89a97feaefc02bfceb17a35996d5
+  custom:scripting/monoscript/fileName/SceneDrawer.cs: b3b46522af8447165d0f7a22bcf42121 -> a3eb2aa63c853113db40c3c765f99caf
+  custom:scripting/monoscript/fileName/TeleportationAnchor.cs: 6508b40cd1b8b954e0c6203419a4abdf -> e4458ea15c3ed0e637cdab6f7eb90ccd
+  custom:scripting/monoscript/fileName/CustomBulkSessionModel.cs: a4647a3f4bc1e0da1d0ff0f1019560b6 -> 6ae60a06b697eacd35ed551e5bed249e
+  custom:scripting/monoscript/fileName/SessionData.cs: 1d0df581745cea45c6566efa275a5b71 -> 9079583e9a1a9c8abd8d4d54f408bb08
+  custom:scripting/monoscript/fileName/XRLoaderOrderUI.cs: 65b20182e989272b7e0439cd47eae80e -> 7bb0491ac9109774b097f2da80cd0c03
+  custom:scripting/monoscript/fileName/FramerateTest.cs: a24ddd38f708f21eb68ca563f808a272 -> 28b5055d9194a1fc5cef2ffdbc4c6195
+  custom:scripting/monoscript/fileName/ComponentCredentials.cs: 4b50d0fe3828967b647b34d1cd2e5ab3 -> cc0bcd511658e1cc1bf7f2762abe60c6
+  custom:scripting/monoscript/fileName/CustomizeWaveControllerEditor.cs: 7742b3e4eb5f43060613798a55f9e5e7 -> e4a46dc5ccc41a8a689fa49979d0855a
+  custom:scripting/monoscript/fileName/XRInteractionUpdateOrder.cs: e302958c1f2b7c8afb0547d639d101e4 -> 5874723d3e1c8322f93c8d0483a7949b
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/FoveatedTest.cs: dc4c3276259606c3c1ca35e6871b19a0 -> 32478900e45e1493f39e92793ecf8e99
+  custom:scripting/monoscript/fileName/KcpPeer.cs: e428df90c5205b4ef23c187b92a8f0b4 -> 56ce963667425f004cba0f7a2fb0990c
+  custom:scripting/monoscript/fileName/HandBeamProvider.cs: aacb622db4743e2bc96bbf787d76dcc8 -> f5488515ff9fd576373d0a25c9983084
+  custom:scripting/monoscript/fileName/NetworkStatistics.cs: 52971cb50eeda968d3342ff169083f12 -> dc6ee38d99ae1ede6a65fbd49f77e3f1
+  custom:scripting/monoscript/fileName/MaterialAnimation.cs: eacf09169de845fbbc886e1d960507b4 -> 556852fd668048099283a47f9d1a3d5f
+  custom:scripting/monoscript/fileName/MatchmakerCreate.cs: 9e33f8f11ac11618df141791973e21f7 -> c18485dd036456cd04a816dee9a8290f
+  custom:scripting/monoscript/fileName/ToolState.cs: 94626a01950ccf61d5fa8fba8541ab12 -> 12f7e9bbc984dbf987298580102488ff
+  custom:scripting/monoscript/fileName/CurrentTrackerText.cs: 443a51905d9771a768e1432d1e119cb9 -> dbd2431a9dda88ea552fa091817b6fe5
+  custom:scripting/monoscript/fileName/BenchmarkNetworkManager.cs: a6cdb298f3627d3e516dc67426937cf0 -> e88082d7af5c1d730dda3747af70dd2b
+  custom:scripting/monoscript/fileName/MatchmakerReleaseUpdateBase.cs: acaa4f0a4e54891604383bb6117b370b -> 1acc24d9b2d073a763f3070e5646415d
+  custom:scripting/monoscript/fileName/AMCGameHandle.cs: e6960897a63da870a3b901aa75c4dcf2 -> 5d30f664557b0ce075cd866b43a06d2e
+  custom:scripting/monoscript/fileName/NetworkClient_TimeInterpolation.cs: ef1ad270d4a7517fd29d5478b7f63666 -> 1837a8f7445498a9e0a83dd68509c1b1
+  custom:scripting/monoscript/fileName/TrackedDeviceModel.cs: 7ad070a445f46a2a0c683cde136efb68 -> 7aaaa20be082d1f9ec0a05ae8a9774e0
+  custom:scripting/monoscript/fileName/ShootingTankBehaviour.cs: edb3159cc6aafb4ce61ad4f4c69f57d0 -> b9f7f0adf77d7e8802f7fc793a654f17
+  custom:scripting/monoscript/fileName/NetworkReader.cs: 75ab3d56e07f307a72806d1ff25d96df -> 47f66f43ebe25583e8b1969d676c2c7c
+  custom:scripting/monoscript/fileName/BasicNetManager.cs: 5d6080b96dfe12681f908ba793cbfdcb -> c49da441cd1441606f5a7a90a8fca15f
+  custom:scripting/monoscript/fileName/EditorComponentLocatorUtility.cs: 23a2a6b997d8e1245346e01589da98b9 -> 0b086b7f41bf64d52466885c0b670e3c
+  custom:scripting/monoscript/fileName/NetworkMetricsModel.cs: e91a1ba122321aa4d2809cbbf126e885 -> 179f1a28f18efdf0ad9d2290de5715c7
+  custom:scripting/monoscript/fileName/PredictedRigidbodyPhysicsGhost.cs: cb634e5fc150a3a14f2ee2b26e8ee1dd -> ff16a5cbc9ce7afb2dd5c9c6a6d7d134
+  custom:scripting/monoscript/fileName/ISynchronousAffordanceStateReceiver.cs: 9d34bf257f309b425d978d71f2df2e21 -> 9c6146f08a55f42513d22353fd71fedc
+  custom:scripting/monoscript/fileName/Vector3TweenableVariable.cs: 50c6fbb45c9c16a8155945acb00cfa13 -> cc95da2d3682b8fe6102773ef6c72379
+  custom:scripting/monoscript/fileName/AppVersionWhitelistEntryPayload.cs: c9b8ffa29b8f71cf60e171ba5cb11010 -> 6fac1acb26e5e3f652afd7aabdd762f9
+  custom:scripting/monoscript/fileName/SimulatedInputLayoutLoader.cs: 3bcb299e195bd762046f2051b5b87180 -> 3895850963409b8abfbb332bbccc34de
+  custom:scripting/monoscript/fileName/ToggleActionPinch.cs: 21fc7265f2c37954b5e470a04a57e74b -> 6e860ba0b1bc4a00a10cb4e16ac92823
+  custom:scripting/monoscript/fileName/LocalConnectionToServer.cs: 37e998a5bb67ece85e47c3c0ee14c47d -> c24bf224f541386eb7ade46fcf9e7b91
+  custom:scripting/monoscript/fileName/XRDeviceSimulatorLoader.cs: 5d01e51e0bf12ae8d2a9e85e035a78d5 -> 2fc387590d6612896e401fe69bd6698e
+  custom:scripting/monoscript/fileName/NaturalHandInteractionModeText.cs: 3522b7d0484debd90f774055ce1c54b7 -> ac29b22dc241eb3feeea7c0979dfc9fa
+  custom:scripting/monoscript/fileName/CurveUtility.cs: 824ed99bec2b340a8445a7a4b1f48831 -> 01ae726ba285f25f600b022f52be8a76
+  custom:scripting/monoscript/fileName/Error.cs: 2484cb8f9a3f167aca980f4a40e19d04 -> 964e88794ebda480dbcb4af3e0d00e0d
+  custom:scripting/monoscript/fileName/MixModeActivator.cs: e3c82987b9712be8c90309a2f8cedd40 -> b1c7d2b05a4330b835ecb821fc1ede54
+  custom:scripting/monoscript/fileName/RegistrationList.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:scripting/monoscript/fileName/HostMode.cs: d08d9979a8ad9460da50cadec32877e7 -> 53517e579116104b805bd6174b0c8c44
+  custom:scripting/monoscript/fileName/XRInteractorLineVisualEditor.cs: 9da7bcc3e07d0240fd6d7961c4b88d57 -> d59e751310a6868afd785ca4d134c667
+  custom:scripting/monoscript/fileName/HistoryBounds.cs: 1d353857fa08c2895e8ab5378a7caf4f -> 5366088f43c695b08273a56dfa3e7d7a
+  custom:scripting/monoscript/fileName/IXRPokeFilter.cs: 9c88e906e07bd3bd20ac3ffe2d7b3f2e -> 61f6c3fc14b27d84607f59daa21c68dc
+  custom:scripting/monoscript/fileName/XRRig.deprecated.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/KnownPackages.cs: 2411540a6b80bde165035b9ffbb722ba -> 8647f39ea28525d7cb72646ed790f6ec
+  custom:scripting/monoscript/fileName/Messages.cs: 5fbafd1ca521f6758d9102b347df42ad -> 6cde3abd234926f9b8304f51b5245479
+  custom:scripting/monoscript/fileName/LightProbeGroupEditor.cs: d863052fb047ed7f33edbf21b02371f8 -> 9696dfe162e80935778128f16124bb9c
+  custom:scripting/monoscript/fileName/Vector2AffordanceThemeDatum.cs: a646cce71fff2734c7e5566f1d2578ad -> c729e294a83befa1d794c55302991d0b
+  custom:scripting/monoscript/fileName/BulkSessionDelete.cs: cbe5308e8e55699caf456e82c9a0bbda -> e8232242975e5f3ad01c17ceebc46f24
+  custom:scripting/monoscript/fileName/ActivatePassThrough.cs: ae83aca5277a138d286ab816a7d23944 -> eb91c541cb6a1bb9c98a0b1a5248b5f6
+  custom:scripting/monoscript/fileName/XRFilterUtility.cs: db65864c69b40a08ae0009bc48307e63 -> 8226460e1ada394570fd699b1d8b572a
+  custom:scripting/monoscript/fileName/MetricsResponse.cs: 1c773c25f84b6e4e7b8d278603119290 -> cfd4b966e39501ea0673053a5aae15e9
+  custom:scripting/monoscript/fileName/XRTargetFiltersTreeView.cs: aadfc3fb0f25e465eabd7ff0c8fa2a2a -> a8bfe257778517a1b61130f595a997c2
+  custom:scripting/monoscript/fileName/ClientHandshake.cs: 0352ecd48a4b3174e635a7faf890584c -> 9b1519777afa1a68ee06a43bbd851230
+  custom:scripting/monoscript/fileName/KcpTransport.cs: 910f0a8412eff0bbc9de3de0be3fb218 -> 6876dddbbc75d3fdec1a3ec1d11c4388
+  custom:scripting/monoscript/fileName/IXRActivateInteractable.cs: 80638ab8c0f96271f3881756dc575163 -> bd444fbf0b78d39507a2b2f840f5662e
+  custom:scripting/monoscript/fileName/EventControllerProvider.cs: 25d8531683f19e71cd1f93b8e20f03af -> ef1aeefb73646a1eaabf2c7d6011912f
+  custom:scripting/monoscript/fileName/PermissionTest.cs: 5366170a4b9e10631e57094592746041 -> 23a64b208e94170968be087a3a6a9b56
+  custom:scripting/monoscript/fileName/ReadOnlyReorderableList.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/ApiEnvironment.cs: d3d66b60a350d37063cb3f2e141c1784 -> b7fe56a35e386dd778c0fe7e971718f9
+  custom:scripting/monoscript/fileName/Message.cs: c390c7778ca729db80d96965f19e5acf -> 87f23daf1017c6dedc81873de24a0b0a
+  custom:scripting/monoscript/fileName/Protocol.cs: fc66b760bf5019554526e9e1b30b16d1 -> dc3277d0edb2f3b079d8dc3c603b3234
+  custom:scripting/monoscript/fileName/ZoneHandler.cs: 3288b908b26ba5b09322fa43ed2371c3 -> 12219132cacb50ef816b58e74ae7bc1b
+  custom:scripting/monoscript/fileName/BulkSessionPost.cs: 6294383bebe11f63a694a52eac6f6215 -> cba9e18e9533869409e156fc21b062b7
+  custom:scripting/monoscript/fileName/HandInputModule.cs: eb37092f93db61b344249e66cf4a6887 -> 93cc68ce8745e509a8136dfa42ce2197
+  custom:scripting/monoscript/fileName/XRBaseInteractable.deprecated.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/SyncList.cs: 34c6ff9cf0aa0d720e612550af5c5d26 -> 849ed7f5b11c9db237ef61b01c5a5104
+  custom:scripting/monoscript/fileName/ButtonTest.cs: 32875631779e6cc47fdaded1a3d81c98 -> cd5acc01b98efdd8784b02b3b017e37c
+  custom:scripting/monoscript/fileName/ResetOrigin.cs: db5953d380e9811066a95ba425e63e2e -> 47ca1ab64c1ea264d29523a68e2e5be6
+  custom:scripting/monoscript/fileName/MinMaxBounds.cs: ec011bfe695b2e7567662c76b7fb78d3 -> d21201751d1a6e620bbca31f42f0d83c
+  custom:scripting/monoscript/fileName/HandMenu.cs: eeee0b1f5cbec66a64c04693e2ad78ce -> f5aec5c2bc2defca6d63b84dbaab0a37
+  custom:scripting/monoscript/fileName/CustomGrabber.cs: 685ca3bd381fbe92cbb0e66259437c2e -> 8fa062a442cfd816b6cc7173e40a4c44
+  custom:scripting/monoscript/fileName/ControllerTipsTestEventHandler.cs: a2decd684c05c1cfd0f997a248f3d082 -> d4cd5dd9d4ebd4bc10722b79c7b2973c
+  custom:scripting/monoscript/fileName/FloatTweenableVariable.cs: bbe3fa1648b46898fde49cc75769e64c -> 59d482573b9d02709bc9395dcc154761
+  custom:scripting/monoscript/fileName/ConstrainedMoveProvider.cs: 56ec869a64aaec2f027eb28612154391 -> dcfd6f71fb5d80dfde2d7fd59e6c8516
+  custom:scripting/monoscript/fileName/SessionUser.cs: eee97e32e0903a5a9716ffa2fc428521 -> f365f232d1606dfc198227d2aaecee8d
+  custom:scripting/monoscript/fileName/DeploymentSessionContext.cs: a65d9ac61bb9fe18d252f1afc8fe6b5b -> 2b0f948b19d474ad2c0f6efbe112f0b1
+  custom:scripting/monoscript/fileName/Log.cs: b57bf2c214d2b5b4061b48134b24edc4 -> 36c8fb24a4b3d86205ed1bcaec808419
+  custom:scripting/monoscript/fileName/WaveVR_RenderThread.cs: ba501af7fc93fcb33b742ae61811b72a -> 8a958669800a126e185e3a6fdc04255a
+  custom:scripting/monoscript/fileName/XRSocketGrabTransformer.cs: d30a1012bfb94435e3b45e4815c3e1f1 -> 01b82773be4212bebc7bb9162e7b03ac
+  custom:scripting/monoscript/fileName/WaveXR_Utils.cs: 4304c61558cea44df62c40b502133154 -> 560a99528745bb4b702518b302a25cba
+  custom:scripting/monoscript/fileName/Player.cs: 83c44cd93aad0a2c77202fbd08779bba -> 3930e5c181672d2291d395a8f33a0cc6
+  custom:scripting/monoscript/fileName/XRManagementAnalytics.cs: bf117eef22dee001b4c5f21604af7845 -> 546181baf4c03dbbd57015a6731508f8
+  custom:scripting/monoscript/fileName/BaseTeleportationInteractable.deprecated.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/PressUsage.cs: e5cbd7607c5c1704866b950e9991ae33 -> a23027dcd452227ac368ef810e015f35
+  custom:scripting/monoscript/fileName/PlayerMovement.cs: b7ede9d9248141c90285801ec72d5ab9 -> fd12e8b00872666cbf5ba7c63a732bb8
+  custom:scripting/monoscript/fileName/KcpServerConnection.cs: 49ae3c76ca0a19ceb1bc44ae741fb83d -> f2d868075e85f9daca268a5dc75106b6
+  custom:scripting/monoscript/fileName/ButtonHandTracking.cs: 049abf7c1a3d8e72e3b01e76af3f8584 -> 9009aaf1eac6bee4291c46651dbab729
+  custom:scripting/monoscript/fileName/EdgegapApiBase.cs: 79c9b7adb842af8a80c18e23fa72be40 -> 940222df7b620cf984b1f6c4601e2576
+  custom:scripting/monoscript/fileName/InputActionManager.cs: ac8dee7764be24da2327d9ff3e7dba17 -> 167b131b81ef251e0f316ffc8d93b793
+  custom:scripting/monoscript/fileName/ActionToVector2SliderISX.cs: eac9d5edd5916f87eaf3d16463279d5a -> d2a162671f52e64afa3aec65d1148d59
+  custom:scripting/monoscript/fileName/SnapTurnProviderBase.cs: c424ca165cc414b9b270f9acbf8ec65d -> dc2a13b0bb50b32ab22f287a4afa7a7d
+  custom:scripting/monoscript/fileName/ClonesManager.cs: 3a949416093e96c0b67ca4c743a2b1ba -> acabb43c2fdb9e10fb7d887cd3d9dbdc
+  custom:scripting/monoscript/fileName/AppVersionCreateSessionConfig.cs: 4213526b21bb32d81f9865791f817fd9 -> 6770cf908691a5283e9373084194be0f
+  custom:scripting/monoscript/fileName/HandExpressionName.cs: 7b90344cc9ca1dc7416c4e9e84233020 -> ca6e0274ed8c91cc117104b3a7cee539
+  custom:scripting/monoscript/fileName/XRPackage.cs: a7ee512db104827eeeec71c027c7f720 -> f2edbbf87f9b798abaf2a9f285d155f5
+  custom:scripting/monoscript/fileName/InteractionLayerSettingsEditor.cs: 0bd99cd72adf01fce22395f468995c64 -> f6cc0affb94e42b08693a91465ffe8ff
+  custom:scripting/monoscript/fileName/ClimbProvider.cs: efd09a0fdc23f6b02c7744c60bf1af8a -> d84ca1b3c0fe1de589e8a4c223d55e25
+  custom:scripting/monoscript/fileName/SinMoveYWrapper.cs: ce002e2439c6e0dd5ae1134bbe4e17ea -> ba75e0d0947fa83053e6a6aee5a11ae0
+  custom:scripting/monoscript/fileName/LocationData.cs: e185c4fcb9010e85d86ea1f87de6ee9b -> 2dd8a12033e8ed558370967378864610
+  custom:scripting/monoscript/fileName/IXRScaleValueProvider.cs: 0a67ed0d34ec038daff35285b52ccbc6 -> f0b18f687f463ee3bae60d8709e9d23a
+  custom:scripting/monoscript/fileName/ThirdPersonController.cs: f0a66fb3e07e7abc99dc53a3859e4fb8 -> a689853034d5fa0ef10dab801796c594
+  custom:scripting/monoscript/fileName/FindGameObjectWithScript.cs: 11ac8df9244a0f7355e129628aca7248 -> a708debc0a78c42f6c2b1975a3611e02
+  custom:scripting/monoscript/fileName/MaterialHelperBase.cs: 185bef5eca04f6c1e4880362d11ae344 -> c5a03ffcc840f5fe80388816e4210849
+  custom:scripting/monoscript/fileName/CanvasUI.cs: ddd9aada75ed03f911671359bbe63140 -> 766e2fecc58713392f247fa422f58038
+  custom:scripting/monoscript/fileName/WebSocketServer.cs: 1140a3d8e9a050b25df98184b315c508 -> 205d1bdc545e864156be1816b4ab8630
+  custom:scripting/monoscript/fileName/XRInteractorReticleVisualEditor.cs: 056cc238fa86d25e37fc9e0f3accad7b -> 040aa111fed85ffa3a891f44456494b4
+  custom:scripting/monoscript/fileName/RemoteCalls.cs: 463b3e478d8e77170004333df4c45412 -> 0970dca52e6b7575a66c514d031f523c
+  custom:scripting/monoscript/fileName/ReceiveLoop.cs: b2d18575cac69489f442ee9fa8f3ee6a -> 757f0e18dd0fb20f02b4c06203ed56d8
+  custom:scripting/monoscript/fileName/XRInteractionManagerEditor.cs: 95b65d4f8ba410676c25ca80a01c67a7 -> 27c2c0f41d2bce5722ec76e22c8366b4
+  custom:scripting/monoscript/fileName/IXRDropTransformer.cs: 928a08d617708acc0415941d03aec9cf -> 9a651ee93d10d51b179519d3562c3081
+  custom:scripting/monoscript/fileName/EyeExpText.cs: 9a519a965c2bf13153fdb68a015b98a2 -> 273d64aa51f92c8cece50836e1b3dcb2
+  custom:scripting/monoscript/fileName/MultiSceneNetManager.cs: ac51e29e92d79d0bbc062e6d78db113f -> 63ae63931192bdb0d0f2a82249164515
+  custom:scripting/monoscript/fileName/AutomaticTrackingModeChanger.cs: de98d6a37db1f6deeed18c8c5061146f -> d560992e09e4ef61b39bd41a99bf6cc1
+  custom:scripting/monoscript/fileName/EyeDataText.cs: 34c0da51fa0a16742c42770012182119 -> fdf779dd2af92e28aed80e56eed84c70
+  custom:scripting/monoscript/fileName/AndroidManifestDocument.cs: 79bccb01d12180ddefe7f6eacf2adb51 -> 47b2d5387fe80e2b28f68297243f4883
+  custom:scripting/monoscript/fileName/ChatUI.cs: 9c2ad8db7b77869a80d0b33150a804f3 -> f0fe330136b1fd9162b52d46679212e5
+  custom:scripting/monoscript/fileName/EquirectangularSphereMeshGenerator.cs: 3c62c2ac51e7f6c67d485792194fd8a1 -> 8da94be73babd87e384ce0b135a75d27
+  custom:scripting/monoscript/fileName/NetworkConnectionToServer.cs: e99bd7259600fa433fcad906c9a66281 -> 70128fd122f5202207c2e64f353aff1c
+  custom:scripting/monoscript/fileName/Delete.cs: d9eb1b15a88f07fc21aa873323b1ff18 -> 4378c9df69a5a273161b3b94b854d07f
+  custom:scripting/monoscript/fileName/Pool.cs: 746c2793a1542f45df69a229f5186413 -> d81fe1a86eaaaaa888ee50e17a01544a
+  custom:scripting/monoscript/fileName/AckItem.cs: a25631ead17eec214d641af0345c2e49 -> 71c65e1e4363ff93fa77de15452ddf4e
+  custom:scripting/monoscript/fileName/CustomRestoreObject.cs: 8e6648fa6d4a9ac61c2ea4b69f8ad4aa -> d7d146f2bb77391e7331f0421b3da311
+  custom:scripting/monoscript/fileName/XRPackageMetadata.cs: 4f8a12748efcdfd2878565fdb174a717 -> 16731333f575d8bc31df496aced36ebf
+  custom:scripting/monoscript/fileName/IXRTargetPriorityInteractor.cs: da9c42c302e18e737682d40fa039993b -> 24d6ec2f7a8cd239feeb9ea80308601e
+  custom:scripting/monoscript/fileName/ImageColorAffordanceReceiver.cs: 361e6fb9ce8a8373683c4e66e089f9d9 -> 603dee3758540afb7530f2df6d9abea7
+  custom:scripting/monoscript/fileName/XRInteractableUtility.cs: 3c51f600061b7372557b94752fb19bd9 -> 2166c9d829bc108ffe4c50d73b002a48
+  custom:scripting/monoscript/fileName/HandExpressionCapture.cs: 3ada11cb7170f83bca0e464562be40f0 -> 79a65da58c2a526c97c6c089768712fb
+  custom:scripting/monoscript/fileName/CardinalUtility.cs: 82d9b054f3f7d5bdfd1dc4794a795596 -> 6a22dbb5ac678ef2dc1a53774c3f693f
+  custom:scripting/monoscript/fileName/EditorQuit.cs: bf2e36b4f203e06370b7aec3b83c890c -> b31463a5c71b766d4070e0c3ec3c3f34
+  custom:scripting/monoscript/fileName/AppVersionWhitelistResponse.cs: 6d6411369186f488cddcc4350ee5f393 -> 747f76f2af3461c8bf6700c52d956f6d
+  custom:scripting/monoscript/fileName/WaveXR_Gaze.cs: 7ecae722a18df79d7ca0124bfe8201fa -> 7cbcfb3229772e26ddb915a8ee2915c0
+  custom:scripting/monoscript/fileName/MatchmakerReleaseResponseBase.cs: b9e2494bcf877867bb004402f78686da -> 670ee24fa94a30f5a5fc7162463b9170
+  custom:scripting/monoscript/fileName/UniformTransformScaleAffordanceReceiver.cs: 72e2261d5574f0880b9c0bf90fb80549 -> f3107034e239f550854d31e2a7d3cf78
+  custom:scripting/monoscript/fileName/SineMoveRandomBehaviour.cs: 60ea3e79cb98dde29fe58cc78e4cea3d -> ed9e2ff6320a1c21893155e789ed8c61
+  custom:scripting/monoscript/fileName/ARRotationInteractableEditor.cs: 267d514615fcc2f143b98bca95aa7be3 -> 0b8c2e7e563b410957ce9fd7da06b96d
+  custom:scripting/monoscript/fileName/DemoCMGazeInput.cs: 03c114131bbfbef96dee97f8cbdd7551 -> 569be9a8dd289490796eb9158914da75
+  custom:scripting/monoscript/fileName/NaturalHandCurrentTrackerText.cs: 8ef2b8ada5f128c5275ba08f1bc1275a -> 2ae995cd52493344ee3d55da3d2c566b
+  custom:scripting/monoscript/fileName/PlayerGUI.cs: fe295633c682ad32155e2649b7b822ee -> 7e0ca58f71a945a382c8e1a187472ca3
+  custom:scripting/monoscript/fileName/DynamicMoveProvider.cs: 29128bc89f27b0e7466c03a4d8c85514 -> 64ab64daf2a926326dc8263ed59a5ef2
+========================================================================
+Received Import Request.
+  Time since last request: 24629.346723 seconds.
+  path: Assets/Scenes/BasicScene/Grid_Light_512x512.png
+  artifactKey: Guid(8685512c7856ffd40a4ad1859a7cb52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BasicScene/Grid_Light_512x512.png using Guid(8685512c7856ffd40a4ad1859a7cb52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad1de8665b093faaaa511e76c84768e') in 0.063414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.813939 seconds.
+  path: Assets/Templates/VR Template/Samples/XR Interaction Toolkit/2.4.3/Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.asmdef
+  artifactKey: Guid(9233538b711383d449a485633568d17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Templates/VR Template/Samples/XR Interaction Toolkit/2.4.3/Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.asmdef using Guid(9233538b711383d449a485633568d17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ca6c02e0f07abac9b84c02c7401b21') in 0.000566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003584 seconds.
+  path: Assets/Templates/VR Template/Samples/XR Interaction Toolkit/2.4.3/Starter Assets/Prefabs/XR Origin (XR Rig).prefab
+  artifactKey: Guid(f6336ac4ac8b4d34bc5072418cdc62a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Templates/VR Template/Samples/XR Interaction Toolkit/2.4.3/Starter Assets/Prefabs/XR Origin (XR Rig).prefab using Guid(f6336ac4ac8b4d34bc5072418cdc62a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d51052d4614812e01ba762dea9c315') in 0.254348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 289
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Der E/A-Vorgang wurde wegen eines Threadendes oder einer Anwendungsanforderung abgebrochen.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
