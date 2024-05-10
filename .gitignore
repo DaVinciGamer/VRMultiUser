@@ -53,7 +53,8 @@ $RECYCLE.BIN/
 *.lnk
 
 
-Library/ArtifactDB/
-Library/Artifacts/
-Library/PackageChache/
 
+ChariteVRv4/Library/ArtifactDB
+ChariteVRv4/Library/ArtifactDB-lock
+/ChariteVRv4/Library/Artifacts
+/ChariteVRv4/Library/PackageCache
