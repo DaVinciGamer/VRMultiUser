@@ -7,6 +7,7 @@ public class AutoHostClient : MonoBehaviour
 {
 
     [SerializeField]  NetworkManager networkManager;
+    public string IPAdressToConnectTo = "localhost";
     // Start is called before the first frame update
     void Start()
     {
@@ -27,7 +28,7 @@ public class AutoHostClient : MonoBehaviour
     }
     public void JoinLocal() {
 
-        networkManager.networkAddress = "localhost";
+        networkManager.networkAddress = IPAdressToConnectTo;
         networkManager.StartClient();
     }
 }

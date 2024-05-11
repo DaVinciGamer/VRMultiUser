@@ -56,222 +56,23 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-    <Analyzer Include="E:\Uni\Master\Forschungskolloquim\VRMultiUser\VRMultiUser\ChariteVRv4\Assets\PlugIns\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Pdb.dll" />
-    <Analyzer Include="E:\Uni\Master\Forschungskolloquim\VRMultiUser\VRMultiUser\ChariteVRv4\Assets\PlugIns\Mirror\Plugins\Mono.Cecil\Mono.CecilX.dll" />
-    <Analyzer Include="E:\Uni\Master\Forschungskolloquim\VRMultiUser\VRMultiUser\ChariteVRv4\Assets\PlugIns\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Rocks.dll" />
-    <Analyzer Include="E:\Uni\Master\Forschungskolloquim\VRMultiUser\VRMultiUser\ChariteVRv4\Assets\PlugIns\Mirror\Plugins\BouncyCastle\BouncyCastle.Cryptography.dll" />
-    <Analyzer Include="E:\Uni\Master\Forschungskolloquim\VRMultiUser\VRMultiUser\ChariteVRv4\Assets\PlugIns\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Mdb.dll" />
     <Analyzer Include="D:\Programme\Unity\2022.3.24f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="D:\Programme\Unity\2022.3.24f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\IMEMgr_Test\Scripts\IMETest_Manager.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Native\6.0.0-r.14\Native\Common\WaveVR_Resource.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\XR\Controller\Scripts\EyeGazeData.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\Common\Scripts\ActivateByDisatance.cs" />
-    <Compile Include="Assets\Templates\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\XR\Controller\Scripts\HideUntrackedObject.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\Raycast\Scripts\ToggleAction.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\Common\Scripts\InputDeviceTools.cs" />
-    <Compile Include="Assets\Templates\VR Template\VRTemplateAssets\Scripts\VideoTimeScrubControl.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\FoveatedRendering_Test\Scripts\FoveatedIndicator.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\SeaOfCube\Scripts\CtrlrSwipeLR.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\SeaOfCube\Scripts\RulerMesh.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\XR\Controller\Scripts\Utils.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\Common\TeleportBall\TeleportBall.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\Common\KeyboardMouseControl\Scripts\WaveXR_PoseProviderForKMC.cs" />
     <Compile Include="Assets\Scripts\RigScripts\Network\NetworkHand.cs" />
     <Compile Include="Assets\Scripts\RigScripts\Network\NetworkRig.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\ButtonTest\Scripts\ButtonTest.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\PassThrough\Scripts\ActivatePassThrough.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\Common\CustomGrabSystem\CustomGrab.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\XR\Tracker\Scripts\TrackerPose.cs" />
     <Compile Include="Assets\Scripts\PlayerAnimation\AnimateOnInput.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\Raycast\Scripts\ToggleActionPinch.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\Mirror\Scripts\WaveXRMirror.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\SeaOfCube\Scripts\LoadLevel.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\Common\AssetBundleTool\Scripts\AssetBundleObjectLoader.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\Common\AssetBundleTool\Scripts\AssetBundleLoader_LoadAll.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\SeaOfCube\Scripts\BulletGenerator.cs" />
-    <Compile Include="Assets\Templates\VR Template\VRTemplateAssets\Scripts\VideoPlayerRenderTexture.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\DynamicFR\Scripts\BulletGeneratorAutoAim.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\AdaptiveQualityDynamicResolution_Test\Scripts\BackContactHandler.cs" />
     <Compile Include="Assets\Scripts\PlayerAnimation\IKTargetFollowVRRig.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\XR\Controller\Scripts\ControllerRaycastPointer.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\DynamicFR\Scripts\ShowHMDMotionChart.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\Raycast\Scripts\PinchText.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\Common\Scripts\SetOrigin.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\Common\Tools\Scripts\EquirectangularSphereMeshGenerator.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\VRTestApp\Scripts\VRTestAppScenes.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Native\6.0.0-r.14\Native\Common\AutoSupportText.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\XR\Controller\Scripts\RaycastPointer.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\XR\Controller\Scripts\ActionAssetEnabler.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\AdaptiveQualityDynamicResolution_Test\Scripts\QualityContactHandler.cs" />
-    <Compile Include="Assets\Templates\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs" />
     <Compile Include="Assets\Scripts\AutoHostClient.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\IMEMgr_Test\Scripts\IMEWrapperExample.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\Raycast\Scripts\BarEventHandler.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\LipExpression\Scripts\LipExpText.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\Common\Tools\Scripts\PointCloudGenerator.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\XR\Controller\Scripts\ActionToButton.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\XR\Controller\Scripts\WristTrackerData.cs" />
     <Compile Include="Assets\Scripts\RigScripts\Network\NetworkHead.cs" />
-    <Compile Include="Assets\Templates\StarterAssets\TutorialInfo\Scripts\Readme.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\XR\Controller\Scripts\ActionToVisibilityISX.cs" />
-    <Compile Include="Assets\Templates\Samples\XR Interaction Toolkit\2.5.2\XR Device Simulator\Scripts\XRDeviceSimulatorControllerUI.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\SeaOfCube\Scripts\RangeFinder.cs" />
-    <Compile Include="Assets\Templates\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualTouchZone.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\Common\AssetBundleTool\Scripts\ColliderDetect.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\XR\Controller\Scripts\HideUntrackedObjects.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\VRTestApp\Scripts\InputSystemWarning.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\XR\Hand\Scripts\HandText.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\VRTestApp\Scripts\MasterSceneManager.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\XR\RenderMask_Test\Scripts\RenderMaskTest.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\Common\CustomGrabSystem\CustomGrabbable.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\Raycast\Scripts\EyeDropDown.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\XR\Controller\Scripts\DisplayDeviceInfoFromActionISX.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\Common\AssetBundleTool\Scripts\AssetBundleResourceLoader.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\VRTestApp\Scripts\RaycastRing.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\Common\Scripts\SetGameViewRenderMode.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\VRTestApp\Scripts\RaycastImpl.cs" />
-    <Compile Include="Assets\Templates\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\ButtonTest\Scripts\InputSystem\PressUsage.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\XR\Controller\Scripts\RaycastEvents.cs" />
-    <Compile Include="Assets\Templates\VR Template\VRTemplateAssets\Scripts\RayAttachModifier.cs" />
     <Compile Include="Assets\Scripts\RigScripts\Hardware\HardwareRig.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\AMCTest\Scripts\AMCGameHandle.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\Raycast\Scripts\MixModeActivator.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\ButtonTest\Scripts\BatteryLife.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\Raycast\Scripts\EyeTrackingCube.cs" />
-    <Compile Include="Assets\Templates\VR Template\VRTemplateAssets\Scripts\Rotator.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\Common\CustomGrabSystem\CustomGrabber.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\Raycast\Scripts\ChangeEyeSpace.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\Raycast\Scripts\CubeEventHandler.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\Common\ThrowBottles\Bottle\BottleLiquid.cs" />
-    <Compile Include="Assets\Templates\VR Template\VRTemplateAssets\Scripts\AnchorVisuals.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\XR\Controller\Scripts\ActionToVector2.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\SeaOfCube\Scripts\AimTheHead.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\SeaOfCube\Scripts\DistanceUI.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\AdaptiveQualityDynamicResolution_Test\Scripts\HammerMove.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\Mirror\Scripts\MirrorTestGameHandle.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\SpectatorSample\SpectatorTestHandle.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\PoseUsedOnSubmitTest\Scripts\PoseUsedOnSubmitTest.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\Common\Scripts\WaveXR_Gaze.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\XR\Controller\Scripts\ActionToDeviceInfo.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\Common\Scripts\CameraRig.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\ButtonTest\Scripts\TrackingStateText.cs" />
-    <Compile Include="Assets\Templates\VR Template\VRTemplateAssets\Scripts\XRKnob.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\AdaptiveQualityDynamicResolution_Test\Scripts\AQDRStatus.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\AdaptiveQualityDynamicResolution_Test\Scripts\DRContactHandler.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\Common\Scripts\WaveXR_XRUtilities.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\SeaOfCube\Scripts\SeaOfCube.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\AMCTest\Scripts\LightProbeGroupEditor.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\Common\WaveVR_Resource.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\ButtonTest\Scripts\SwipeTest.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\Common\Scripts\HandController.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\SeaOfCube\Scripts\ResetOrigin.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\XR\Tracker\Scripts\TrackerDeviceManager.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\FoveatedRendering_Test\Scripts\FoveatedRenderingQCOMCalculator.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\StereoRenderMode\Scripts\StereoRenderModeHandle.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\Common\Scripts\WaveXR_Utils.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\SeaOfCube\Scripts\BulletTarget.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\ButtonTest\Scripts\InputSystem\AxisUsage.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\Common\Scripts\WaveXR_LogPanel.cs" />
     <Compile Include="Assets\Scripts\RigScripts\Hardware\HardwareHand.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\SeaOfCube\Scripts\RuntimeCube.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\Raycast\Scripts\TableStaticActivator.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\XR\Controller\Scripts\ActionToControl.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\AdaptiveQualityDynamicResolution_Test\Scripts\MaterialAnimation.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\XR\Controller\Scripts\AutomaticTrackingModeChanger.cs" />
-    <Compile Include="Assets\Templates\VR Template\VRTemplateAssets\Scripts\BezierCurve.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\DynamicFR\Scripts\DynamicFR.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\PassThrough\Scripts\ChangeOriginalUI.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\Common\Scripts\WaveVR_RenderThread.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\PassThrough\Scripts\PassThroughOverlayTest.cs" />
-    <Compile Include="Assets\Templates\VR Template\VRTemplateAssets\Scripts\StepManager.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\FoveatedRendering_Test\Scripts\FoveatedTest.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\Common\AssetBundleTool\Scripts\AssetBundleLoader.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\SeaOfCube\Scripts\DoFDetector.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\FSE_Test\Scripts\FSETest_Manager.cs" />
-    <Compile Include="Assets\Templates\Samples\XR Interaction Toolkit\2.5.2\XR Device Simulator\Scripts\XRDeviceSimulatorHandsUI.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\SeaOfCube\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\RigScripts\Hardware\HardwareHead.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\AMCTest\Scripts\SmoothVertices.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\XR\Tracker\Scripts\QuitApplication.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\Raycast\Scripts\EyeDataText.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\XR\Tracker\Scripts\TrackerText.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\Common\Scripts\WaveXR_FPS.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\SeaOfCube\Scripts\PermissionMgr.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\XR\Controller\Scripts\ActionToVector2SliderISX.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\XR\Controller\Scripts\HMDTracking.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\Common\KeyboardMouseControl\Scripts\WaveXR_KMCInput.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\XR\EyeExpression\Scripts\EyeExpButtons.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\SeaOfCube\Scripts\rotatebytime.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\XR\Hand\Scripts\NaturalHandGrasp.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\ButtonTest\Scripts\DevicePose.cs" />
-    <Compile Include="Assets\Templates\VR Template\VRTemplateAssets\Scripts\BooleanToggleVisualsController.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\ButtonTest\Scripts\InputSystem\TouchUsage.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\GetArenaTest\Scripts\GetArenaTest.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\SeaOfCube\Scripts\MenuGenerator.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\XR\Hand\Scripts\JointPose.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\SeaOfCube\Scripts\Bullet.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\ButtonTest\Scripts\InputSystem\StickUsage.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\Common\Tools\Scripts\PrimitiveMeshHelper.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\XR\Controller\Scripts\ActionToSliderISX.cs" />
-    <Compile Include="Assets\Templates\VR Template\VRTemplateAssets\Scripts\XRPokeFollowAffordanceFill.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\Raycast\Scripts\GazeRingData.cs" />
-    <Compile Include="Assets\Templates\VR Template\VRTemplateAssets\Scripts\DestroyObject.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\Common\LineRendererChart\LineRendererChart.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\XR\Tracker\Scripts\TrackerTextManager.cs" />
-    <Compile Include="Assets\Templates\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\SeaOfCube\Scripts\ReloadSceneHandle.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\Common\KeyboardMouseControl\Scripts\WaveXR_KeyboardMouseControl.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\XR\Controller\Scripts\TrackingModeOrigin.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\Common\Scripts\Timer.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\ButtonTest\Scripts\DemoButtonGazePointer.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\XR\Controller\Scripts\ActionToButtonISX.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\XR\Controller\Scripts\ControllerTracking.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\SeaOfCube\Scripts\ChooseDoF.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\ButtonTest\Scripts\DemoButtonGazeInput.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\PermissionMgrTest\Scripts\PermissionTest.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\Common\Tools\Scripts\DebugTools.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\XR\Controller\Scripts\ActionToAxis.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\Common\Scripts\WaveXR_Input.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\XR\EyeExpression\Scripts\EyeExpText.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\XR\EyeExpression\Scripts\EyeExpActivator.cs" />
     <Compile Include="Assets\Scripts\PlayerAnimation\IKFootSolver.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\LipExpression\Scripts\LipExpActivator.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\Common\Scripts\BillboardObject.cs" />
-    <Compile Include="Assets\Templates\StarterAssets\ThirdPersonController\Scripts\BasicRigidBodyPush.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\VRTestApp\Scripts\GazeRaycastRing.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\PassThrough\Scripts\PoseModeSetting.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\FoveatedRendering_Test\Scripts\FoveatedRenderingForwardQCOMCalculator.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\Common\CustomGrabSystem\CustomRestoreObject.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\XR\Controller\Scripts\ActionToHaptics.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\VRTestApp\Scripts\RaycastEvents.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\XR\Controller\Scripts\ActionToVisibility.cs" />
-    <Compile Include="Assets\Templates\VR Template\VRTemplateAssets\Scripts\LaunchProjectile.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\Common\Scripts\WaveXR_CommitInfo.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\PureUnity\StereoRenderMode\Scripts\ApplyQuality.cs" />
-    <Compile Include="Assets\Templates\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
-    <Compile Include="Assets\Templates\VR Template\VRTemplateAssets\Scripts\CalloutGazeController.cs" />
-    <Compile Include="Assets\Templates\Samples\XR Interaction Toolkit\2.5.2\XR Device Simulator\Scripts\XRDeviceSimulatorUI.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\DynamicFR\Scripts\DynamicFRAdjust.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\AdaptiveQualityDynamicResolution_Test\Scripts\UIContactHandler.cs" />
-    <Compile Include="Assets\Templates\VR Template\VRTemplateAssets\Scripts\Callout.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\FramerateTest\FramerateTest.cs" />
-    <Compile Include="Assets\Templates\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin\6.0.0-r.14\XR\Controller\Scripts\RaycastImpl.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\SeaOfCube\Scripts\CtrlrSwipeUD.cs" />
-    <Compile Include="Assets\Templates\Samples\VIVE Wave XR Plugin - Essence\6.0.0-r.14\Essence\Raycast\Scripts\HandPinchArea.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Templates\VR Template\VRTemplateAssets\Shaders\FauxBlurURP.shader" />
-    <None Include="Assets\Templates\VR Template\Samples\XR Interaction Toolkit\2.4.3\Tunneling Vignette\TunnelingVignette.shader" />
-    <None Include="Assets\Templates\VR Template\VRTemplateAssets\Shaders\Grid.shader" />
-    <None Include="Assets\Templates\VR Template\VRTemplateAssets\Shaders\TexturedFresnelStandard.shader" />
-    <None Include="Assets\Templates\VR Template\VRTemplateAssets\Shaders\TexturedStableFresnelCommon.cginc" />
-    <None Include="Assets\Templates\VR Template\VRTemplateAssets\Materials\Skybox\Horizontal Skybox.shader" />
+    <None Include="Assets\LEST MICH BITTE.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -1172,6 +973,10 @@
       <Project>{B35492C5-4C23-5ECF-7AE3-656FB0E80538}</Project>
       <Name>Unity.RenderPipelines.Core.Runtime</Name>
     </ProjectReference>
+    <ProjectReference Include="Wave.XRSDK.csproj">
+      <Project>{B0B96961-928A-9928-EFEA-2F8E11F1F31F}</Project>
+      <Name>Wave.XRSDK</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Burst.Editor.csproj">
       <Project>{189EFF19-B2B6-124C-75C2-66594D683A71}</Project>
       <Name>Unity.Burst.Editor</Name>
@@ -1180,9 +985,9 @@
       <Project>{6A000944-4D0D-2F6C-E9FE-FEEBA56C3867}</Project>
       <Name>EncryptionTransportEditor</Name>
     </ProjectReference>
-    <ProjectReference Include="Wave.XRSDK.csproj">
-      <Project>{B0B96961-928A-9928-EFEA-2F8E11F1F31F}</Project>
-      <Name>Wave.XRSDK</Name>
+    <ProjectReference Include="Unity.Animation.Rigging.Editor.csproj">
+      <Project>{751946B6-156D-A6B7-26B1-65E1A3284784}</Project>
+      <Name>Unity.Animation.Rigging.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Wave.Essence.InputModule.csproj">
       <Project>{C4A449A1-E029-86FD-F657-909A209E1713}</Project>
@@ -1224,13 +1029,13 @@
       <Project>{C8403F88-2552-8488-BAF3-585C4EA4BFD3}</Project>
       <Name>Unity.XR.CoreUtils</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj">
-      <Project>{33C93D72-192F-847C-397E-52C26D1A0C72}</Project>
-      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
-    </ProjectReference>
     <ProjectReference Include="Wave.Essence.Editor.csproj">
       <Project>{C2F82070-E501-0881-DFA5-8A47455CF152}</Project>
       <Name>Wave.Essence.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj">
+      <Project>{33C93D72-192F-847C-397E-52C26D1A0C72}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.csproj">
       <Project>{C3BEFD8F-E6A5-C10F-D2D7-376BE37E1BAA}</Project>
@@ -1256,6 +1061,10 @@
       <Project>{FC2447A1-6CDF-2CB2-ADF5-7D2AA23749E3}</Project>
       <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
     </ProjectReference>
+    <ProjectReference Include="SimpleWebTransport.csproj">
+      <Project>{6150B019-3B4E-FAFF-2331-2F9C0B64E46D}</Project>
+      <Name>SimpleWebTransport</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj">
       <Project>{5A61F4EC-A54E-478B-9CE0-585902924482}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor</Name>
@@ -1264,17 +1073,13 @@
       <Project>{9CDFCEB4-30DE-796F-964B-3A0C8D752EBB}</Project>
       <Name>Unity.XR.Management.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="SimpleWebTransport.csproj">
-      <Project>{6150B019-3B4E-FAFF-2331-2F9C0B64E46D}</Project>
-      <Name>SimpleWebTransport</Name>
+    <ProjectReference Include="Wave.Essence.csproj">
+      <Project>{68FC2DD7-A942-B24E-234F-726B1A53CE75}</Project>
+      <Name>Wave.Essence</Name>
     </ProjectReference>
     <ProjectReference Include="PPv2URPConverters.csproj">
       <Project>{A0BF83D9-0168-05FE-7E20-67D83FCA7333}</Project>
       <Name>PPv2URPConverters</Name>
-    </ProjectReference>
-    <ProjectReference Include="Wave.Essence.csproj">
-      <Project>{68FC2DD7-A942-B24E-234F-726B1A53CE75}</Project>
-      <Name>Wave.Essence</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.CoreUtils.Editor.csproj">
       <Project>{FE842513-FDB6-9C71-DCAA-EE4C0A3A0E28}</Project>
@@ -1295,6 +1100,10 @@
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
       <Project>{E0112B03-E870-ACCA-2DC3-9460DAA20F77}</Project>
       <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Animation.Rigging.csproj">
+      <Project>{74FD9CF8-5441-3DC4-1F35-7645238FCE36}</Project>
+      <Name>Unity.Animation.Rigging</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.csproj">
       <Project>{5B5F07CA-E2EF-AD29-48CE-B0E0FD976CF3}</Project>
@@ -1352,17 +1161,13 @@
       <Project>{F867D71D-B198-45B7-76AB-ABD828F894ED}</Project>
       <Name>Unity.Timeline.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
-      <Project>{2DDBD401-32C2-3F35-CBEC-BF701DBF2D40}</Project>
-      <Name>Unity.VisualScripting.Shared.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Mirror.Components.csproj">
       <Project>{F8E651D7-F5ED-3382-7BBF-902E85A85E5F}</Project>
       <Name>Mirror.Components</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
-      <Project>{D41D2867-6DD9-895D-8BD3-B63B029638EB}</Project>
-      <Name>Unity.ShaderGraph.Editor</Name>
+    <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
+      <Project>{2DDBD401-32C2-3F35-CBEC-BF701DBF2D40}</Project>
+      <Name>Unity.VisualScripting.Shared.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Tutorials.Core.csproj">
       <Project>{70840DE7-4746-7A77-2B66-16B9344127C5}</Project>
@@ -1376,9 +1181,9 @@
       <Project>{414ED86C-6B9C-5F86-9262-74225A832051}</Project>
       <Name>Unity.VisualStudio.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
-      <Project>{60C34224-466A-CAE5-7AA7-AC604E535BA5}</Project>
-      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
+    <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
+      <Project>{D41D2867-6DD9-895D-8BD3-B63B029638EB}</Project>
+      <Name>Unity.ShaderGraph.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{1ECDE105-CF5D-5537-E9AD-B33668C05275}</Project>
@@ -1388,13 +1193,17 @@
       <Project>{242DB41F-CBB2-69EF-CF41-7CAE9FDED0A4}</Project>
       <Name>Unity.VisualScripting.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
+      <Project>{0F773725-DB91-4DA5-7C5B-CCB4D1BADE64}</Project>
+      <Name>UnityEngine.SpatialTracking</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
       <Project>{7ABC8500-DCAA-06A0-22CF-2D9933F1B2E5}</Project>
       <Name>Unity.VisualScripting.Core.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
-      <Project>{0F773725-DB91-4DA5-7C5B-CCB4D1BADE64}</Project>
-      <Name>UnityEngine.SpatialTracking</Name>
+    <ProjectReference Include="kcp2k.csproj">
+      <Project>{48DB6725-2675-EA98-835B-B91A7EDD496E}</Project>
+      <Name>kcp2k</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{6C46BF60-4A52-7BD1-E64F-37563B6BDBCC}</Project>
@@ -1403,10 +1212,6 @@
     <ProjectReference Include="UnityEditor.XR.LegacyInputHelpers.csproj">
       <Project>{45929164-EDB0-C4C5-7BEB-4E1F5DD43C65}</Project>
       <Name>UnityEditor.XR.LegacyInputHelpers</Name>
-    </ProjectReference>
-    <ProjectReference Include="kcp2k.csproj">
-      <Project>{48DB6725-2675-EA98-835B-B91A7EDD496E}</Project>
-      <Name>kcp2k</Name>
     </ProjectReference>
     <ProjectReference Include="Wave.Essence.Controller.Model.csproj">
       <Project>{0AB21E1A-A3CC-FA9B-F996-E19D5DDE3424}</Project>
@@ -1448,6 +1253,10 @@
       <Project>{67126465-3BCA-FCA2-8D10-C73F7E46CB46}</Project>
       <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.csproj">
+      <Project>{B020CD7B-1521-949B-2030-3B63488E46B7}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator</Name>
+    </ProjectReference>
     <ProjectReference Include="Mirror.Editor.csproj">
       <Project>{D8150CAE-CD9B-0B12-BBBA-D942CD11ABAE}</Project>
       <Name>Mirror.Editor</Name>
@@ -1467,6 +1276,10 @@
     <ProjectReference Include="Mirror.Transports.csproj">
       <Project>{3CDE5B39-4AA1-8CDF-B649-04D356BFB4C0}</Project>
       <Name>Mirror.Transports</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
+      <Project>{60C34224-466A-CAE5-7AA7-AC604E535BA5}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
       <Project>{10CFCF75-0DCC-E172-BD8C-F6D249CE5BA8}</Project>

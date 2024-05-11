@@ -1,0 +1,25 @@
+NETWORK RIG TUTORIAL
+https://www.youtube.com/watch?v=KRL76ydk6a4
+IK TUTORIAL
+https://www.youtube.com/watch?v=v47lmqfrQ9s
+
+DIESEN ERROR KANN MAN IGNORIEREN
+[Worker3] NetworkRig on NetworkRig requires a NetworkIdentity. Please add a NetworkIdentity component to NetworkRig or it's parents.
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+bitte startet die anwendung erstmal mit dem headset direkt mit usb angeschlossen und testet ob ihr den chariteeUser (eigentlicher Spieler)
+steuert oder den XR Interaction Setup
+
+falls nichts funktioniert versucht es bitte mit der "DemoScene" in
+Assets\Samples\XR Interaction Toolkit\2.5.4\Starter Assets
+
+alles ist basicly rüberkopiert, allerdings weis ich nicht wieso ein paar scripts nicht geladen werden können wie zb. bei 
+XR Interaction Setup - XR origin - turn
+
+PROBLEM MIT WAVE!!!
+wenn ihr wave benutzt müsst ihr es wieder über das Fenster "VIVE" neben "Window" installieren/updaten, allerdings seid gewarnt!
+Ihr könnt euch dann warscheinlich nicht mehr in der scene bewegen idk why 
+also wenn ihr probleme mit der navigation IM EDITOR in der SZENENVIEW habt, löscht den "Wave" - Ordner mal :)
+gl hf 
+
+

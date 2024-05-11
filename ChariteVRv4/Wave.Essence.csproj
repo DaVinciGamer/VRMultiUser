@@ -56,11 +56,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-    <Analyzer Include="E:\Uni\Master\Forschungskolloquim\VRMultiUser\VRMultiUser\ChariteVRv4\Assets\PlugIns\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Pdb.dll" />
-    <Analyzer Include="E:\Uni\Master\Forschungskolloquim\VRMultiUser\VRMultiUser\ChariteVRv4\Assets\PlugIns\Mirror\Plugins\Mono.Cecil\Mono.CecilX.dll" />
-    <Analyzer Include="E:\Uni\Master\Forschungskolloquim\VRMultiUser\VRMultiUser\ChariteVRv4\Assets\PlugIns\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Rocks.dll" />
-    <Analyzer Include="E:\Uni\Master\Forschungskolloquim\VRMultiUser\VRMultiUser\ChariteVRv4\Assets\PlugIns\Mirror\Plugins\BouncyCastle\BouncyCastle.Cryptography.dll" />
-    <Analyzer Include="E:\Uni\Master\Forschungskolloquim\VRMultiUser\VRMultiUser\ChariteVRv4\Assets\PlugIns\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Mdb.dll" />
     <Analyzer Include="D:\Programme\Unity\2022.3.24f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="D:\Programme\Unity\2022.3.24f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
@@ -111,8 +106,8 @@
     <Compile Include="Library\PackageCache\com.htc.upm.wave.essence@dd738b632a\Runtime\Scripts\HandTracking\NearInteraction\BaseInteractable.cs" />
     <Compile Include="Library\PackageCache\com.htc.upm.wave.essence@dd738b632a\Runtime\Scripts\DynamicResolution.cs" />
     <Compile Include="Library\PackageCache\com.htc.upm.wave.essence@dd738b632a\Runtime\Scripts\HandTracking\HandManager.cs" />
-    <Compile Include="Library\PackageCache\com.htc.upm.wave.essence@dd738b632a\Runtime\Scripts\HandTracking\StaticGesture\GestureHandUtils.cs" />
     <Compile Include="Library\PackageCache\com.htc.upm.wave.essence@dd738b632a\Runtime\Scripts\Raycast\RaycastPointer.cs" />
+    <Compile Include="Library\PackageCache\com.htc.upm.wave.essence@dd738b632a\Runtime\Scripts\HandTracking\StaticGesture\GestureHandUtils.cs" />
     <Compile Include="Library\PackageCache\com.htc.upm.wave.essence@dd738b632a\Runtime\Scripts\LipExpression\LipExpUtils.cs" />
     <Compile Include="Library\PackageCache\com.htc.upm.wave.essence@dd738b632a\Runtime\Editor\HandTracking\StaticGesture\NodeDistanceConditionDrawer.cs" />
     <Compile Include="Library\PackageCache\com.htc.upm.wave.essence@dd738b632a\Runtime\Scripts\AdaptiveQuality.cs" />
@@ -128,8 +123,8 @@
     <Compile Include="Library\PackageCache\com.htc.upm.wave.essence@dd738b632a\Runtime\Scripts\Tracker\TrackerSimulatorPose.cs" />
     <Compile Include="Library\PackageCache\com.htc.upm.wave.essence@dd738b632a\Runtime\Editor\Raycast\RaycastSwitchEditor.cs" />
     <Compile Include="Library\PackageCache\com.htc.upm.wave.essence@dd738b632a\Runtime\Editor\WaveEditor.cs" />
-    <Compile Include="Library\PackageCache\com.htc.upm.wave.essence@dd738b632a\Runtime\Scripts\PermissionManager.cs" />
     <Compile Include="Library\PackageCache\com.htc.upm.wave.essence@dd738b632a\Runtime\Scripts\IMEManager.cs" />
+    <Compile Include="Library\PackageCache\com.htc.upm.wave.essence@dd738b632a\Runtime\Scripts\PermissionManager.cs" />
     <Compile Include="Library\PackageCache\com.htc.upm.wave.essence@dd738b632a\Runtime\Editor\HandTracking\HandManagerEditor.cs" />
     <Compile Include="Library\PackageCache\com.htc.upm.wave.essence@dd738b632a\Runtime\Scripts\HandTracking\StaticGesture\DualHandGestureProducer.cs" />
     <Compile Include="Library\PackageCache\com.htc.upm.wave.essence@dd738b632a\Runtime\Editor\HandTracking\JointPoseEditor.cs" />

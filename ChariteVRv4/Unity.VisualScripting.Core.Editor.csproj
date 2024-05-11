@@ -56,19 +56,14 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-    <Analyzer Include="E:\Uni\Master\Forschungskolloquim\VRMultiUser\VRMultiUser\ChariteVRv4\Assets\PlugIns\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Pdb.dll" />
-    <Analyzer Include="E:\Uni\Master\Forschungskolloquim\VRMultiUser\VRMultiUser\ChariteVRv4\Assets\PlugIns\Mirror\Plugins\Mono.Cecil\Mono.CecilX.dll" />
-    <Analyzer Include="E:\Uni\Master\Forschungskolloquim\VRMultiUser\VRMultiUser\ChariteVRv4\Assets\PlugIns\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Rocks.dll" />
-    <Analyzer Include="E:\Uni\Master\Forschungskolloquim\VRMultiUser\VRMultiUser\ChariteVRv4\Assets\PlugIns\Mirror\Plugins\BouncyCastle\BouncyCastle.Cryptography.dll" />
-    <Analyzer Include="E:\Uni\Master\Forschungskolloquim\VRMultiUser\VRMultiUser\ChariteVRv4\Assets\PlugIns\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Mdb.dll" />
     <Analyzer Include="D:\Programme\Unity\2022.3.24f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="D:\Programme\Unity\2022.3.24f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Description\IGraphDescription.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Plugin\Acknowledgements\Acknowledgement_DotNetZip.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Utilities\WarningLevel.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Canvases\ICanvas.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Utilities\WarningLevel.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqCore\Changelog_1_2_1.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqGraphs\Changelog_1_4_0.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Widgets\Groups\GraphGroupWidget.cs" />
@@ -193,8 +188,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqGraphs\Changelog_1_3_0.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Reflection\MemberOption.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqCore\Changelog_1_0_5.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Inspection\MetadataDictionaryAdaptor.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Inspection\InspectorImplementationOrderAttribute.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Inspection\MetadataDictionaryAdaptor.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\ResourceProviders\AssetBundleResourceProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Dependencies\ReorderableList\ElementAdderMenu\ElementAdderMeta.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Utilities\NativeUtility.cs" />
@@ -281,8 +276,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\BoltStyles.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Utilities\BackupUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Interface\Fuzzy\FuzzyOptionTreeExtensionProvider.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Widgets\Nodes\INodeWidget.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Dependencies\ReorderableList\ElementAdderMenu\IElementAdderMenuCommand.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Widgets\Nodes\INodeWidget.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Variables\VariablesPanel.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Interface\Fuzzy\FuzzyOptionNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Widgets\StickyNote\StickyNoteWidget.cs" />
@@ -369,8 +364,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Plugin\Migrations\Migration_1_6_to_1_7.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Description\MachineDescription.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Plugins\PluginAttribute.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Descriptors\IDescriptor.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Dependencies\ReorderableList\ReorderableListStyles.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Descriptors\IDescriptor.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqGraphs\Changelog_1_2_0.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Description\GraphDescription.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Serialization\TypeExtensions.cs" />
@@ -530,8 +525,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Inspection\Primitives\IntInspector.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Inspection\Primitives\FloatInspector.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Interface\Edge.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Inspection\Special\ListInspector.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqCore\Changelog_1_4_11.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Inspection\Special\ListInspector.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqCore\Changelog_1_4_3.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Serialization\TypeSerializer.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.2\Editor\VisualScripting.Core\Interface\ListOption.cs" />

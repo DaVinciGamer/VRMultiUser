@@ -56,11 +56,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-    <Analyzer Include="E:\Uni\Master\Forschungskolloquim\VRMultiUser\VRMultiUser\ChariteVRv4\Assets\PlugIns\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Pdb.dll" />
-    <Analyzer Include="E:\Uni\Master\Forschungskolloquim\VRMultiUser\VRMultiUser\ChariteVRv4\Assets\PlugIns\Mirror\Plugins\Mono.Cecil\Mono.CecilX.dll" />
-    <Analyzer Include="E:\Uni\Master\Forschungskolloquim\VRMultiUser\VRMultiUser\ChariteVRv4\Assets\PlugIns\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Rocks.dll" />
-    <Analyzer Include="E:\Uni\Master\Forschungskolloquim\VRMultiUser\VRMultiUser\ChariteVRv4\Assets\PlugIns\Mirror\Plugins\BouncyCastle\BouncyCastle.Cryptography.dll" />
-    <Analyzer Include="E:\Uni\Master\Forschungskolloquim\VRMultiUser\VRMultiUser\ChariteVRv4\Assets\PlugIns\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Mdb.dll" />
     <Analyzer Include="D:\Programme\Unity\2022.3.24f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="D:\Programme\Unity\2022.3.24f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
@@ -1167,6 +1162,10 @@
       <Project>{B35492C5-4C23-5ECF-7AE3-656FB0E80538}</Project>
       <Name>Unity.RenderPipelines.Core.Runtime</Name>
     </ProjectReference>
+    <ProjectReference Include="Wave.XRSDK.csproj">
+      <Project>{B0B96961-928A-9928-EFEA-2F8E11F1F31F}</Project>
+      <Name>Wave.XRSDK</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Burst.Editor.csproj">
       <Project>{189EFF19-B2B6-124C-75C2-66594D683A71}</Project>
       <Name>Unity.Burst.Editor</Name>
@@ -1174,10 +1173,6 @@
     <ProjectReference Include="EncryptionTransportEditor.csproj">
       <Project>{6A000944-4D0D-2F6C-E9FE-FEEBA56C3867}</Project>
       <Name>EncryptionTransportEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Wave.XRSDK.csproj">
-      <Project>{B0B96961-928A-9928-EFEA-2F8E11F1F31F}</Project>
-      <Name>Wave.XRSDK</Name>
     </ProjectReference>
     <ProjectReference Include="Wave.Essence.InputModule.csproj">
       <Project>{C4A449A1-E029-86FD-F657-909A209E1713}</Project>
@@ -1219,13 +1214,13 @@
       <Project>{C8403F88-2552-8488-BAF3-585C4EA4BFD3}</Project>
       <Name>Unity.XR.CoreUtils</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj">
-      <Project>{33C93D72-192F-847C-397E-52C26D1A0C72}</Project>
-      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
-    </ProjectReference>
     <ProjectReference Include="Wave.Essence.Editor.csproj">
       <Project>{C2F82070-E501-0881-DFA5-8A47455CF152}</Project>
       <Name>Wave.Essence.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj">
+      <Project>{33C93D72-192F-847C-397E-52C26D1A0C72}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.OpenXR.csproj">
       <Project>{C3BEFD8F-E6A5-C10F-D2D7-376BE37E1BAA}</Project>
@@ -1251,6 +1246,10 @@
       <Project>{FC2447A1-6CDF-2CB2-ADF5-7D2AA23749E3}</Project>
       <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
     </ProjectReference>
+    <ProjectReference Include="SimpleWebTransport.csproj">
+      <Project>{6150B019-3B4E-FAFF-2331-2F9C0B64E46D}</Project>
+      <Name>SimpleWebTransport</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj">
       <Project>{5A61F4EC-A54E-478B-9CE0-585902924482}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor</Name>
@@ -1259,17 +1258,13 @@
       <Project>{9CDFCEB4-30DE-796F-964B-3A0C8D752EBB}</Project>
       <Name>Unity.XR.Management.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="SimpleWebTransport.csproj">
-      <Project>{6150B019-3B4E-FAFF-2331-2F9C0B64E46D}</Project>
-      <Name>SimpleWebTransport</Name>
+    <ProjectReference Include="Wave.Essence.csproj">
+      <Project>{68FC2DD7-A942-B24E-234F-726B1A53CE75}</Project>
+      <Name>Wave.Essence</Name>
     </ProjectReference>
     <ProjectReference Include="PPv2URPConverters.csproj">
       <Project>{A0BF83D9-0168-05FE-7E20-67D83FCA7333}</Project>
       <Name>PPv2URPConverters</Name>
-    </ProjectReference>
-    <ProjectReference Include="Wave.Essence.csproj">
-      <Project>{68FC2DD7-A942-B24E-234F-726B1A53CE75}</Project>
-      <Name>Wave.Essence</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.CoreUtils.Editor.csproj">
       <Project>{FE842513-FDB6-9C71-DCAA-EE4C0A3A0E28}</Project>
@@ -1347,17 +1342,13 @@
       <Project>{F867D71D-B198-45B7-76AB-ABD828F894ED}</Project>
       <Name>Unity.Timeline.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
-      <Project>{2DDBD401-32C2-3F35-CBEC-BF701DBF2D40}</Project>
-      <Name>Unity.VisualScripting.Shared.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Mirror.Components.csproj">
       <Project>{F8E651D7-F5ED-3382-7BBF-902E85A85E5F}</Project>
       <Name>Mirror.Components</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
-      <Project>{D41D2867-6DD9-895D-8BD3-B63B029638EB}</Project>
-      <Name>Unity.ShaderGraph.Editor</Name>
+    <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
+      <Project>{2DDBD401-32C2-3F35-CBEC-BF701DBF2D40}</Project>
+      <Name>Unity.VisualScripting.Shared.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Tutorials.Core.csproj">
       <Project>{70840DE7-4746-7A77-2B66-16B9344127C5}</Project>
@@ -1371,9 +1362,9 @@
       <Project>{414ED86C-6B9C-5F86-9262-74225A832051}</Project>
       <Name>Unity.VisualStudio.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
-      <Project>{60C34224-466A-CAE5-7AA7-AC604E535BA5}</Project>
-      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
+    <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
+      <Project>{D41D2867-6DD9-895D-8BD3-B63B029638EB}</Project>
+      <Name>Unity.ShaderGraph.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{1ECDE105-CF5D-5537-E9AD-B33668C05275}</Project>
@@ -1383,13 +1374,17 @@
       <Project>{242DB41F-CBB2-69EF-CF41-7CAE9FDED0A4}</Project>
       <Name>Unity.VisualScripting.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
+      <Project>{0F773725-DB91-4DA5-7C5B-CCB4D1BADE64}</Project>
+      <Name>UnityEngine.SpatialTracking</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
       <Project>{7ABC8500-DCAA-06A0-22CF-2D9933F1B2E5}</Project>
       <Name>Unity.VisualScripting.Core.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
-      <Project>{0F773725-DB91-4DA5-7C5B-CCB4D1BADE64}</Project>
-      <Name>UnityEngine.SpatialTracking</Name>
+    <ProjectReference Include="kcp2k.csproj">
+      <Project>{48DB6725-2675-EA98-835B-B91A7EDD496E}</Project>
+      <Name>kcp2k</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{6C46BF60-4A52-7BD1-E64F-37563B6BDBCC}</Project>
@@ -1398,10 +1393,6 @@
     <ProjectReference Include="UnityEditor.XR.LegacyInputHelpers.csproj">
       <Project>{45929164-EDB0-C4C5-7BEB-4E1F5DD43C65}</Project>
       <Name>UnityEditor.XR.LegacyInputHelpers</Name>
-    </ProjectReference>
-    <ProjectReference Include="kcp2k.csproj">
-      <Project>{48DB6725-2675-EA98-835B-B91A7EDD496E}</Project>
-      <Name>kcp2k</Name>
     </ProjectReference>
     <ProjectReference Include="Wave.Essence.Controller.Model.csproj">
       <Project>{0AB21E1A-A3CC-FA9B-F996-E19D5DDE3424}</Project>
@@ -1443,6 +1434,10 @@
       <Project>{67126465-3BCA-FCA2-8D10-C73F7E46CB46}</Project>
       <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.csproj">
+      <Project>{B020CD7B-1521-949B-2030-3B63488E46B7}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator</Name>
+    </ProjectReference>
     <ProjectReference Include="Mirror.Editor.csproj">
       <Project>{D8150CAE-CD9B-0B12-BBBA-D942CD11ABAE}</Project>
       <Name>Mirror.Editor</Name>
@@ -1462,6 +1457,10 @@
     <ProjectReference Include="Mirror.Transports.csproj">
       <Project>{3CDE5B39-4AA1-8CDF-B649-04D356BFB4C0}</Project>
       <Name>Mirror.Transports</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
+      <Project>{60C34224-466A-CAE5-7AA7-AC604E535BA5}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
       <Project>{10CFCF75-0DCC-E172-BD8C-F6D249CE5BA8}</Project>

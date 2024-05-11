@@ -1,3 +1,5 @@
+Library\Bee\artifacts\mvdfrm\Unity.Animation.Rigging.Editor.ref.dll_D1D8500178046F38.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Animation.Rigging.ref.dll_A1E9B4AE056F0C09.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Burst.Editor.ref.dll_E2F92DAB6C167CC9.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Burst.ref.dll_F30DFA20C0DD1968.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.EditorCoroutines.Editor.ref.dll_34ED10A34098B2DB.mvfrm
@@ -43,6 +45,7 @@ Library\Bee\artifacts\mvdfrm\Unity.VisualStudio.Editor.ref.dll_3A975DBA53ABA4AD.
 Library\Bee\artifacts\mvdfrm\Unity.XR.CoreUtils.Editor.ref.dll_ABFC049C4594FF75.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.XR.CoreUtils.ref.dll_3CA2B461938B5BFC.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.XR.Interaction.Toolkit.Editor.ref.dll_13D11C44DBE92115.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.ref.dll_62B10D93E579B8A7.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.ref.dll_CE8B080C07253616.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.ref.dll_47844EB97FE7EF4B.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.XR.Interaction.Toolkit.ref.dll_96C656129EF9A05C.mvfrm

@@ -56,23 +56,21 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-    <Analyzer Include="E:\Uni\Master\Forschungskolloquim\VRMultiUser\VRMultiUser\ChariteVRv4\Assets\PlugIns\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Pdb.dll" />
-    <Analyzer Include="E:\Uni\Master\Forschungskolloquim\VRMultiUser\VRMultiUser\ChariteVRv4\Assets\PlugIns\Mirror\Plugins\Mono.Cecil\Mono.CecilX.dll" />
-    <Analyzer Include="E:\Uni\Master\Forschungskolloquim\VRMultiUser\VRMultiUser\ChariteVRv4\Assets\PlugIns\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Rocks.dll" />
-    <Analyzer Include="E:\Uni\Master\Forschungskolloquim\VRMultiUser\VRMultiUser\ChariteVRv4\Assets\PlugIns\Mirror\Plugins\BouncyCastle\BouncyCastle.Cryptography.dll" />
-    <Analyzer Include="E:\Uni\Master\Forschungskolloquim\VRMultiUser\VRMultiUser\ChariteVRv4\Assets\PlugIns\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Mdb.dll" />
     <Analyzer Include="D:\Programme\Unity\2022.3.24f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="D:\Programme\Unity\2022.3.24f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Templates\VR Template\Samples\XR Interaction Toolkit\2.4.3\Starter Assets\Scripts\DynamicMoveProvider.cs" />
-    <Compile Include="Assets\Templates\VR Template\Samples\XR Interaction Toolkit\2.4.3\Starter Assets\Scripts\GazeInputManager.cs" />
-    <Compile Include="Assets\Templates\VR Template\Samples\XR Interaction Toolkit\2.4.3\Starter Assets\Scripts\PokeStation\IncrementUIText.cs" />
-    <Compile Include="Assets\Templates\VR Template\Samples\XR Interaction Toolkit\2.4.3\Starter Assets\Scripts\ActionBasedControllerManager.cs" />
-    <Compile Include="Assets\Templates\VR Template\Samples\XR Interaction Toolkit\2.4.3\Starter Assets\Scripts\XRPokeFollowAffordance.cs" />
+    <Compile Include="Assets\Samples\XR Interaction Toolkit\2.5.4\Starter Assets\Scripts\XRPokeFollowAffordance.cs" />
+    <Compile Include="Assets\Samples\XR Interaction Toolkit\2.5.4\Starter Assets\Scripts\ActionBasedControllerManager.cs" />
+    <Compile Include="Assets\Samples\XR Interaction Toolkit\2.5.4\Starter Assets\Scripts\GazeInputManager.cs" />
+    <Compile Include="Assets\Samples\XR Interaction Toolkit\2.5.4\Starter Assets\Scripts\DynamicMoveProvider.cs" />
+    <Compile Include="Assets\Samples\XR Interaction Toolkit\2.5.4\Starter Assets\DemoSceneAssets\Scripts\IncrementUIText.cs" />
+    <Compile Include="Assets\Samples\XR Interaction Toolkit\2.5.4\Starter Assets\Scripts\DestroySelf.cs" />
+    <Compile Include="Assets\Samples\XR Interaction Toolkit\2.5.4\Starter Assets\Scripts\ObjectSpawner.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Templates\VR Template\Samples\XR Interaction Toolkit\2.4.3\Starter Assets\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef" />
+    <None Include="Assets\Samples\XR Interaction Toolkit\2.5.4\Starter Assets\Tunneling Vignette\TunnelingVignette.shader" />
+    <None Include="Assets\Samples\XR Interaction Toolkit\2.5.4\Starter Assets\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -1013,6 +1011,10 @@
       <Project>{C2C89853-1FB6-D6A4-316D-25D58E3C236F}</Project>
       <Name>Unity.InputSystem</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.csproj">
+      <Project>{686F6961-5FCF-4F81-4D42-136B6038D622}</Project>
+      <Name>Unity.Mathematics</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.XR.CoreUtils.csproj">
       <Project>{C8403F88-2552-8488-BAF3-585C4EA4BFD3}</Project>
       <Name>Unity.XR.CoreUtils</Name>
@@ -1020,10 +1022,6 @@
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.csproj">
       <Project>{84901E2D-4699-3CCD-C45E-A513E69D4FEB}</Project>
       <Name>Unity.XR.Interaction.Toolkit</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Mathematics.csproj">
-      <Project>{686F6961-5FCF-4F81-4D42-136B6038D622}</Project>
-      <Name>Unity.Mathematics</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{1ECDE105-CF5D-5537-E9AD-B33668C05275}</Project>
