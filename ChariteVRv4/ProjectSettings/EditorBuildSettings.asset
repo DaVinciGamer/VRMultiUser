@@ -12,9 +12,11 @@ EditorBuildSettings:
     path: Assets/Scenes/SurgicalRoom.unity
     guid: 88965a0fcf5082946be57737c06d8e64
   m_configObjects:
-    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 7080dcf45207b2d49882b7b72adae5e6, type: 2}
+    Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: ae6ec99c0ca48c345aca0931e9db3551, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 9bec1ce6a03ccba4b9a8215241b32e63, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: a49cadc1a815591479693b955ccf08c1, type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 1a4c68ca72a83449f938d669337cb305, type: 2}
-    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 1be72cfcdae366b4aa7c9fbd9bd34e95, type: 2}
+    com.htc.upm.wave.xrsdk.xrsettings: {fileID: 11400000, guid: d2fafb3252a75934aa578f3fc7dabc46, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 74672a934c6a98d439750a78f48d3412, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 8a3c7e0f7f2f31e45967bed5d231f1f7, type: 2}
