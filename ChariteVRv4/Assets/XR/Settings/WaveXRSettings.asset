@@ -18,11 +18,16 @@ MonoBehaviour:
   enableTimeWarpStabilizedMode: 2
   adaptiveQualityMode: 1
   AQ_SendQualityEvent: 1
-  AQ_AutoFoveation: 0
+  AQ_AutoFoveation: 1
   useAQDynamicResolution: 1
   DR_DefaultIndex: 0
   DR_TextSize: 20
-  DR_ResolutionScaleList: []
+  DR_ResolutionScaleList:
+  - 1.4
+  - 1.3
+  - 1.2
+  - 1.1
+  - 1
   foveationMode: 2
   leftClearVisionFOV: 38
   rightClearVisionFOV: 38
@@ -49,7 +54,7 @@ MonoBehaviour:
   waveEssenceFolder: Assets/Wave/Essence
   displayGamutPreferences: 000000000100000002000000
   enableAutoFallbackForMultiLayer: 1
-  allowSpectatorCamera: 0
+  allowSpectatorCamera: 1
   allowSpectatorCameraCapture360Image: 0
   EnableTracker: 0
   EnableNaturalHand: 0
